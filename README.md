@@ -1,2 +1,3 @@
-# ubb-fmi-work
-Assigments and my student work at the Babes Bolyai University
+### Anul I
+- [X] *  🐍 Fundamentele programării]
+- [x] [*  🎛️ Arhitectura sistemelor de calcul](https://github.com/)
