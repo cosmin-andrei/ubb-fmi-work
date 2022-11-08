@@ -8,6 +8,7 @@ from infrastructura.filtrare_calatorii import filtrare_pret_destinatie, filtrare
 from infrastructura.rapoarte_calatorii import rapoarte_destinatie, rapoarte_perioada, rapoarte_mediepret
 from infrastructura.repository_calatorii import numar_calatorii_lista, adauga_calatorie_lista
 from infrastructura.stergere_calatorii import stergere_destinatie, stergere_nrzile, stergere_pret
+from infrastructura.undo import add_to_undo
 from validatoare.validare_calatorie import valideaza_calatoria
 
 
@@ -330,6 +331,13 @@ def ruleaza_teste_stergere_calatorii():
     assert(stergere_pret(calatorii,calatorie,pret_dat)==[[2, 15, 1, 2020, 16, 1, 2020, 'Berlin', 20.1]])
 
 
+def ruleaza_teste_undo():
+    undo = []
+    calatorie1 = [[2, 15, 1, 2020, 16, 1, 2020, 'Berlin', 20.1]]
+    calatorie2 = [[5, 10, 11, 2021, 16, 11, 2021, 'Franta', 100],[2, 15, 1, 2020, 16, 1, 2020, 'Berlin', 20.1]]
+    add_to_undo(calatorie1, undo)
+    assert undo == [[[2, 15, 1, 2020, 16, 1, 2020, 'Berlin', 20.1]]]
+
 
 def ruleaza_toate_testele():
     ruleaza_teste_calatorie()
@@ -348,3 +356,5 @@ def ruleaza_toate_testele():
     print("toate testele rapoarte calatorii au mers blanitza!")
     ruleaza_teste_filtrare_calatorii()
     print("toate testele filtrare calatorii au mers blanitza!")
+    ruleaza_teste_undo()
+    print("toate testele undo au mers blanitza!")

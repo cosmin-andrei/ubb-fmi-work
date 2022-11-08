@@ -1,5 +1,5 @@
 '''
-Created at 30 Octber, 2022
+Created at 30 October, 2022
 by @cosmin-andrei
 '''
 from prezentare.ui import ruleaza_ui
