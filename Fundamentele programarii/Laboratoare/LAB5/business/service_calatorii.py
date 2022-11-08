@@ -1,5 +1,5 @@
 from domain.calatorie import creeaza_calatorie
-from infrastructura.repository_calatorii import adauga_calatorie_lista
+from infrastructura.repository_calatorii import adauga_calatorie_lista, numar_calatorii_lista, get_all_calatorii_lista
 from validatoare.validare_calatorie import valideaza_calatoria
 
 
@@ -30,3 +30,19 @@ def adauga_calatorie_service(l,id_calatorie, zi_inceput, luna_inceput, an_incepu
     calatorie=creeaza_calatorie(id_calatorie, zi_inceput, luna_inceput, an_inceput, zi_sfarsit, luna_sfarsit, an_sfarsit, destinatie, pret)
     valideaza_calatoria(calatorie)
     adauga_calatorie_lista(l,calatorie)
+
+def numar_calatorii_service(l):
+    '''
+    returneaza numarul de calatorii din lista l de calatorii unic identificabile prin idul intreg
+    :param l: lista de calatorii unic identificabile prin idul lor intreg
+    :return: rez: int - numarul de calatorii din lista
+    '''
+    return numar_calatorii_lista(l)
+
+def get_all_calatorii_service(l):
+    '''
+    returneaza lista tuturor calatoriilor
+    :param l: lista de calatorii
+    :return: rez: lista de calatorii
+    '''
+    return get_all_calatorii_lista(l)

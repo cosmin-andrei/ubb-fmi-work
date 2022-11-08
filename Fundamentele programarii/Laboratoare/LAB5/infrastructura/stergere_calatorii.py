@@ -1,4 +1,3 @@
-from domain.calatorie import get_destinatie, get_zi_sfarsit, get_zi_inceput, get_pret
 from infrastructura.repository_calatorii import get_all_calatorii_lista
 
 
@@ -10,15 +9,10 @@ def stergere_destinatie(l,calatorie,destinatie):
     :param destinatie: string
     :return: -
     '''
-
-    de_sters = {}
     for calatorie in l:
-        if get_destinatie(l[calatorie]) == destinatie:
-            de_sters[calatorie] = l[calatorie]
-
-    for calatorie in de_sters.keys():
-        if calatorie in l:
-            del l[calatorie]
+        if calatorie[7] == destinatie:
+            l.remove(calatorie)
+    return l[:]
 
 def stergere_nrzile(l,calatorie,numar_zile):
     '''
@@ -29,15 +23,10 @@ def stergere_nrzile(l,calatorie,numar_zile):
     :return: -
     '''
 
-    de_sters = {}
     for calatorie in l:
-        if abs(get_zi_sfarsit(l[calatorie])-get_zi_inceput(l[calatorie]))<numar_zile:
-            de_sters[calatorie] = l[calatorie]
-
-    for calatorie in de_sters.keys():
-        if calatorie in l:
-            del l[calatorie]
-
+        if abs(calatorie[4]-calatorie[1])<numar_zile:
+            l.remove(calatorie)
+    return l[:]
 
 def stergere_pret(l,calatorie,pret):
     '''
@@ -48,12 +37,7 @@ def stergere_pret(l,calatorie,pret):
     :return: -
     '''
 
-    de_sters={}
     for calatorie in l:
-        if get_pret(l[calatorie])>pret:
-            de_sters[calatorie] = l[calatorie]
-
-    for calatorie in de_sters.keys():
-        if calatorie in l:
-            del l[calatorie]
-
+        if calatorie[8]>pret:
+            l.remove(calatorie)
+    return l[:]
