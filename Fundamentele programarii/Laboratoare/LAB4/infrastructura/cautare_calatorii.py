@@ -1,7 +1,3 @@
-from domain.calatorie import get_an_inceput, get_an_sfarsit, get_luna_inceput, get_luna_sfarsit, get_zi_sfarsit, \
-    get_zi_inceput, get_destinatie, get_pret
-
-
 def cautare_datesejur(l,zi_inceput,luna_inceput,an_inceput,zi_sfarsit,luna_sfarsit,an_sfarsit):
     '''
     returneaza pachetele de calatorie care se afla intr-un anumit interval de timp dat
@@ -15,18 +11,18 @@ def cautare_datesejur(l,zi_inceput,luna_inceput,an_inceput,zi_sfarsit,luna_sfars
     :param an_sfarsit: int
     :return: lista cu pachetele de calatorie care se afla intr-un anumit interval de timp dat
     '''
-    lista={}
+    lista=[]
     for calatorie in l:
-        if get_an_inceput(l[calatorie])>an_inceput and get_an_sfarsit(l[calatorie])<an_sfarsit:
-            lista[calatorie] = l[calatorie]
-        elif get_an_inceput(l[calatorie]) == an_inceput and get_an_sfarsit(l[calatorie]) == an_sfarsit:
-            if get_luna_inceput(l[calatorie])>luna_inceput and get_luna_sfarsit(l[calatorie])<luna_sfarsit:
-                lista[calatorie] = l[calatorie]
-            elif get_luna_inceput(l[calatorie])==luna_inceput and get_luna_sfarsit(l[calatorie])==luna_sfarsit:
-                if get_zi_inceput(l[calatorie])>=zi_inceput and get_zi_sfarsit(l[calatorie])<=zi_sfarsit:
-                    lista[calatorie] = l[calatorie]
-    return lista
+        if calatorie[3]>an_inceput and calatorie[6]<an_sfarsit:
+            lista.append(calatorie)
+        elif calatorie[3] == an_inceput and calatorie[6] == an_sfarsit:
+            if calatorie[2]>luna_inceput and calatorie[5]<luna_sfarsit:
+                lista.append(calatorie)
+            elif calatorie[2]==luna_inceput and calatorie[5]==luna_sfarsit:
+                if calatorie[1]>=zi_inceput and calatorie[4]<=zi_sfarsit:
+                    lista.append(calatorie)
 
+    return lista
 
 def cautare_destinatie_pret(l,destinatie,pret):
     '''
@@ -38,10 +34,10 @@ def cautare_destinatie_pret(l,destinatie,pret):
     :return: lista cu calatorii cu o anumita destinatie si pret mai mic decat un pret dat
     '''
 
-    lista = {}
+    lista =[]
     for calatorie in l:
-        if get_destinatie(l[calatorie]) == destinatie and get_pret(l[calatorie])<pret:
-            lista[calatorie] = l[calatorie]
+        if calatorie[7] == destinatie and calatorie[8]<pret:
+            lista.append(calatorie)
     return lista
 
 def cautare_datasf(l,zi_sfarsit,luna_sfarsit,an_sfarsit):
@@ -55,9 +51,8 @@ def cautare_datasf(l,zi_sfarsit,luna_sfarsit,an_sfarsit):
     :return: lista cu calatorii cu o anumita data de sfarsit\
     '''
 
-    lista={}
+    lista=[]
     for calatorie in l:
-        if get_zi_sfarsit(l[calatorie])==zi_sfarsit and get_luna_sfarsit(l[calatorie])==luna_sfarsit and get_an_sfarsit(l[calatorie])==an_sfarsit:
-            lista[calatorie] = l[calatorie]
-
+        if calatorie[4]==zi_sfarsit and calatorie[5]==luna_sfarsit and calatorie[6]==an_sfarsit:
+            lista.append(calatorie)
     return lista

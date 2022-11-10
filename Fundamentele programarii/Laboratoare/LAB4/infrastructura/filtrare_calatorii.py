@@ -1,4 +1,4 @@
-def filtrare_pret_destinatie(l,calatorie,destinatie,pret):
+def filtrare_pret_destinatie(l,destinatie,pret):
     '''
     returneaza o lista cu calatoriile care au o destinatie diferita de string destinatie si un pret mai mare de float pret
     :param l: lista cu calatorii unic identificabile prin id int
@@ -10,11 +10,11 @@ def filtrare_pret_destinatie(l,calatorie,destinatie,pret):
 
     lista=[]
     for calatorie in l:
-        if calatorie[7] != destinatie and calatorie[8]>pret:
+        if calatorie[7]!=destinatie and calatorie[8]>pret:
             lista.append(calatorie)
     return lista
 
-def filtrare_luna(l,calatorie,luna):
+def filtrare_luna(l,luna):
     '''
     returneaza calatoriile care sunt din afara lunii luna int
     :param l: lista cu calatorii unic identificabile prin id intreg

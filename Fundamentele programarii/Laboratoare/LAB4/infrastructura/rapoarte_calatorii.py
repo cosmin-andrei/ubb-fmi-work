@@ -1,4 +1,4 @@
-def rapoarte_destinatie(l,calatorie,destinatie):
+def rapoarte_destinatie(l,destinatie):
     '''
     returneaza numarul de calatorii cu o anumita destinatie string
     :param l: lista cu calatorii unic identificabile prin id tip int
@@ -12,7 +12,7 @@ def rapoarte_destinatie(l,calatorie,destinatie):
             k += 1
     return k
 
-def rapoarte_perioada(l,calatorie,zi_inceput,luna_inceput,an_inceput,zi_sfarsit,luna_sfarsit,an_sfarsit):
+def rapoarte_perioada(l,zi_inceput,luna_inceput,an_inceput,zi_sfarsit,luna_sfarsit,an_sfarsit):
     '''
     returneaza toate pachetele de calatorie disponibile intr-o perioada data, in ordine crescatoare a preturilor
     :param l: lista cu calatorii unic identificabile prin id int
@@ -41,7 +41,7 @@ def rapoarte_perioada(l,calatorie,zi_inceput,luna_inceput,an_inceput,zi_sfarsit,
     lista.sort(key=lambda calatorie: calatorie[8])
     return lista
 
-def rapoarte_mediepret(l,calatorie,destinatie):
+def rapoarte_mediepret(l,destinatie):
     '''
     returneaza media de pret a calatoriilor pentru o destinatie string data
     :param l: lista cu calatorii unic identificabile prin id int

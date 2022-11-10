@@ -1,6 +1,5 @@
 from domain.calatorie import egal_calatorii
 
-
 def adauga_calatorie_lista(l, calatorie):
     '''
     incearca sa adauge calatoria calatorie in lista l de calatorii unic identificabile prin idul intreg
@@ -10,10 +9,11 @@ def adauga_calatorie_lista(l, calatorie):
     :return: - ( l' = l U {calatorie} daca nu exista calatorie cu acelasi id in lista l)
     :raises: ValueError : arunca exceptie de tipul ValueError cu mesajul string "calatorie invalida!\n"
     '''
-    for _calatorie in l:
-        if egal_calatorii(_calatorie,calatorie):
-            raise ValueError("calatorie invalida!\n")
-    l.append(calatorie)
+
+    k = 1
+    while k in l.keys():
+        k = k + 1
+    l[k] = calatorie
 
 def numar_calatorii_lista(l):
     '''
@@ -29,4 +29,4 @@ def get_all_calatorii_lista(l):
     :param l: lista de calatorii
     :return: rez: lista de calatorii
     '''
-    return l[:]
+    return l
