@@ -10,19 +10,24 @@ import exit msvcrt.dll    ; exit is a function that ends the calling process. It
 
 ; our data is declared here (the variables needed by our program)
 segment data use32 class=data
-     ; se da un sir de bytes
-    ; sa se salveze intr un alt sir doar bytes cu valoare impara
-    s dw 7, 14, 3
-    ls equ ($-s)/2
+    s db 1,2,3
+    ls equ $-s
+    
     d resb ls
 
 ; our code starts here
 segment code use32 class=code
     start:
+        mov esi, s
+        add esi, ls-1; pt a pozitiona esi la adresa ultimului element la adresa sirului s
+        mov edi, d
         mov ecx, ls
-        mov esi, 1
-        mov edi, 0
         repeta:
+            std
+            lodsb
+            cld
+            stosb
+        loop repeta
     
         ; exit(0)
         push    dword 0      ; push the parameter for exit onto the stack

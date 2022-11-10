@@ -1,0 +1,52 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ;Se da octetul A. Sa se obtina numarul intreg n reprezentat de bitii 2-4 ai lui A. Sa se obtina apoi in B ;octetul rezultat prin rotirea spre dreapta a lui A cu n pozitii. Sa se obtina dublucuvantul C:
+    12                                  ;bitii 8-15 ai lui C sunt 0 - c+2
+    13                                  ;bitii 16-23 ai lui C coincid cu bitii lui B
+    14                                  ;bitii 24-31 ai lui C coincid cu bitii lui A
+    15                                  ;bitii 0-7 ai lui C sunt 1 - c+3
+    16                                  
+    17                                  ;00FF0300
+    18                                  
+    19                                               
+    20                                  ; our data is declared here (the variables needed by our program)
+    21                                  segment data use32 class=data
+    22 00000000 0E                          a db 100001110b
+    22          ******************       warning: byte data exceeds bounds [-w+number-overflow]
+    23 00000001 00                          b db 0
+    24 00000002 00000000                    c dd 0
+    25 00000006 00                          n db 0
+    26                                  
+    27                                  ; our code starts here
+    28                                  segment code use32 class=code
+    29                                      start:
+    30                                  
+    31 00000000 A0[00000000]                    mov al, [a]
+    32 00000005 C0E802                          shr al, 2; shift right
+    33 00000008 2407                            AND al, 00000111b; izolare biti din A
+    34 0000000A A2[06000000]                    mov [n], al
+    35 0000000F 8A0D[06000000]                  mov cl, [n]
+    36 00000015 A0[00000000]                    mov al, [a]
+    37 0000001A D2C8                            ror al, cl; rotim n pozitii spre dreapta
+    38                                          
+    39 0000001C A2[01000000]                    mov [b], al
+    40 00000021 C605[05000000]FF                mov byte[c+3], 11111111b
+    41 00000028 8A1D[01000000]                  mov bl, [b]
+    42 0000002E A0[00000000]                    mov al,[a]
+    43                                     
+    44 00000033 081D[03000000]                  or byte[c+1], bl ; punem bitii din b in rezultat
+    45 00000039 0805[02000000]                  or byte[c], al; punem bitii din a in rezultat
+    46                                          
+    47                                          
+    48                                      
+    49                                          ; exit(0)
+    50 0000003F 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    51 00000041 FF15[00000000]                  call    [exit]       ; call exit to terminate the program
