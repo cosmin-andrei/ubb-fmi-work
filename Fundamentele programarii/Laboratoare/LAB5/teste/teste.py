@@ -201,6 +201,7 @@ def ruleaza_teste_stergere_calatorii():
     pret = 100
     calatorie = creeaza_calatorie(id_calatorie, zi_inceput, luna_inceput, an_inceput, zi_sfarsit, luna_sfarsit, an_sfarsit, destinatie, pret)
     adauga_calatorie_lista(calatorii, calatorie)
+    assert(len(calatorii)==2)
     numar_zile_dat = 5
     stergere_nrzile(calatorii,calatorie,numar_zile_dat)
     assert(len(calatorii)==1)
