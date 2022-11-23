@@ -1,5 +1,6 @@
 from business.service_studenti import ServiceStudenti
 from domain.student import Student
+from infrastructura import repo_studenti
 from infrastructura.repo_studenti import RepoStudenti
 from validatoare.validator_student import ValidatorStudent
 
@@ -49,11 +50,9 @@ class Teste:
         assert(len(self.__repo_studenti.get_all()) == 0)
         self.__repo_studenti.adauga_student(self.__student)
         assert (len(self.__repo_studenti.get_all()) == 1)
-        try:
-            self.__repo_studenti.adauga_student(self.__acelasi_id_alt_student)
-            assert False
-        except ValueError as ve:
-            assert(str(ve) == "student existent!")
+
+        #de adaugat cautarea
+        assert(self.__repo_studenti.cauta_student_dupa_id(1) == self.__student)
 
         self.__repo_studenti.sterge_student_dupa_id(self.__id_student)
         assert (len(self.__repo_studenti.get_all()) == 0)
