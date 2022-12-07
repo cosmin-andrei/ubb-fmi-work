@@ -19,16 +19,18 @@ from prezentare.consola import UI
 if __name__ == '__main__':
     teste = Teste()
     teste.ruleaza_teste()
-    '''
-    validator_student = ValidatorStudent()
-    validator_laborator = ValidatorLaborator
-    validator_nota = ValidatorNota
-    repo_studenti = RepoStudenti
-    repo_laboratoare = RepoLaboratoare
-    repo_note = RepoNote
-    service_studenti = ServiceStudenti(validator_student, repo_studenti)
-    service_laboratoare = ServiceLaboratoare(validator_laborator, repo_laboratoare)
-    service_note = ServiceNote(validator_nota, repo_note, repo_studenti, repo_laboratoare)
-    consola = UI(service_studenti, service_laboratoare, service_note)
-    consola.run()
-    '''
+
+    #validatoare
+    validator_studenti = ValidatorStudent()
+    validator_note = ValidatorNota()
+
+    #repo
+    repo_studenti = RepoStudenti()
+    repo_note = RepoNote()
+
+    #service
+    service_studenti = ServiceStudenti(validator_studenti, repo_studenti)
+    service_note = ServiceNote(validator_note, repo_note, repo_studenti)
+
+    ruleaza = UI(service_studenti, service_note)
+    ruleaza.run()

@@ -68,3 +68,9 @@ class RepoStudenti:
         :return:
         '''
         self.__studenti.clear()
+
+    def get_iduri_existente(self):
+        list = []
+        for id_student in self.__studenti:
+            list.append(id_student)
+        return list
