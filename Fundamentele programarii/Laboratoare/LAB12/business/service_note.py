@@ -1,4 +1,4 @@
-from domain.nota import Nota, notaDTO
+from domain.nota import Nota
 from domain.student import SortStudentNume
 
 
@@ -122,9 +122,35 @@ class ServiceNote:
             else:
                 return student1.get_id_student() > student2.get_id_student()
 
-        self.quickSort(studenti, key=key)
-        return studenti
-        #studenti.sort(key=lambda x: x.get_nume(), reverse=False)
+        studenti.sort(key=lambda x: x.get_nume(), reverse=False)
+
+
+    def sorteaza_dupa_nume_gnome(self):
+        '''
+        sorteaza studentii dupa numele lor
+        :return: lista studenti
+        '''
+
+        l = [(student.get_nume(), self.medie_student(student.get_id_student())) for student in self.__repo_studenti.get_all()]
+
+        n = len(l)
+        i = 0
+
+        while i < n:
+            if i == 0:
+                i = i + 1
+            if l[i][0] < l[i - 1][0]:
+                i = i + 1
+            elif l[i][0] == l[i - 1][0]:
+                if l[i][1] < l[i - 1][1]:
+                    l[i], l[i - 1] = l[i - 1], l[i]
+                i = i + 1
+            else:
+                l[i], l[i - 1] = l[i - 1], l[i]
+                i = i - 1
+
+        self.gnomesort(l)
+        return l
 
     def sorteaza_dupa_medie(self):
         '''
@@ -178,8 +204,8 @@ class ServiceNote:
 
         return lista
 
-    '''
-    def gnomesort(lista):
+    def gnomesort(self, lista):
+
         n = len(lista)
         index = 0
         while index < n:
@@ -193,7 +219,7 @@ class ServiceNote:
 
         return lista
 
-    '''
+
 
     def nota_frecventa(self):
         '''
@@ -228,30 +254,3 @@ class ServiceNote:
             i += 1
 
         return maxim
-
-
-    #QuickSort
-    def quickSort(self, list, key=lambda x,y:x<y, reverse = False):
-
-        """
-        Quicksort using list comprehensions
-        return a new list
-        """
-        pivot = list.pop()
-        lesser = self.quickSort([x for x in list if x < pivot])
-        greater = self.quickSort([x for x in list if x >= pivot])
-        if reverse == True:
-            list.reverse()
-
-        return lesser + [pivot] + greater
-
-
-
-    def lista_note(self):
-        note = self.__repo_note.get_all()
-        lista_note = []
-        for nota in note:
-            valoare_nota = nota.get_valoare_nota
-            val_nota = notaDTO(valoare_nota)
-            lista_note.append(val_nota)
-        return self.quickSort(lista_note)

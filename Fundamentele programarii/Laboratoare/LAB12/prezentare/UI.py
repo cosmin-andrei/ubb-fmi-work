@@ -9,7 +9,7 @@ class UI():
         self.__service_note = service_note
         print("""
                 Scrie o comanda:
-                adauga_student 1 - Adauga student (ID Nume Grupa)
+                adauga_student  - Adauga student (ID Nume Grupa)
                 modifica_student - Modifica student
                 sterge_student - Sterge student dupa ID
                 adauga_laborator - Adauga laborator (ID Enunt Zi Luna An)
@@ -20,7 +20,8 @@ class UI():
                 sorteaza_dupa_nume - Sorteaza dupa nume notele studentilor la un laborator dat (dupa ID)
                 sorteaza_dupa_nota - Sorteaza dupa nota notele studentilor la un laborator dat (dupa ID)
                 nota_frecventa - Afiseaza cea mai frecventa nota luata de studenti
-                quicksort - QuickSort pe note
+                sorteaza_dupa_medie - QuickSort pe note
+                sorteaza_gnome - Sorteaza dupa nume gnome
                 exit - Paraseste aplicatia
                 """)
         self.__comenzi = {
@@ -37,7 +38,7 @@ class UI():
             "nota_frecventa": self.__ui_nota_frecventa,
             "sorteaza_dupa_nume": self.__ui_sorteaza_dupa_nume,
             "sorteaza_dupa_medie": self.__ui_sorteaza_dupa_medie,
-            "quicksort": self.__ui_quicksort,
+            "sorteaza_gnome": self.__ui_sorteaza_gnome,
             "exit": self.__ui_exit
 
         }
@@ -146,6 +147,15 @@ class UI():
         for student in studenti:
             print(student)
 
+    def __ui_sorteaza_gnome(self):
+        if len(self.__params) != 0:
+            print("numar parametrii invalid")
+            return
+
+        studenti = self.__service_note.sorteaza_dupa_nume_gnome()
+        for student in studenti:
+            print(student)
+
     def __ui_sorteaza_dupa_nume(self):
         if len(self.__params) != 1:
             print("numar parametrii invalid")
@@ -170,14 +180,6 @@ class UI():
         restantieri = self.__service_note.studenti_restantieri()
         for restantier in restantieri:
             print(restantier)
-
-    def __ui_quicksort(self):
-        if len(self.__params) != 0:
-            print("numar parametrii invalid")
-            return
-
-        list = self.__service_note.lista_note()
-        print(list)
 
     #exit
     def __ui_exit(self):

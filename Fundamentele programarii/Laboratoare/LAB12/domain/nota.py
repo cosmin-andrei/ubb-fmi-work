@@ -56,14 +56,3 @@ class Nota:
         '''
         return f"{self.__id_nota} {self.__id_student} {self.__id_laborator} {self.__valoare_nota}"
 
-class notaDTO:
-
-    def __init__(self, valoare_nota):
-        self.__valoare_nota = valoare_nota
-
-    def __str__(self):
-        '''
-        :return: valoare nota
-        '''
-        return f"{self.__valoare_nota}"
-

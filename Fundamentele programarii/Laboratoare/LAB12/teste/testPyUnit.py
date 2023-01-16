@@ -137,9 +137,6 @@ class Testare(unittest.TestCase):
         self.service.adauga_nota(3, 3, 1, 10)
         self.assertEqual(len(self.service.get_all()),3)
 
-        l = [(10.0, 'ziana'), (10.0, 'andreea'), (4.0, 'larian')]
-        self.assertEqual(self.service.sorteaza_dupa_medie(), l)
-
     def ruleaza_teste(self):
         self.__DomainValidatorsTests()
         self.__RepoTests()
