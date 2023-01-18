@@ -1,0 +1,10 @@
+1, Margareta, 10, 100, floare
+2, Ananas, 30, 50, aliment
+3, Haina, 150, 200, sport
+4, Minge, 120, 37, sport
+5, Zgarda, 5, 21, animale de companie
+6, Glob, 34, 100, ornament
+7, Liliac, 5, 9, floare
+8, Trandafir, 14, 45, floare
+9, Arbore, 20, 440, gradina
+10, Sapa, 67, 30, gradina

@@ -1,0 +1,52 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                                            
+    11                                  ;Se da un sir de octeti S. Sa se determine maximul elementelor de pe pozitiile pare si minimul elementelor de pe pozitiile impare din S.
+    12                                  ;Exemplu:
+    13                                  ;S: 1, 4, 2, 3, 8, 4, 9, 5
+    14                                  ;max_poz_pare: 9
+    15                                  ;min_poz_impare: 3
+    16                                  
+    17                                  ; our data is declared here (the variables needed by our program)
+    18                                  segment data use32 class=data
+    19 00000000 0104020308040903            s db 1, 4, 2, 3, 8, 4, 9, 3 ; declararea sirului initial s
+    20                                  	l equ ($-s) ; stabilirea lungimii sirului initial l
+    21                                  
+    22                                  
+    23                                  ; our code starts here
+    24                                  segment code use32 class=code
+    25                                      start:
+    26 00000000 B908000000                      mov ecx, l; punem lungimea in ECX pentru a putea realiza bucla loop de ecx ori
+    27 00000005 8A1D[01000000]                  mov bl, [s+1]
+    28 0000000B 8A15[00000000]                  mov dl, [s+0]
+    29 00000011 BE[00000000]                    mov esi, s
+    30                                  
+    31                                          repeta:
+    32 00000016 8A4601                              mov al, [esi+1]
+    33 00000019 38D8                                cmp al, bl
+    34 0000001B 7200                                jb move
+    35                                              move:
+    36 0000001D 88C3                                    mov bl, al
+    37                                                  
+    38 0000001F 8A06                                mov al, [esi]
+    39 00000021 38D0                                cmp al, dl
+    40 00000023 7F00                                jg move2
+    41                                              move2:
+    42 00000025 88C2                                    mov dl, al
+    43                                            
+    44 00000027 83C602                              add esi, 2
+    45 0000002A 49                                  dec ecx
+    46                                              
+    47 0000002B E2E9                            loop repeta
+    48                                  
+    49                                  
+    50                                          ; exit(0)
+    51 0000002D 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    52 0000002F FF15[00000000]                  call    [exit]       ; call exit to terminate the program

@@ -1,0 +1,68 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                  
+    14                                      ; a*3 - c/b + x - y
+    15 00000000 0200                        a dw 2
+    16 00000002 0F                          c db 15
+    17 00000003 04000000                    b dd 4
+    18 00000007 0A000000                    x dd 10
+    19 0000000B 0100000000000000            y dq 1
+    20 00000013 <res 00000004>              aux resd 1 ;rezerva un double pentru aux, echivalent cu aux dd 0
+    21                                      
+    22                                  ; our code starts here
+    23                                  segment code use32 class=code
+    24                                      start:
+    25                                      
+    26                                          ; a*3
+    27                                          
+    28 00000000 66B80300                        mov ax, 3
+    29 00000004 66F725[00000000]                mul word[a]; dx:ax = a*3
+    30                                          
+    31                                          ; salvare dx:ax intr-o variabila
+    32                                          
+    33 0000000B 66A3[13000000]                  mov word[aux+0], ax
+    34 00000011 668915[15000000]                mov word[aux+2], dx
+    35                                          
+    36                                          ; c/b - byte/doubleword
+    37                                          ; byteul trb sa fie in edx:eax
+    38                                          
+    39 00000018 0FB605[02000000]                movzx eax, byte[c]
+    40 0000001F BA00000000                      mov edx, 0
+    41 00000024 F735[03000000]                  div dword[b]
+    42                                          
+    43                                          ; eax = catul c/b
+    44                                          ; aux - eax = doubleword - doubleword
+    45                                          
+    46 0000002A 2905[13000000]                  sub [aux], eax ; aux= a*3-c/b
+    47                                          
+    48                                          ; aux + x = doubleword + doubleword
+    49                                          
+    50 00000030 8B1D[13000000]                  mov ebx, [aux]
+    51 00000036 031D[07000000]                  add ebx, [x]
+    52                                  
+    53                                          ; ebx=aux+x
+    54                                          ; ebx-y = doubleword - dq
+    55                                          ; transforma ebx in 64 biti
+    56                                          
+    57 0000003C B900000000                      mov ecx, 0
+    58                                          
+    59                                          ; transfera y in edx:eax
+    60 00000041 A1[0B000000]                    mov eax, dword[y+0]
+    61 00000046 8B15[0F000000]                  mov edx, dword[y+4]
+    62                                          
+    63 0000004C 29C3                            sub ebx, eax
+    64 0000004E 19D1                            sbb ecx, edx
+    65                                          
+    66                                          ; exit(0)
+    67 00000050 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    68 00000052 FF15[00000000]                  call    [exit]       ; call exit to terminate the program
