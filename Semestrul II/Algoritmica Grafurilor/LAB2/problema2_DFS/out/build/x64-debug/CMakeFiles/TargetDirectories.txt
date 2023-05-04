@@ -1,0 +1,5 @@
+F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/problema2/out/build/x64-debug/CMakeFiles/edit_cache.dir
+F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/problema2/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/problema2/out/build/x64-debug/problema2/CMakeFiles/problema2.dir
+F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/problema2/out/build/x64-debug/problema2/CMakeFiles/edit_cache.dir
+F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/problema2/out/build/x64-debug/problema2/CMakeFiles/rebuild_cache.dir

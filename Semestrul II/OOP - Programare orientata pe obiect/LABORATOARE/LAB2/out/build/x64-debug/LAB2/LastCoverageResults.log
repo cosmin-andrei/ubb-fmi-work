@@ -1,0 +1,29 @@
+[2023-03-17 08:40:23] [info] Start Program:
+Path:"F:\Facultate\UBB-FMI\Semestrul II\Programare orientata pe obiect\Laboratoare\LAB2\out\build\x64-debug\LAB2\LAB2.exe"
+Arguments:
+Working directory: "F:\Facultate\UBB-FMI\Semestrul II\Programare orientata pe obiect\Laboratoare\LAB2\out\build\x64-debug\LAB2"
+Modules: Selected: * Excluded: 
+Sources: Selected: * Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Cosmin\AppData\Local\Temp\gffccen2.4kp 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-03-17 08:40:23] [info] Module: F:\Facultate\UBB-FMI\Semestrul II\Programare orientata pe obiect\Laboratoare\LAB2\out\build\x64-debug\LAB2\LAB2.exe is selected because it matches selected pattern: *
+[2023-03-17 08:40:23] [info] Module: C:\Windows\System32\ntdll.dll is selected because it matches selected pattern: *
+[2023-03-17 08:40:23] [info] Module: C:\Windows\System32\kernel32.dll is selected because it matches selected pattern: *
+[2023-03-17 08:40:23] [info] Module: C:\Program Files\Avast Software\Avast\aswhook.dll is selected because it matches selected pattern: *
+[2023-03-17 08:40:23] [info] Module: C:\Windows\System32\KernelBase.dll is selected because it matches selected pattern: *
+[2023-03-17 08:40:23] [info] Module: C:\Windows\System32\vcruntime140d.dll is selected because it matches selected pattern: *
+[2023-03-17 08:40:23] [info] Module: C:\Windows\System32\ucrtbased.dll is selected because it matches selected pattern: *
+[2023-03-17 08:40:23] [info] Module: C:\Windows\System32\kernel.appcore.dll is selected because it matches selected pattern: *
+[2023-03-17 08:40:23] [info] Module: C:\Windows\System32\msvcrt.dll is selected because it matches selected pattern: *
+[2023-03-17 08:40:23] [info] ----------------------------------------------------
+[2023-03-17 08:40:23] [info] Coverage binary generated in file: C:\Users\Cosmin\AppData\Local\Temp\gffccen2.4kp
+[2023-03-17 08:40:23] [info] ----------------------------------------------------

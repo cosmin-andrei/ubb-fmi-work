@@ -1,0 +1,76 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Problema5_DFSvisit",
+					"jsonFile" : "directory-Problema5_DFSvisit-Debug-ddbc596cd576463e871e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Problema5_DFSvisit",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Problema5_DFSvisit",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Problema5_DFSvisit::@059074d7199afecc8235",
+					"jsonFile" : "target-Problema5_DFSvisit-Debug-fc432aecafba012e93fa.json",
+					"name" : "Problema5_DFSvisit",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/Problema5_DFSvisit/out/build/x64-debug",
+		"source" : "F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/Problema5_DFSvisit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

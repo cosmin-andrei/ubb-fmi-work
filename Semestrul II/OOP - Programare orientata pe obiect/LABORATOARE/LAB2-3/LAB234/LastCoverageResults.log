@@ -1,0 +1,21 @@
+[2023-03-31 08:27:36] [info] Start Program:
+Path:"C:\Users\Cosmin\Desktop\LAB234\x64\Debug\LAB234.exe"
+Arguments:
+Working directory: "C:\Users\Cosmin\Desktop\LAB234\LAB234\"
+Modules: Selected: C:\Users\Cosmin\Desktop\LAB234\x64\Debug\LAB234.exe Excluded: 
+Sources: Selected: C:\Users\Cosmin\Desktop\LAB234\LAB234 Excluded: ui.c 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Cosmin\AppData\Local\Temp\iwqijbsf.yms 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-03-31 08:27:36] [info] Module: C:\Users\Cosmin\Desktop\LAB234\x64\Debug\LAB234.exe is selected because it matches selected pattern: C:\Users\Cosmin\Desktop\LAB234\x64\Debug\LAB234.exe
+[2023-03-31 08:27:36] [info] ----------------------------------------------------
+[2023-03-31 08:27:36] [info] Coverage binary generated in file: C:\Users\Cosmin\AppData\Local\Temp\iwqijbsf.yms
+[2023-03-31 08:27:36] [info] ----------------------------------------------------

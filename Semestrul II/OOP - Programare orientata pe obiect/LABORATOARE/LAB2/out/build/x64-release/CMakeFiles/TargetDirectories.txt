@@ -1,0 +1,5 @@
+F:/Facultate/UBB-FMI/Semestrul II/Programare orientata pe obiect/Laboratoare/LAB2/out/build/x64-release/CMakeFiles/edit_cache.dir
+F:/Facultate/UBB-FMI/Semestrul II/Programare orientata pe obiect/Laboratoare/LAB2/out/build/x64-release/CMakeFiles/rebuild_cache.dir
+F:/Facultate/UBB-FMI/Semestrul II/Programare orientata pe obiect/Laboratoare/LAB2/out/build/x64-release/LAB2/CMakeFiles/LAB2.dir
+F:/Facultate/UBB-FMI/Semestrul II/Programare orientata pe obiect/Laboratoare/LAB2/out/build/x64-release/LAB2/CMakeFiles/edit_cache.dir
+F:/Facultate/UBB-FMI/Semestrul II/Programare orientata pe obiect/Laboratoare/LAB2/out/build/x64-release/LAB2/CMakeFiles/rebuild_cache.dir

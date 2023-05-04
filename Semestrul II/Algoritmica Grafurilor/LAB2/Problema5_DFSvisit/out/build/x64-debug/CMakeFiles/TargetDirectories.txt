@@ -1,0 +1,5 @@
+F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/Problema5_DFSvisit/out/build/x64-debug/CMakeFiles/edit_cache.dir
+F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/Problema5_DFSvisit/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/Problema5_DFSvisit/out/build/x64-debug/Problema5_DFSvisit/CMakeFiles/Problema5_DFSvisit.dir
+F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/Problema5_DFSvisit/out/build/x64-debug/Problema5_DFSvisit/CMakeFiles/edit_cache.dir
+F:/Facultate/UBB-FMI/Semestrul II/Algoritmica grafelor/LABS/LAB2/Problema5_DFSvisit/out/build/x64-debug/Problema5_DFSvisit/CMakeFiles/rebuild_cache.dir

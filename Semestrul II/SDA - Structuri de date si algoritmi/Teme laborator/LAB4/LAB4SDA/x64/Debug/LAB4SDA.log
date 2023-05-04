@@ -1,0 +1,26 @@
+﻿  MDO.cpp
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,17): error C3646: 'iterator': unknown override specifier
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,25): error C2059: syntax error: '('
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.cpp(116,18): error C2039: 'iterator': is not a member of 'MDO'
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(18,7): message : see declaration of 'MDO'
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.cpp(116,35): error C2270: 'iterator': modifiers not allowed on nonmember functions
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.cpp(117,25): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.cpp(117,23): error C2512: 'IteratorMDO': no appropriate default constructor available
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.cpp(117,23): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+  IteratorMDO.cpp
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,17): error C3646: 'iterator': unknown override specifier
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,25): error C2059: syntax error: '('
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\IteratorMDO.cpp(32,5): error C2440: 'return': cannot convert from 'TValoare' to 'std::pair<TCheie,TValoare>'
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\IteratorMDO.cpp(32,5): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+  TestExtins.cpp
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,17): error C3646: 'iterator': unknown override specifier
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,25): error C2059: syntax error: '('
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\TestExtins.cpp(119,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  TestScurt.cpp
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,17): error C3646: 'iterator': unknown override specifier
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,25): error C2059: syntax error: '('
+C:\Users\Cosmin\Desktop\LAB4SDA\LAB4SDA\MDO.h(49,33): error C2238: unexpected token(s) preceding ';'
+  Generating Code...

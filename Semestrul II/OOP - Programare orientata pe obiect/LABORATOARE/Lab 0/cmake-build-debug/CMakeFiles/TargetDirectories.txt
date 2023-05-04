@@ -1,0 +1,3 @@
+C:/Users/Cosmin/Desktop/Lab0-OP/cmake-build-debug/CMakeFiles/Lab0_OP.dir
+C:/Users/Cosmin/Desktop/Lab0-OP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Cosmin/Desktop/Lab0-OP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

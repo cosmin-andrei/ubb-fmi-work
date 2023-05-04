@@ -1,0 +1,21 @@
+[2023-04-07 09:06:49] [info] Start Program:
+Path:"C:\Users\Cosmin\Desktop\LAB6_7\x64\Debug\LAB6_7.exe"
+Arguments:
+Working directory: "C:\Users\Cosmin\Desktop\LAB6_7\LAB6_7\"
+Modules: Selected: C:\Users\Cosmin\Desktop\LAB6_7\x64\Debug\LAB6_7.exe Excluded: 
+Sources: Selected: C:\Users\Cosmin\Desktop\LAB6_7\LAB6_7 Excluded: UI.h UI.cpp LAB6_7.cpp VectorDinamic.h 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Cosmin\AppData\Local\Temp\4wa4adki.yz5 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-04-07 09:06:49] [info] Module: C:\Users\Cosmin\Desktop\LAB6_7\x64\Debug\LAB6_7.exe is selected because it matches selected pattern: C:\Users\Cosmin\Desktop\LAB6_7\x64\Debug\LAB6_7.exe
+[2023-04-07 09:06:49] [info] ----------------------------------------------------
+[2023-04-07 09:06:49] [info] Coverage binary generated in file: C:\Users\Cosmin\AppData\Local\Temp\4wa4adki.yz5
+[2023-04-07 09:06:49] [info] ----------------------------------------------------

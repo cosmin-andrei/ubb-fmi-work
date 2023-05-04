@@ -1,0 +1,21 @@
+[2022-03-15 17:41:09] [info] Start Program:
+Path:"C:\Users\Ana\source\repos\Seminar2_ListaGenerica\x64\Debug\Seminar2_ListaGenerica.exe"
+Arguments:
+Working directory: "C:\Users\Ana\source\repos\Seminar2_ListaGenerica\Seminar2_ListaGenerica\"
+Modules: Selected: C:\Users\Ana\source\repos\Seminar2_ListaGenerica\x64\Debug\Seminar2_ListaGenerica.exe Excluded: 
+Sources: Selected: C:\Users\Ana\source\repos\Seminar2_ListaGenerica\Seminar2_ListaGenerica Excluded: my_utils.c ui.c 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Ana\AppData\Local\Temp\x0jzec3v.1cl 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-15 17:41:09] [info] Module: C:\Users\Ana\source\repos\Seminar2_ListaGenerica\x64\Debug\Seminar2_ListaGenerica.exe is selected because it matches selected pattern: C:\Users\Ana\source\repos\Seminar2_ListaGenerica\x64\Debug\Seminar2_ListaGenerica.exe
+[2022-03-15 17:41:10] [info] ----------------------------------------------------
+[2022-03-15 17:41:10] [info] Coverage binary generated in file: C:\Users\Ana\AppData\Local\Temp\x0jzec3v.1cl
+[2022-03-15 17:41:10] [info] ----------------------------------------------------
