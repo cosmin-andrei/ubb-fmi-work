@@ -1,0 +1,14 @@
+20.02,08:00,FP,normala
+21.03,09:00,LC,restanta
+21.03,08:00,FP,restanta
+26.01,10:00,ASC,normala
+26.01,08:00,LC,normala
+27.01,09:00,C,normala
+29.02,10:00,Analiza,normala
+25.01,20:00,Algebra,restanta
+25.01,18:00,C,restanta
+10.09,10:00,Testare,normala
+28.01,10:00,TestareNat,restanta
+29.01,11:00,TTT,normala
+26.01,10:00,TTTTTT,normala
+28.01,10:00,TTTTTTTTTT,normala
