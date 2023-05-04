@@ -1,5 +1,15 @@
 #include "Repository.h"
 #include<assert.h>
+
+#include <iostream>
+#include <sstream>
+#include <fstream>
+using namespace std;
+
+using std::ostream;
+using std::stringstream;
+
+
 bool DisciplinaRepository::exists(const Disciplina& d) {
 	try {
 		find(d.getDenumire());
@@ -9,6 +19,21 @@ bool DisciplinaRepository::exists(const Disciplina& d) {
 	catch (RepoException) {
 		return false;
 	}}
+
+bool AbsRepo::exportFisier(const string filename, const string type)
+{
+	string nume_fisier = filename + '.' + type;
+	std::ofstream fout(nume_fisier);
+	if (type == "html" || type == "csv")
+	{
+		for (const Disciplina& d : this->getAllDiscipline())
+		{
+			fout << "Denumire: " << d.getDenumire() << " Numar de ore: " << d.getOre() << " Tip: " << d.getTip() << " Cadru didactic: " << d.getCadru() << endl;
+		}
+		return true;
+	}
+	return false;
+}
 
 
 const Disciplina& DisciplinaRepository::find(string denumire)
@@ -84,6 +109,44 @@ const vector<Disciplina> DisciplinaRepository::getAllDiscipline()
 	}
 	return discipline;
 }
+
+
+FileRepo::FileRepo(string fn) {
+	filename = move(fn);
+	load_from_file();
+}
+
+void FileRepo::load_from_file() {
+	ifstream fin(filename);
+	string str;
+	while (getline(fin, str)) {
+		stringstream ss(str);
+
+		string word;
+		vector<string> dis;
+		while (getline(ss, word, ';')) {
+			dis.push_back(word);
+		}
+		int nr = 0;
+		for (auto& ch : dis[1]) {
+			nr = nr * 10 + (ch - '0');
+		}
+		while (getline(ss, word, ';')) {
+			dis.push_back(word);
+		}
+		ContractRepo::store(Disciplina(dis[0], nr, dis[2], dis[3]));
+	}
+	fin.close();
+}
+
+void FileRepo::save_to_file() {
+	ofstream fout(filename);
+	for (auto& it : ContractRepo::getAllDiscipline()) {
+		fout << it.getDenumire() << ";" << it.getOre() << ";" << it.getTip() << ";" << it.getCadru() << "\n";
+	}
+	fout.close();
+}
+
 
 void testAddRepo() {
 	DisciplinaRepository testRepo;

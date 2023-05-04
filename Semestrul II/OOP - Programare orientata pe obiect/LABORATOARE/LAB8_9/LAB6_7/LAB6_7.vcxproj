@@ -147,6 +147,7 @@
     <ClInclude Include="Repository.h" />
     <ClInclude Include="Service.h" />
     <ClInclude Include="UI.h" />
+    <ClInclude Include="Undo.h" />
     <ClInclude Include="validators.h" />
     <ClInclude Include="VectorDinamic.h" />
   </ItemGroup>

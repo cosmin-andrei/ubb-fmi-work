@@ -4,6 +4,23 @@
 
 using std::vector;
 
+class AbsRepo {
+public:
+
+	virtual void store(const Disciplina& p) = 0;
+
+	virtual void delet(int poz) = 0;
+
+	virtual void modifica(const Disciplina& d, int poz) = 0;
+
+	virtual bool exportFisier(const string filename, const string type);
+
+	virtual vector<Disciplina>& getAllDiscipline() = 0;
+
+	virtual ~AbsRepo() = default;
+};
+
+
 /*
 Clasa de exceptii specifice Repo
 */

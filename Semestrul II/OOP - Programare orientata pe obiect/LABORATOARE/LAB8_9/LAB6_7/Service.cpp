@@ -10,6 +10,7 @@ void Facultate::addDisciplina(string denumire, int ore, string tip, string profe
 	Disciplina d{ denumire, ore, tip, profesor };
 	val.valideaza(d);
 	repo.store(d);
+	undoActiuni.push_back(new undoAdauga(rep, p));
 }
 
 void Facultate::modifyDisciplina(string denumire, int oreNou, string tipNou, string profesorNou)
@@ -21,6 +22,7 @@ void Facultate::modifyDisciplina(string denumire, int oreNou, string tipNou, str
 	Disciplina d{ denumire, oreNou, tipNou, profesorNou };
 	val.valideaza(d);
 	repo.modify(d);
+	undoActiuni.push_back(new undoUpdate(rep, di, poz));
 	
 }
 
@@ -34,6 +36,7 @@ void Facultate::deleteDisciplina(string denumire)
 
 	if (search(denumire).getDenumire() != denumire)throw RepoException{ "\nDisciplina nu exista\n" };
 	repo.deleteDisciplina(denumire);
+	undoActiuni.push_back(new undoSterge(rep, dlt, poz));
 
 }
 
@@ -330,6 +333,27 @@ void testFaculty() {
 
 }
 
+void testUndo()
+{
+	DisciplinaRepository testRepo;
+	DisciplinaValidator testVal;
+	Facultate testService{ testRepo,testVal };
+
+	testService.addDisciplina("seba", 212, "da", "fsega");
+	testService.modifyDisciplina("seba", 22, "ay", "ubb");
+	testService.deleteDisciplina("seba");
+	assert(testService.getAllDiscipline().size() == 0);
+	testService.undo();
+	assert(testService.getAllDiscipline().size() == 1);
+	testService.undo();
+	const Disciplina disciplina = testRepo->find("seba");
+	assert(disciplina.getOre() == 212);
+	testService.undo();
+	assert(testService.getAllDiscipline().size() == 0);
+	assert(testService.undo() == -1);
+
+}
+
 void testeService() {
 	testAddService();
 	testModifyService();
@@ -338,4 +362,5 @@ void testeService() {
 	testFilterService();
 	testSortService();
 	testFaculty();
+	testUndo();
 }

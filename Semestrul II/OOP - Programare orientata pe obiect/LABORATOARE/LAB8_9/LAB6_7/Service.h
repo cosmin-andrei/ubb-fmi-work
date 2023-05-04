@@ -2,12 +2,19 @@
 #include "Repository.h"
 #include "validators.h"
 #include "Faculty.h"
+
+#include "Undo.h"
+
 #include <functional>
 #include <unordered_map>
 
 using std::function;
+using std::vector;
 class Facultate {
 private:
+
+	vector<ActiuneUndo*>undoActiuni;
+
 	DisciplinaRepository& repo;
 	DisciplinaValidator& val;
 
@@ -114,6 +121,8 @@ public:
 	*/
 	const vector<Disciplina>& getDisciplineFaculty();
 
+	bool exportFile(const string filename, const string type);
+	int undo();
 
 };
 void testeService();
