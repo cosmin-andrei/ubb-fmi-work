@@ -1,0 +1,9 @@
+﻿  main.cpp
+  Playlist.cpp
+  Repository.cpp
+  Service.cpp
+C:\Users\Ana\source\repos\Seminar4_Playlist\Seminar4_Playlist\Service.cpp(60,53): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Song.cpp
+  UI.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Ana\source\repos\Seminar4_Playlist\x64\Debug\Seminar4_Playlist.exe'
