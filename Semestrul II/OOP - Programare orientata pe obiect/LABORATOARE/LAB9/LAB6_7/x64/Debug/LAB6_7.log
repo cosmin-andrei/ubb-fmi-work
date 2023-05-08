@@ -1,0 +1,22 @@
+﻿  LAB6_7.cpp
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(51,3): error C3668: 'FileRepo::~FileRepo': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(53,7): error C3668: 'FileRepo::store': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(58,7): error C3668: 'FileRepo::sterge': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(63,7): error C3668: 'FileRepo::modifica': method with override specifier 'override' did not override any base class methods
+  Repository.cpp
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(51,3): error C3668: 'FileRepo::~FileRepo': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(53,7): error C3668: 'FileRepo::store': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(58,7): error C3668: 'FileRepo::sterge': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(63,7): error C3668: 'FileRepo::modifica': method with override specifier 'override' did not override any base class methods
+  Service.cpp
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(51,3): error C3668: 'FileRepo::~FileRepo': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(53,7): error C3668: 'FileRepo::store': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(58,7): error C3668: 'FileRepo::sterge': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(63,7): error C3668: 'FileRepo::modifica': method with override specifier 'override' did not override any base class methods
+  UI.cpp
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(51,3): error C3668: 'FileRepo::~FileRepo': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(53,7): error C3668: 'FileRepo::store': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(58,7): error C3668: 'FileRepo::sterge': method with override specifier 'override' did not override any base class methods
+E:\FMI-UBB\LABORATOARE\Semestrul II\OOP - Programare orientata pe obiect\LABORATOARE\LAB9\LAB6_7\Repository.h(63,7): error C3668: 'FileRepo::modifica': method with override specifier 'override' did not override any base class methods
+  Running Code Analysis for C/C++...
+  Generating Code...
