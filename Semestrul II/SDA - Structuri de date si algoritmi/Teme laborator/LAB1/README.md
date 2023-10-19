@@ -1,21 +1,11 @@
-### Materiale, cursuri și seminarii
-- [X] [ Anul I](https://drive.google.com/drive/folders/119ZjA1g7XAsVYVDj6u7pF2EJ_nM24u8F?usp=share_link)
+Să se implementeze în C++ un anumit container de date (TAD) folosind o anumită
+reprezentare (indicată) și un vector dinamic ca structură de date. Se va folosi implementare
+proprie pentru vectorul dinamic.
 
 
-### Laboratoare
-
-### Anul I
-
-## Semestrul I
-- [X] [ Fundamentele programării](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Fundamentele%20programarii/Laboratoare)
-- [x] [ Arhitectura sistemelor de calcul](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Arhitectura%20sistemelor%20de%20calcul/Laboratoare)
-- [X] [ Programare in C](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Programare%20in%20C)
-- [X] [ Analiza matematica](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Analiza%20matematica)
-- [X] [ Algebra] (https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20I/Algebra)
-- [X] [ CodBlanitzaCuGabiMircea](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/CodBlanitzaCuGabiMircea)
-
-
-## Semestrul II
-- [X] [ Algoritmica Grafelor](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Fundamentele%20programarii/Laboratoare)
-- [X] [ Programare orientata pe obiect](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Fundamentele%20programarii/Laboratoare)
-- [X] [ Structuri de date si algoritmi](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Fundamentele%20programarii/Laboratoare)
+6. TAD Colecție – memorată sub forma unui vector de frecvențe.
+Spre exemplu, colecția [5, 10, -1, 2, 3, 10, 5, 5, -5] va fi reprezentată sub forma vectorului
+V=[1, 0, 0, 0, 1,0, 0, 1, 1, 0, 3, 0, 0, 0, 0, 2] construit astfel: (1) intervalul de valori [-5, 10] se
+translatează în intervalul [0, 16]; (2) pe poziția 0 în V avem frecvența elementului -5 (minim);
+pe poziția 1 avem frecvența elementului -4, …, pe poziția 15 avem frecvența elementului 10
+(maxim).
