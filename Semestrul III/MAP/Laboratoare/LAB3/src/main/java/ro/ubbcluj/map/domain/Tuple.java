@@ -1,4 +1,4 @@
-package socialnetwork.domain;
+package ro.ubbcluj.map.domain;
 
 import java.util.Objects;
 

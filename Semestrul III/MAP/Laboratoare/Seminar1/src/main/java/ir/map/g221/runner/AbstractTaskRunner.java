@@ -3,7 +3,7 @@ package ir.map.g221.runner;
 
 import ir.map.g221.domain.Task;
 
-public abstract class AbstractTaskRunner implements TaskRunner {
+public class AbstractTaskRunner implements TaskRunner {
     protected TaskRunner tr;
 
     public AbstractTaskRunner(TaskRunner tr) {
@@ -18,9 +18,8 @@ public abstract class AbstractTaskRunner implements TaskRunner {
     @Override
     public void executeAll() {
         while (hasTask()) {
-            executeOneTask();
+            this.executeOneTask();
         }
-            tr.executeAll();
     }
 
     @Override

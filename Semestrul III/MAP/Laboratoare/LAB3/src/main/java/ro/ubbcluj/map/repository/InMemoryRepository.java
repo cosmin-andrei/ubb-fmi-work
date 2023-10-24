@@ -27,6 +27,7 @@ public class InMemoryRepository<ID, E extends Entity<ID>> implements Repository<
         return entities.values();
     }
 
+
     @Override
     public E save(E entity) {
         if (entity==null)
@@ -41,7 +42,7 @@ public class InMemoryRepository<ID, E extends Entity<ID>> implements Repository<
 
     @Override
     public E delete(ID id) {
-        return null;
+        return entities.remove(id);
     }
 
     @Override

@@ -10,6 +10,14 @@ public class DelayTaskRunner extends AbstractTaskRunner{
 
     @Override
     public void executeOneTask() {
+
+            try{
+                Thread.sleep(3000);
+
+            } catch (InterruptedException e) {
+                e.printStackTrace(); //de intrebat dl profesor
+            }
+
         tr.executeOneTask();
         System.out.println("Task executat cu succes la ora " + LocalDateTime.now());
 
@@ -17,18 +25,10 @@ public class DelayTaskRunner extends AbstractTaskRunner{
 
     @Override
     public void executeAll() {
-
-
-        while(tr.hasTask()) {
-            try{
-                Thread.sleep(3000);
-
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-
+        while(tr.hasTask())
+            this.executeOneTask();
     }
+
 
 
 }

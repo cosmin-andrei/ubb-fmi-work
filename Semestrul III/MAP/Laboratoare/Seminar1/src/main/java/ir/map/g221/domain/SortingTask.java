@@ -13,9 +13,11 @@ public class SortingTask  extends Task{
     public SortingTask(int[] numere, Strategy strategy)
     {
         this.numere = numere;
+        //strategia de sortare
         this.sorter = SorterFactory.getInstance().createSorter(strategy);
     }
 
+    //suprascrisa din clasa Task pt sortare
     @Override
     public void run() {
         sorter.sort(this.numere);

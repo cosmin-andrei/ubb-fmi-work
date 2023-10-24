@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"ro.ubbcluj.map"},{"l":"ro.ubbcluj.map.domain"},{"l":"ro.ubbcluj.map.domain.validators"},{"l":"ro.ubbcluj.map.repository"},{"l":"ro.ubbcluj.map.service"}];updateSearchResults();

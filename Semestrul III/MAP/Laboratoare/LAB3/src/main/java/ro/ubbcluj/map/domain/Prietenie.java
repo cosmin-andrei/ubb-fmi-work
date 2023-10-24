@@ -1,4 +1,4 @@
-package socialnetwork.domain;
+package ro.ubbcluj.map.domain;
 
 import java.time.LocalDateTime;
 
@@ -17,4 +17,5 @@ public class Prietenie extends Entity<Tuple<Long,Long>> {
     public LocalDateTime getDate() {
         return date;
     }
+
 }
