@@ -10,15 +10,15 @@ public class SorterFactory {
     static SorterFactory instance = null;
 
     //implementarea sortarii dupa o strategie
-    public AbstractSort createSorter(Strategy strategy){
-        if(Strategy.BUBBLE_SORT == strategy)
+    public AbstractSort createSorter(Strategy strategy) {
+        if (Strategy.BUBBLE_SORT == strategy)
             return new BubbleSort();
         else
             return new QuickSort();
     }
 
-    public static SorterFactory getInstance(){
-        if(instance == null)
+    public static SorterFactory getInstance() {
+        if (instance == null)
             instance = new SorterFactory();
         return instance;
     }

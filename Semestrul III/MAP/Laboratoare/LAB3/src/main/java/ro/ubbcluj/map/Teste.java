@@ -69,6 +69,7 @@ public class Teste {
             System.out.println("Prietenie adaugare eroare");
 
         prietenieService.stergePrietenie(prietenie.getId());
+        ok = prietenieService.verificaExistenta(idPr);
         if(ok==true)
             System.out.println("Prietenie stergere eroare");
 
@@ -87,20 +88,26 @@ public class Teste {
         serv.adaugaUtilizator(u6);
         serv.adaugaUtilizator(u7);
 
-        prietenie.setId(new Tuple<>(1L, 2L));
-        prietenieService.adaugaPrietenie(prietenie);
 
-        prietenie.setId(new Tuple<>(1L, 3L));
-        prietenieService.adaugaPrietenie(prietenie);
+        Prietenie prietenie2 = new Prietenie();
+        prietenie2.setId(new Tuple<>(1L, 2L));
+        prietenieService.adaugaPrietenie(prietenie2);
 
-        prietenie.setId(new Tuple<>(4L, 5L));
-        prietenieService.adaugaPrietenie(prietenie);
+        Prietenie prietenie3 = new Prietenie();
+        prietenie3.setId(new Tuple<>(1L, 3L));
+        prietenieService.adaugaPrietenie(prietenie3);
 
-        prietenie.setId(new Tuple<>(4L, 6L));
-        prietenieService.adaugaPrietenie(prietenie);
+        Prietenie prietenie4 = new Prietenie();
+        prietenie4.setId(new Tuple<>(4L, 5L));
+        prietenieService.adaugaPrietenie(prietenie4);
+
+        Prietenie prietenie5 = new Prietenie();
+        prietenie5.setId(new Tuple<>(4L, 6L));
+        prietenieService.adaugaPrietenie(prietenie5);
 
         int rez = prietenieService.numarComunitati();
-        System.out.println(rez);
+        if(rez!=3)
+            System.out.println("Eroare");
 
     }
 

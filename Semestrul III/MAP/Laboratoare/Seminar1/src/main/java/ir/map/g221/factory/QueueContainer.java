@@ -1,6 +1,5 @@
 package ir.map.g221.factory;
 
-import ir.map.g221.domain.AbstractSort;
 import ir.map.g221.domain.Task;
 
 public class QueueContainer extends AbstractContainer {

@@ -33,8 +33,7 @@ public class Main {
         InMemoryRepository<Tuple<Long, Long>, Prietenie> repoPrietenie = new InMemoryRepository<>(new PrietenieValidator());
         PrietenieService prietenieService = new PrietenieService(repoPrietenie, repo);
 
-
-        UtilizatorService serv = new UtilizatorService(repo);
+            UtilizatorService serv = new UtilizatorService(repo);
         while(true){
 
 
@@ -84,6 +83,8 @@ public class Main {
                     }catch (IllegalArgumentException e){
                         System.out.println(e.toString());
                     }
+
+                    System.out.println(serv.getAll());
                     break;
                 }
 
@@ -127,7 +128,7 @@ public class Main {
                 }
 
                 case "5":{
-
+                    System.out.println(prietenieService.numarComunitati());
                 }
 
                 case "6":{

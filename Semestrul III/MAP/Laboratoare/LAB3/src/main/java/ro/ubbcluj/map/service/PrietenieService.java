@@ -73,13 +73,28 @@ public class PrietenieService {
         for (Utilizator utilizator : repoUtilizator.findAll()) {
             Long userId = utilizator.getId();
             if (!utilizatoriVizitati.contains(userId)) {
-                numarComunitati = numarComunitati + 1;
                 DFS(userId, utilizatoriVizitati);
+                numarComunitati = numarComunitati + 1;
             }
         }
 
         return numarComunitati;
     }
+
+//    public List<Integer> Sociabila(){
+//        List<Long> utilizatoriVizitati = new ArrayList<>();
+//        int numarComunitati = 0;
+//
+//        for (Utilizator utilizator : repoUtilizator.findAll()) {
+//            Long userId = utilizator.getId();
+//            if (!utilizatoriVizitati.contains(userId)) {
+//                DFS(userId, utilizatoriVizitati);
+//                numarComunitati = numarComunitati + 1;
+//            }
+//        }
+//
+//        return numarComunitati;
+//    }
 
     private void DFS(Long userId, List<Long> utilizatoriVizitati) {
         utilizatoriVizitati.add(userId);
