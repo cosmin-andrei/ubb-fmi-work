@@ -7,6 +7,7 @@ import ro.ubbcluj.map.domain.validators.ValidationException;
 import ro.ubbcluj.map.repository.Repository;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 public class PrietenieService {
@@ -23,16 +24,16 @@ public class PrietenieService {
 
         Long id_user1 = prietenie.getId().getLeft();
         Optional<Utilizator> user1 = repoUtilizator.findOne(id_user1);
-        if (user1 == null)
+        if (user1.isEmpty())
             throw new ValidationException("Id inexistent!\n");
 
         Long id_user2 = prietenie.getId().getRight();
         Optional<Utilizator> user2 = repoUtilizator.findOne(id_user2);
-        if (user2 == null)
+        if (user2.isEmpty())
             throw new ValidationException("ID Inexistent!\n");
 
-        Optional verificare_dublura = repoPrietenie.findOne(new Tuple(id_user1, id_user2));
-        if (verificare_dublura != null)
+        Optional<Prietenie> verificare_dublura = repoPrietenie.findOne(new Tuple<>(id_user1, id_user2));
+        if (verificare_dublura.isPresent())
             throw new ValidationException("ID existent\n");
 
         repoPrietenie.save(prietenie);
@@ -44,16 +45,16 @@ public class PrietenieService {
 
         Long id_user1 = id.getLeft();
         Optional<Utilizator> user1 = repoUtilizator.findOne(id_user1);
-        if (user1 == null)
+        if (user1.isEmpty())
             throw new ValidationException("Id inexistent!\n");
 
         Long id_user2 = id.getRight();
         Optional<Utilizator> user2 = repoUtilizator.findOne(id_user2);
-        if (user2 == null)
+        if (user2.isEmpty())
             throw new ValidationException("ID Inexistent!\n");
 
         Optional<Prietenie> verificare = repoPrietenie.findOne(id);
-        if (verificare != null) {
+        if (verificare.isPresent()) {
             repoPrietenie.delete(id);
         }
 
@@ -61,7 +62,7 @@ public class PrietenieService {
 
     public boolean verificaExistenta(Tuple<Long, Long> id) {
         Optional<Prietenie> prietenie = repoPrietenie.findOne(id);
-        return prietenie != null;
+        return prietenie.isPresent();
     }
 
     public int numarComunitati() {
@@ -121,10 +122,10 @@ public class PrietenieService {
         for(Prietenie prietenie : repoPrietenie.findAll()){
             Long id1 = prietenie.getId().getLeft();
             Long id2 = prietenie.getId().getRight();
-            if(id1 == userID) {
+            if(Objects.equals(id1, userID)) {
                 idsToDelete.add(prietenie.getId());
             }
-            if (id2 == userID) {
+            if (Objects.equals(id2, userID)) {
                 idsToDelete.add(prietenie.getId());
             }
         }
