@@ -1,6 +1,5 @@
 package ro.ubbcluj.map.service;
 
-import com.jogamp.common.util.Bitfield;
 import ro.ubbcluj.map.domain.Prietenie;
 import ro.ubbcluj.map.domain.Tuple;
 import ro.ubbcluj.map.domain.Utilizator;
@@ -8,7 +7,7 @@ import ro.ubbcluj.map.domain.validators.ValidationException;
 import ro.ubbcluj.map.repository.Repository;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
+import java.util.Optional;
 
 public class PrietenieService {
 
@@ -20,53 +19,48 @@ public class PrietenieService {
         this.repoPrietenie = repoPrietenie;
     }
 
-    public Prietenie adaugaPrietenie(Prietenie prietenie) {
+    public void adaugaPrietenie(Prietenie prietenie) {
 
         Long id_user1 = prietenie.getId().getLeft();
-        Utilizator user1 = repoUtilizator.findOne(id_user1);
+        Optional<Utilizator> user1 = repoUtilizator.findOne(id_user1);
         if (user1 == null)
             throw new ValidationException("Id inexistent!\n");
 
         Long id_user2 = prietenie.getId().getRight();
-        Utilizator user2 = repoUtilizator.findOne(id_user2);
+        Optional<Utilizator> user2 = repoUtilizator.findOne(id_user2);
         if (user2 == null)
             throw new ValidationException("ID Inexistent!\n");
 
-        Prietenie verificare_dublura = repoPrietenie.findOne(new Tuple(id_user1, id_user2));
+        Optional verificare_dublura = repoPrietenie.findOne(new Tuple(id_user1, id_user2));
         if (verificare_dublura != null)
             throw new ValidationException("ID existent\n");
 
-//        user1.getFriends().add(user2);
-//        user2.getFriends().add(user1);
-        return repoPrietenie.save(prietenie);
+        repoPrietenie.save(prietenie);
 
 
     }
 
-    public Prietenie stergePrietenie(Tuple<Long, Long> id) {
+    public void stergePrietenie(Tuple<Long, Long> id) {
 
         Long id_user1 = id.getLeft();
-        Utilizator user1 = repoUtilizator.findOne(id_user1);
+        Optional<Utilizator> user1 = repoUtilizator.findOne(id_user1);
         if (user1 == null)
             throw new ValidationException("Id inexistent!\n");
 
         Long id_user2 = id.getRight();
-        Utilizator user2 = repoUtilizator.findOne(id_user2);
+        Optional<Utilizator> user2 = repoUtilizator.findOne(id_user2);
         if (user2 == null)
             throw new ValidationException("ID Inexistent!\n");
 
-        Prietenie verificare = repoPrietenie.findOne(id);
+        Optional<Prietenie> verificare = repoPrietenie.findOne(id);
         if (verificare != null) {
-//            user1.getFriends().remove(user2);
-//            user2.getFriends().remove(user1);
-            return repoPrietenie.delete(id);
+            repoPrietenie.delete(id);
         }
 
-        return null;
     }
 
     public boolean verificaExistenta(Tuple<Long, Long> id) {
-        Prietenie prietenie = repoPrietenie.findOne(id);
+        Optional<Prietenie> prietenie = repoPrietenie.findOne(id);
         return prietenie != null;
     }
 
@@ -124,7 +118,6 @@ public class PrietenieService {
 
         List<Tuple<Long, Long>> idsToDelete = new ArrayList<>();
 
-//        System.out.println(repoPrietenie.findAll());
         for(Prietenie prietenie : repoPrietenie.findAll()){
             Long id1 = prietenie.getId().getLeft();
             Long id2 = prietenie.getId().getRight();
@@ -139,19 +132,5 @@ public class PrietenieService {
         for (Tuple<Long, Long> idToDelete : idsToDelete) {
             repoPrietenie.delete(idToDelete);
         }
-
-//        for(Utilizator friend: friends){
-//            Tuple<Long, Long> pr1 = new Tuple<>(userID, friend.getId());
-//            Tuple<Long, Long> pr2 = new Tuple<>(friend.getId(),userID);
-//            Prietenie p1 = repoPrietenie.findOne(pr1);
-//            Prietenie p2 = repoPrietenie.findOne(pr2);
-//            if(p1!=null){
-//                stergePrietenie(pr1);
-//            }
-//            else if(p2!=null){
-//                stergePrietenie(pr2);
-//            }
-//
-//        }
     }
 }

@@ -5,9 +5,10 @@ import ro.ubbcluj.map.domain.Tuple;
 import ro.ubbcluj.map.domain.Utilizator;
 import ro.ubbcluj.map.domain.validators.UtilizatorValidator;
 import ro.ubbcluj.map.repository.InMemoryRepository;
-import ro.ubbcluj.map.repository.Repository;
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class UtilizatorService {
 
@@ -17,16 +18,12 @@ public class UtilizatorService {
         this.repo = repo;
     }
 
-    public Utilizator adaugaUtilizator(Utilizator utilizator)
+    public Optional<Utilizator> adaugaUtilizator(Utilizator utilizator)
     {
         return repo.save(utilizator);
     }
 
-    public Utilizator stergeUtilizator(Long id){
-        for(Utilizator it : repo.findAll())
-            if(it.getFriends()!=null) {
-                repoPrietenie.delete(new Tuple(it.getId(), id));
-            }
+    public Optional<Utilizator> stergeUtilizator(Long id){
         return repo.delete(id);
     }
 
