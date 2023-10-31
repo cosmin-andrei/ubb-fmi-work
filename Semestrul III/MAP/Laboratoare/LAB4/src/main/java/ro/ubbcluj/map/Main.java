@@ -10,6 +10,7 @@ import ro.ubbcluj.map.repository.InMemoryRepository;
 import ro.ubbcluj.map.service.UtilizatorService;
 import ro.ubbcluj.map.service.PrietenieService;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -23,19 +24,23 @@ public class Main {
         System.out.println("4. Sterge prieten");
         System.out.println("5. Numar de comunitati");
         System.out.println("6. Cea mai sociabila comunitate");
+        System.out.println("7. Afiseaza toti utilizatorii");
     }
 
     public static void main(String[] args) {
 
-        Teste teste = new Teste();
-        teste.execute();
         InMemoryRepository<Long, Utilizator> repo = new InMemoryRepository<>(new UtilizatorValidator());
         InMemoryRepository<Tuple<Long, Long>, Prietenie> repoPrietenie = new InMemoryRepository<>(new PrietenieValidator());
         PrietenieService prietenieService = new PrietenieService(repoPrietenie, repo);
+        UtilizatorService serv = new UtilizatorService(repo);
 
-            UtilizatorService serv = new UtilizatorService(repo);
-        while(true){
+        Teste teste = new Teste();
+        teste.execute();
 
+        Populate.PopulareR(serv);
+        boolean rulare = true;
+
+        while(rulare){
 
             Meniu();
             String cmd;
@@ -59,14 +64,13 @@ public class Main {
                         Utilizator  utilizator = new Utilizator(nume, prenume);
                         utilizator.setId(Long.parseLong(id));
                         serv.adaugaUtilizator(utilizator);
-                        System.out.println("Utilizator adaugat!\n");
+                        System.out.println("Utilizator adaugat cu succes!\n");
                     } catch (ValidationException e){
                         System.out.println(e.getMessage());
                     }catch (IllegalArgumentException e){
                         System.out.println(e.toString());
                     }
 
-                    System.out.println(serv.getAll());
                     break;
                 }
 
@@ -78,14 +82,13 @@ public class Main {
                     try{
                         prietenieService.stergeUserPrieteni(Long.parseLong(id));
                         serv.stergeUtilizator(Long.parseLong(id));
-                        System.out.println("Utilizator sters");
+                        System.out.println("Utilizator sters cu succes!\n");
                     }catch (ValidationException e){
                         System.out.println(e.getMessage());
                     }catch (IllegalArgumentException e){
                         System.out.println(e.toString());
                     }
 
-                    System.out.println(serv.getAll());
                     break;
                 }
 
@@ -101,7 +104,7 @@ public class Main {
 
                     try{
                         prietenieService.adaugaPrietenie(prietenie);
-                        System.out.println("Prietenie adaugata cu succes");
+                        System.out.println("Prietenie adaugata cu succes!\n");
                     }catch(ValidationException e){
                         System.out.println(e.getMessage());
                     }catch (IllegalArgumentException e){
@@ -120,24 +123,41 @@ public class Main {
 
                     try{
                         prietenieService.stergePrietenie(new Tuple<>(Long.parseLong(id1), Long.parseLong(id2)));
-                        System.out.println("Prietenie stearsa cu succes");
+                        System.out.println("Prietenie stearsa cu succes!\n");
                     }catch (ValidationException e){
                         System.out.println(e.getMessage());
                     }catch (IllegalArgumentException e){
                         System.out.println(e.toString());
                     }
+
+                    break;
                 }
 
                 case "5":{
-                    System.out.println(prietenieService.numarComunitati());
+                    System.out.println("Numarul de comunitati: " + prietenieService.numarComunitati() + "\n");
+                    break;
                 }
 
                 case "6":{
+                    System.out.println("Cea mai sociabila comunitate: " + prietenieService.ComunitateSociabila() + "\n");
+                    break;
+                }
 
+                case "7":{
+                    List<Utilizator> users = serv.getAll();
+                    System.out.println("Utilizatorii:");
+                    users.forEach(System.out::println);
+                    System.out.println("\n");
+                    break;
+                }
+
+                case "0":{
+                    System.out.println("Sfarsit program");
+                    rulare=false;
+                    break;
                 }
 
                 default:
-                    System.out.println("Sfarsit");
                     break;
 
             }

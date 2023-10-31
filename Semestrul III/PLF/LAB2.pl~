@@ -39,7 +39,7 @@ inlocuire([H|T],E,L1,R):-
 %L - lista din care extragem primul element (input)
 %Rez - reztultatul: primul element (output)
 
-primulEl([H|T],H).
+primulEl([H|_],H).
 
 %inlocuireB(L1,L2,Rez)
 %L1 - Lista in care inlocuim (input)

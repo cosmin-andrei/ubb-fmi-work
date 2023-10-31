@@ -18,6 +18,22 @@ public class PrietenieService {
     public PrietenieService(Repository<Tuple<Long, Long>, Prietenie> repoPrietenie, Repository<Long, Utilizator> repoUtilizator) {
         this.repoUtilizator = repoUtilizator;
         this.repoPrietenie = repoPrietenie;
+
+
+        repoPrietenie.findAll().forEach(prietenie -> {
+            Utilizator u1 = this.repoUtilizator.findOne(prietenie.getId().getLeft());
+            Utilizator u2 = this.repoUtilizator.findOne(prietenie.getId().getRight());
+            u1.getFriends().add(u2);
+            u2.getFriends().add(u1);
+        });
+//        for(Prietenie it : this.repoPrietenie.findAll())
+//        {
+//            Utilizator u1 = this.repoUtilizator.findOne(it.getId().getLeft());
+//            Utilizator u2 = this.repoUtilizator.findOne(it.getId().getRight());
+//            u1.getFriends().add(u2);
+//            u2.getFriends().add(u1);
+//        }
+
     }
 
     public Prietenie adaugaPrietenie(Prietenie prietenie) {
@@ -36,9 +52,13 @@ public class PrietenieService {
         if (verificare_dublura != null)
             throw new ValidationException("ID existent\n");
 
-//        user1.getFriends().add(user2);
-//        user2.getFriends().add(user1);
-        return repoPrietenie.save(prietenie);
+        repoPrietenie.save(prietenie);
+
+        user1.getFriends().add(user2);
+        user2.getFriends().add(user1);
+
+
+        return null;
 
 
     }
@@ -57,8 +77,8 @@ public class PrietenieService {
 
         Prietenie verificare = repoPrietenie.findOne(id);
         if (verificare != null) {
-//            user1.getFriends().remove(user2);
-//            user2.getFriends().remove(user1);
+            user1.getFriends().remove(user2);
+            user2.getFriends().remove(user1);
             return repoPrietenie.delete(id);
         }
 
@@ -85,19 +105,24 @@ public class PrietenieService {
         return numarComunitati;
     }
 
-//    public List<Integer> Sociabila(){
-//        List<Long> utilizatoriVizitati = new ArrayList<>();
-//        int numarComunitati = 0;
+//    public List<Long> Sociabila(){
+//       List <Vertex> vertexList = new ArrayList<>();
+//       for(Utilizator user: repoUtilizator.findAll()){
+//           vertexList.add(new Vertex(user.getId())); // initializare useri ca fiind noduri intr-o lista de noduri
 //
-//        for (Utilizator utilizator : repoUtilizator.findAll()) {
-//            Long userId = utilizator.getId();
-//            if (!utilizatoriVizitati.contains(userId)) {
-//                DFS(userId, utilizatoriVizitati);
-//                numarComunitati = numarComunitati + 1;
-//            }
-//        }
+//       }
 //
-//        return numarComunitati;
+//       for(Prietenie p: repoPrietenie.findAll()){
+//           for(Vertex v: vertexList){
+//               if(v.getValue() == p.getId().getLeft())
+//                   v.addAdj(new Vertex(p.getId().getRight()));
+//               else if(v.getValue() == p.getId().getRight())
+//                   v.addAdj(new Vertex(p.getId().getLeft()));
+//           }
+//       }
+//
+//       Graph graph = new Graph(vertexList);
+//       return graph.Sociabila();
 //    }
 
     private void DFS(Long userId, List<Long> utilizatoriVizitati) {

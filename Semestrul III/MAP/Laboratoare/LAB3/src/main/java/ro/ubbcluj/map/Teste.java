@@ -10,35 +10,35 @@ import ro.ubbcluj.map.service.UtilizatorService;
 
 public class Teste {
 
-//    public void testeUser()
-//        {
-//            Utilizator u1 = new Utilizator("u1FirstName", "u1LastName");
-//            u1.setId(10L);
-//            Utilizator u2 = new Utilizator("u2FirstName", "u2LastName");
-//            u2.setId(12L);
-//            Utilizator u3 = new Utilizator("u3FirstName", "u3LastName");
-//            u3.setId(13L);
-//
-//            InMemoryRepository<Long, Utilizator> repo = new InMemoryRepository<>(new UtilizatorValidator());
-//
-//            UtilizatorService serv = new UtilizatorService(repo);
-//            serv.adaugaUtilizator(u1);
-//            serv.adaugaUtilizator(u2);
-//            serv.adaugaUtilizator(u3);
-//
-//            if(serv.getAll() != 3){
-//            System.out.println("Eroare la adaugare useri");
-//        }
-//
-//        serv.stergeUtilizator(10L);
-//        serv.stergeUtilizator(12L);
-//        serv.stergeUtilizator(13L);
-//
-//        if(serv.getAll() != 0){
-//            System.out.println("Eroare la stergere useri");
-//        }
-//
-//    }
+    public void testeUser()
+        {
+            Utilizator u1 = new Utilizator("u1FirstName", "u1LastName");
+            u1.setId(10L);
+            Utilizator u2 = new Utilizator("u2FirstName", "u2LastName");
+            u2.setId(12L);
+            Utilizator u3 = new Utilizator("u3FirstName", "u3LastName");
+            u3.setId(13L);
+
+            InMemoryRepository<Long, Utilizator> repo = new InMemoryRepository<>(new UtilizatorValidator());
+
+            UtilizatorService serv = new UtilizatorService(repo);
+            serv.adaugaUtilizator(u1);
+            serv.adaugaUtilizator(u2);
+            serv.adaugaUtilizator(u3);
+
+            if(serv.getAll() != 3){
+            System.out.println("Eroare la adaugare useri");
+        }
+
+        serv.stergeUtilizator(10L);
+        serv.stergeUtilizator(12L);
+        serv.stergeUtilizator(13L);
+
+        if(serv.getAll() != 0){
+            System.out.println("Eroare la stergere useri");
+        }
+
+    }
 
     public void testePrietenie(){
 
@@ -105,6 +105,8 @@ public class Teste {
         prietenie5.setId(new Tuple<>(4L, 6L));
         prietenieService.adaugaPrietenie(prietenie5);
 
+        serv.getAllUsers();
+
         int rez = prietenieService.numarComunitati();
         if(rez!=3)
             System.out.println("Eroare");
@@ -117,7 +119,7 @@ public class Teste {
     }
 
     public void execute(){
-//        testeUser();
+       // testeUser();
         testePrietenie();
     }
 

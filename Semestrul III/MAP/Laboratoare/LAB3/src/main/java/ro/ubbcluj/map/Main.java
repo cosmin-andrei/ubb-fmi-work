@@ -108,6 +108,8 @@ public class Main {
                         System.out.println(e.toString());
                     }
 
+                    serv.getAllUsers();
+
                     break;
                 }
 

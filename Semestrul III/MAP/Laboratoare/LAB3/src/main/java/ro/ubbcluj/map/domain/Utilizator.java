@@ -1,6 +1,7 @@
 package ro.ubbcluj.map.domain;
 
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -11,9 +12,11 @@ public class Utilizator extends Entity<Long> {
 
 
 
+
     public Utilizator(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.friends = new ArrayList<>();
     }
 
     public String getFirstName() {
@@ -41,8 +44,16 @@ public class Utilizator extends Entity<Long> {
         return "Utilizator{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", friends=" + friends +
+                ", friends=" + this.stringFriends() +
                 '}';
+    }
+
+    public String stringFriends(){
+        String Sfriends ="";
+        for(Utilizator u:this.friends){
+            Sfriends += u.getId();
+        }
+        return Sfriends;
     }
 
     @Override

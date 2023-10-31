@@ -5,7 +5,7 @@ import ro.ubbcluj.map.domain.Tuple;
 import ro.ubbcluj.map.domain.Utilizator;
 import ro.ubbcluj.map.domain.validators.UtilizatorValidator;
 import ro.ubbcluj.map.repository.InMemoryRepository;
-import ro.ubbcluj.map.repository.Repository;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,14 +19,11 @@ public class UtilizatorService {
 
     public Utilizator adaugaUtilizator(Utilizator utilizator)
     {
+
         return repo.save(utilizator);
     }
 
     public Utilizator stergeUtilizator(Long id){
-        for(Utilizator it : repo.findAll())
-            if(it.getFriends()!=null) {
-                repoPrietenie.delete(new Tuple(it.getId(), id));
-            }
         return repo.delete(id);
     }
 
@@ -42,6 +39,12 @@ public class UtilizatorService {
 
         return k;
 
+    }
+
+    public void getAllUsers(){
+        for(Utilizator it: repo.findAll()){
+            System.out.println(it);
+        }
     }
 
 
