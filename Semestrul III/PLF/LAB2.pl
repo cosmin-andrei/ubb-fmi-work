@@ -1,4 +1,4 @@
-/* a) Intr-o lista L sa se inlocuiasca toate aparitiile unui element E cuvelementele unei alte liste, L1. De ex: inloc([1,2,1,3,1,4],1,[10,11],X) va produce X=[10,11,2,10,11,3,10,11,4].
+/* a) Intr-o lista L sa se inlocuiasca toate aparitiile unui element E cu elementele unei alte liste, L1. De ex: inloc([1,2,1,3,1,4],1,[10,11],X) va produce X=[10,11,2,10,11,3,10,11,4].
 
 b) Se da o lista eterogena, formata din numere intregi si liste de
 numere intregi. In fiecare sublista sa se inlocuiasca toate aparitiile
@@ -48,7 +48,7 @@ primulEl([H|_],H).
 
 inlocuireB([],_,[]).
 
-inlocuireB([H|T],L2,R):-
+inlocuireB([H|T],L2,[H|R]):-
     \+ is_list(H),
     inlocuireB(T,L2,R).
 

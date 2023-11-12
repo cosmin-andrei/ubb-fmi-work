@@ -1,8 +1,10 @@
 package ro.ubbcluj.map.repository;
 
 import ro.ubbcluj.map.domain.Entity;
+import ro.ubbcluj.map.domain.Utilizator;
 import ro.ubbcluj.map.domain.validators.ValidationException;
 
+import java.sql.SQLException;
 import java.util.Optional;
 
 /**
@@ -17,12 +19,12 @@ public interface Repository<ID, E extends Entity<ID>> {
      * @return an {@code Optional} encapsulating the entity with the given id
      * @throws IllegalArgumentException if id is null.
      */
-    Optional<E> findOne(ID id);
+    Optional<E> findOne(ID id) throws SQLException;
 
     /**
      * @return all entities
      */
-    Iterable<E> findAll();
+    Iterable<E> findAll() throws SQLException;
 
     /**
      * @param entity entity must be not null

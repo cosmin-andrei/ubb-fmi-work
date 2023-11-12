@@ -8,6 +8,7 @@ public class Prietenie extends Entity<Tuple<Long,Long>> {
     LocalDateTime date;
 
     public Prietenie() {
+        this.date = LocalDateTime.now();
     }
 
     /**
@@ -18,4 +19,7 @@ public class Prietenie extends Entity<Tuple<Long,Long>> {
         return date;
     }
 
+    public void setDate(LocalDateTime date) {
+        this.date = date;
+    }
 }

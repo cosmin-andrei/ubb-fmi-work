@@ -6,10 +6,15 @@ import ro.ubbcluj.map.domain.Utilizator;
 import ro.ubbcluj.map.domain.validators.PrietenieValidator;
 import ro.ubbcluj.map.domain.validators.UtilizatorValidator;
 import ro.ubbcluj.map.domain.validators.ValidationException;
-import ro.ubbcluj.map.repository.InMemoryRepository;
-import ro.ubbcluj.map.service.UtilizatorService;
+import ro.ubbcluj.map.repository.Repository;
+import ro.ubbcluj.map.repository.database.PrietenieDBRepo;
+import ro.ubbcluj.map.repository.database.UserDBRepository;
 import ro.ubbcluj.map.service.PrietenieService;
+import ro.ubbcluj.map.service.UtilizatorService;
 
+import java.sql.SQLException;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Scanner;
 
@@ -25,19 +30,29 @@ public class Main {
         System.out.println("5. Numar de comunitati");
         System.out.println("6. Cea mai sociabila comunitate");
         System.out.println("7. Afiseaza toti utilizatorii");
+        System.out.println("8. Afiseaza prieteniile unui user dupa luna");
+        System.out.println("0. Exit");
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
 
-        InMemoryRepository<Long, Utilizator> repo = new InMemoryRepository<>(new UtilizatorValidator());
-        InMemoryRepository<Tuple<Long, Long>, Prietenie> repoPrietenie = new InMemoryRepository<>(new PrietenieValidator());
-        PrietenieService prietenieService = new PrietenieService(repoPrietenie, repo);
-        UtilizatorService serv = new UtilizatorService(repo);
+        final String url = "jdbc:postgresql://localhost:5432/socialnetwork";
+        final String username="postgres";
+        final String password="2003";
+        Repository<Long, Utilizator> repoUtilizator = new UserDBRepository(new UtilizatorValidator(), url, username, password);
+        Repository<Tuple<Long, Long>, Prietenie> repoPrietenie = new PrietenieDBRepo(new PrietenieValidator(), url, username, password);
 
-        Teste teste = new Teste();
-        teste.execute();
+   //     InMemoryRepository<Tuple<Long, Long>, Prietenie> repoPrietenie = new InMemoryRepository<>(new PrietenieValidator());
 
-        Populate.PopulareR(serv);
+        UtilizatorService serv = new UtilizatorService(repoUtilizator);
+        PrietenieService prietenieService = new PrietenieService(repoUtilizator, repoPrietenie);
+
+
+//        Teste teste = new Teste();
+//        teste.execute();
+
+//        Populate.PopulareR(serv);
+
         boolean rulare = true;
 
         while(rulare){
@@ -69,6 +84,8 @@ public class Main {
                         System.out.println(e.getMessage());
                     }catch (IllegalArgumentException e){
                         System.out.println(e.toString());
+                    } catch (SQLException e) {
+                        throw new RuntimeException(e);
                     }
 
                     break;
@@ -87,6 +104,8 @@ public class Main {
                         System.out.println(e.getMessage());
                     }catch (IllegalArgumentException e){
                         System.out.println(e.toString());
+                    } catch (SQLException e) {
+                        throw new RuntimeException(e);
                     }
 
                     break;
@@ -149,6 +168,22 @@ public class Main {
                     users.forEach(System.out::println);
                     System.out.println("\n");
                     break;
+                }
+
+                case "8":{
+                    System.out.println("ID Utilizator:");
+                    String id = scan.next();
+                    System.out.println("Luna:");
+                    String month = scan.next();
+
+                    try {
+                        List<Tuple<Utilizator, LocalDate>> friends;
+                        friends = prietenieService.GetFriendsByMonth(Long.parseLong(id), Integer.parseInt(month));
+                        friends.forEach(tuple -> System.out.println());
+
+                    } catch (SQLException | NumberFormatException e) {
+                        throw new RuntimeException(e);
+                    }
                 }
 
                 case "0":{
