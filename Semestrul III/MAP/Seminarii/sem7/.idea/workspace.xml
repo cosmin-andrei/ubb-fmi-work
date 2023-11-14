@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a907644c-ffbd-4858-8476-edac92054f8e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/java/ro/ubbcluj/map/lab7/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/java/ro/ubbcluj/map/lab7/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/java/ro/ubbcluj/map/lab7/domain/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/java/ro/ubbcluj/map/lab7/domain/Prietenie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/java/ro/ubbcluj/map/lab7/domain/Tuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/java/ro/ubbcluj/map/lab7/domain/Utilizator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/java/ro/ubbcluj/map/lab7/domain/validators/PrietenieValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/java/ro/ubbcluj/map/lab7/domain/validators/UtilizatorValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/java/ro/ubbcluj/map/lab7/domain/validators/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/java/ro/ubbcluj/map/lab7/domain/validators/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laboratoare/LAB7/src/main/resources/ro/ubbcluj/map/lab7/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/map/sem7/domain/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/map/sem7/domain/Prietenie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/map/sem7/domain/Tuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/map/sem7/domain/Utilizator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/map/sem7/domain/validators/PrietenieValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/map/sem7/domain/validators/UtilizatorValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/map/sem7/domain/validators/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ubbcluj/map/sem7/domain/validators/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/build/classes/java/main/ro/ubbcluj/map/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/build/classes/java/main/ro/ubbcluj/map/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/build/classes/java/main/ro/ubbcluj/map/service/PrietenieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/build/classes/java/main/ro/ubbcluj/map/service/PrietenieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/src/main/java/ro/ubbcluj/map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/src/main/java/ro/ubbcluj/map/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratoare/LAB4/src/main/java/ro/ubbcluj/map/service/PrietenieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratoare/LAB4/src/main/java/ro/ubbcluj/map/service/PrietenieService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2Y7JimzVGwJHZrykOQ0dn88lk78" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a907644c-ffbd-4858-8476-edac92054f8e" name="Changes" comment="" />
+      <created>1699870819259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699870819259</updated>
+      <workItem from="1699870820291" duration="1007000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
