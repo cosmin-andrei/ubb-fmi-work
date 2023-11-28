@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ubbcluj.map.socialnetwork.UserController">
+   <children>
+      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="400.0" prefWidth="602.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TableView fx:id="tableViewUser" prefHeight="200.0" prefWidth="602.0">
+                    <columns>
+                      <TableColumn fx:id="tableColumnID" prefWidth="75.0" text="ID" />
+                      <TableColumn fx:id="tableColumnNume" prefWidth="243.0" text="Nume" />
+                        <TableColumn fx:id="tableColumnPrenume" prefWidth="283.0" text="Prenume" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button fx:id="buttonAdd" onAction="#handleAddUser" layoutX="47.0" layoutY="148.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Adauga" />
+                  <Button fx:id="buttonDelete" onAction="#handleDeleteUser" layoutX="212.0" layoutY="149.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Sterge" />
+                  <Button fx:id="buttonUpdate" onAction="#handleUpdateUser" layoutX="378.0" layoutY="150.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Actualizeaza" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

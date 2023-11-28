@@ -8,11 +8,10 @@ import ro.ubbcluj.map.repository.Repository;
 
 import java.sql.SQLException;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.stream.StreamSupport;
 
 public class PrietenieService {
 
@@ -28,22 +27,22 @@ public class PrietenieService {
 
 
         //stochez toate prieteniile existente in friends din utilizator
-        repoPrietenie.findAll().forEach(prietenie -> {
-            Utilizator u1;
-            try {
-                u1 = this.repoUtilizator.findOne(prietenie.getId().getLeft()).get();
-            } catch (SQLException e) {
-                throw new RuntimeException(e);
-            }
-            Utilizator u2;
-            try {
-                u2 = this.repoUtilizator.findOne(prietenie.getId().getRight()).get();
-            } catch (SQLException e) {
-                throw new RuntimeException(e);
-            }
-            u1.getFriends().add(u2);
-            u2.getFriends().add(u1);
-        });
+//        repoPrietenie.findAll().forEach(prietenie -> {
+//            Utilizator u1;
+//            try {
+//                u1 = this.repoUtilizator.findOne(prietenie.getId().getLeft()).get();
+//            } catch (SQLException e) {
+//                throw new RuntimeException(e);
+//            }
+//            Utilizator u2;
+//            try {
+//                u2 = this.repoUtilizator.findOne(prietenie.getId().getRight()).get();
+//            } catch (SQLException e) {
+//                throw new RuntimeException(e);
+//            }
+//            u1.getFriends().add(u2);
+//            u2.getFriends().add(u1);
+//        });
 
     }
 
@@ -67,9 +66,9 @@ public class PrietenieService {
     public List<Tuple<Utilizator, LocalDate>> GetFriendsByMonth(Long userID, int Month) throws SQLException {
 
         List<Tuple<Utilizator, LocalDate>> userFriends = new ArrayList<>();
-        List<Prietenie> allFriends = (List<Prietenie>) repoPrietenie.findAll();
-        allFriends.stream()
-                .filter(friend -> (friend.getId().getLeft() == userID || friend.getId().getRight() == userID) && friend.getDate().getMonth().getValue() - 1 == Month)
+       // Set<Prietenie> allFriends = (List<Prietenie>) repoPrietenie.findAll();
+        StreamSupport.stream(repoPrietenie.findAll().spliterator(), false)
+                .filter(friend -> (Objects.equals(friend.getId().getLeft(), userID) || Objects.equals(friend.getId().getRight(), userID)) && friend.getDate().getMonth().getValue() == Month)
 //                {
 //                    if((friend.getId().getLeft() == userID || friend.getId().getRight() == userID) && friend.getDate().getMonth().getValue() == Month)
 //                        return true;
@@ -77,7 +76,7 @@ public class PrietenieService {
 //                }
 //                )
                 .map(friend -> {
-                    if(friend.getId().getRight() == userID)
+                    if(Objects.equals(friend.getId().getRight(), userID))
                         return new Tuple<Long, LocalDate>(friend.getId().getLeft(), friend.getDate().toLocalDate());
                     return new Tuple<Long, LocalDate>(friend.getId().getRight(), friend.getDate().toLocalDate());
                 })
@@ -191,23 +190,27 @@ public class PrietenieService {
 
         utilizatoriVizitati.add(userId);
 
-        Utilizator user = repoUtilizator.findOne(userId).get();
-        comunitateCurenta.add(user);
+        Optional<Utilizator> user = repoUtilizator.findOne(userId);
+        if(user.isPresent()) {
 
-        List<Prietenie> prietenii = GetAll();
+            comunitateCurenta.add(user.get());
 
-        prietenii.stream()
-                .filter(prietenie -> prietenie.getId().getLeft().equals(userId)  || prietenie.getId().getRight().equals(userId))
-                .forEach(prietenie->
-                {Long prietenId = (prietenie.getId().getLeft().equals(userId) ? prietenie.getId().getRight() : prietenie.getId().getLeft());
-                    if (!utilizatoriVizitati.contains(prietenId)) {
-                        try {
-                            DFS(prietenId, utilizatoriVizitati, comunitateCurenta);
-                        } catch (SQLException e) {
-                            throw new RuntimeException(e);
+            List<Prietenie> prietenii = GetAll();
+
+            prietenii.stream()
+                    .filter(prietenie -> prietenie.getId().getLeft().equals(userId) || prietenie.getId().getRight().equals(userId))
+                    .forEach(prietenie ->
+                    {
+                        Long prietenId = (prietenie.getId().getLeft().equals(userId) ? prietenie.getId().getRight() : prietenie.getId().getLeft());
+                        if (!utilizatoriVizitati.contains(prietenId)) {
+                            try {
+                                DFS(prietenId, utilizatoriVizitati, comunitateCurenta);
+                            } catch (SQLException e) {
+                                throw new RuntimeException(e);
+                            }
                         }
-                    }
-                });
+                    });
+        }
     }
 
 

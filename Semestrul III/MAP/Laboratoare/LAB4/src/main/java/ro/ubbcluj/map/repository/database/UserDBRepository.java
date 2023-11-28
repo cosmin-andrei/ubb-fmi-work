@@ -37,12 +37,11 @@ public class UserDBRepository implements Repository<Long, Utilizator> {
                 String lastName = resultSet.getString("last_name");
                 Utilizator u = new Utilizator(firstName, lastName);
                 u.setId(longID);
-                return Optional.ofNullable(u);
+                return Optional.of(u);
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
         return Optional.empty();
     }
 

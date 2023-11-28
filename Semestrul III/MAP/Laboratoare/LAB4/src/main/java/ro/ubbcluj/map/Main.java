@@ -179,11 +179,12 @@ public class Main {
                     try {
                         List<Tuple<Utilizator, LocalDate>> friends;
                         friends = prietenieService.GetFriendsByMonth(Long.parseLong(id), Integer.parseInt(month));
-                        friends.forEach(tuple -> System.out.println());
+                        System.out.println(friends);
 
                     } catch (SQLException | NumberFormatException e) {
                         throw new RuntimeException(e);
                     }
+                    break;
                 }
 
                 case "0":{
