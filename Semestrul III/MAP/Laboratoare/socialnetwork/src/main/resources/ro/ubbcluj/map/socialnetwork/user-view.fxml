@@ -5,24 +5,42 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ubbcluj.map.socialnetwork.UserController">
    <children>
-      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="400.0" prefWidth="602.0">
-        <items>
+       <SplitPane fx:id="splitPane" dividerPositions="0.5620805369127516" orientation="VERTICAL" prefHeight="400.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+       <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
-                  <TableView fx:id="tableViewUser" prefHeight="200.0" prefWidth="602.0">
-                    <columns>
-                      <TableColumn fx:id="tableColumnID" prefWidth="75.0" text="ID" />
-                      <TableColumn fx:id="tableColumnNume" prefWidth="243.0" text="Nume" />
-                        <TableColumn fx:id="tableColumnPrenume" prefWidth="283.0" text="Prenume" />
-                    </columns>
-                  </TableView>
+                  <HBox prefHeight="220.0" prefWidth="599.0">
+                     <children>
+                        <TableView fx:id="tableViewUser" prefHeight="220.0" prefWidth="303.0">
+                          <columns>
+                            <TableColumn fx:id="tableColumnID" prefWidth="50.0" text="ID" />
+                            <TableColumn fx:id="tableColumnNume" prefWidth="125.0" text="Nume" />
+                              <TableColumn fx:id="tableColumnPrenume" prefWidth="125.0" text="Prenume" />
+                          </columns>
+                        </TableView>
+                         <TableView fx:id="viewTableFriends" prefHeight="220.0" prefWidth="296.0">
+                             <columns>
+                                 <TableColumn fx:id="idColumn" prefWidth="50.0" text="ID" />
+                                 <TableColumn fx:id="firstNameColumn" prefWidth="125.0" text="Nume" />
+                                 <TableColumn fx:id="lastNameColumn" prefWidth="125.0" text="Prenume" />
+                             </columns>
+                         </TableView>
+
+
+                     </children>
+                  </HBox>
                </children>
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
-                  <Button fx:id="buttonAdd" onAction="#handleAddUser" layoutX="47.0" layoutY="148.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Adauga" />
-                  <Button fx:id="buttonDelete" onAction="#handleDeleteUser" layoutX="212.0" layoutY="149.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Sterge" />
-                  <Button fx:id="buttonUpdate" onAction="#handleUpdateUser" layoutX="378.0" layoutY="150.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Actualizeaza" />
+                  <Button fx:id="buttonAdd" layoutX="45.0" layoutY="49.0" mnemonicParsing="false" onAction="#handleAddUser" prefHeight="25.0" prefWidth="146.0" text="Adauga" />
+                  <Button fx:id="buttonDelete" layoutX="45.0" layoutY="85.0" mnemonicParsing="false" onAction="#handleDeleteUser" prefHeight="25.0" prefWidth="146.0" text="Sterge" />
+                  <Button fx:id="buttonUpdate" layoutX="45.0" layoutY="122.0" mnemonicParsing="false" onAction="#handleUpdateUser" prefHeight="25.0" prefWidth="146.0" text="Actualizeaza" />
+                  <Button fx:id="buttonCere" layoutX="214.0" layoutY="49.0" mnemonicParsing="false" onAction="#handleCerePrietenia" prefHeight="25.0" prefWidth="146.0" text="Cere prietenie" />
+                  <Button fx:id="buttonRaspunde" layoutX="214.0" layoutY="85.0" mnemonicParsing="false" onAction="#handleRaspundePrietenie" prefHeight="25.0" prefWidth="146.0" text="Vezi cererile" />
+                  <Button fx:id="buttonPrieteni" layoutX="214.0" layoutY="122.0" mnemonicParsing="false" onAction="#handlePrieteni" prefHeight="25.0" prefWidth="146.0" text="Vezi prietenii" />
+                  <Button fx:id="buttonMesaje" layoutX="378.0" layoutY="49.0" mnemonicParsing="false" onAction="#handleMesaje" prefHeight="25.0" prefWidth="146.0" text="Trimite mesaj" />
+<!--                  <Button fx:id="buttonVeziCereri" layoutX="214.0" layoutY="85.0" mnemonicParsing="false" onAction="#handleVeziPrietenia" prefHeight="25.0" prefWidth="146.0" text="Vezi cereri prietenie" />-->
                </children></AnchorPane>
         </items>
       </SplitPane>

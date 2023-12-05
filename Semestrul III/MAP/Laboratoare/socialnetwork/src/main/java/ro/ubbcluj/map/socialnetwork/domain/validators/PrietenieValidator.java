@@ -2,6 +2,8 @@ package ro.ubbcluj.map.socialnetwork.domain.validators;
 
 import ro.ubbcluj.map.socialnetwork.domain.Prietenie;
 
+import java.util.Objects;
+
 public class PrietenieValidator implements Validator<Prietenie>{
 
     @Override
@@ -11,5 +13,6 @@ public class PrietenieValidator implements Validator<Prietenie>{
 
         if(id1.equals(id2))
             throw new ValidationException("Idul nu poate fi acelasi");
+
     }
 }

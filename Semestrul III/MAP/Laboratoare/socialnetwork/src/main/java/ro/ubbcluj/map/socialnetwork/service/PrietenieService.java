@@ -5,6 +5,8 @@ import ro.ubbcluj.map.socialnetwork.domain.Prietenie;
 import ro.ubbcluj.map.socialnetwork.domain.Tuple;
 import ro.ubbcluj.map.socialnetwork.domain.Utilizator;
 import ro.ubbcluj.map.socialnetwork.domain.validators.ValidationException;
+import ro.ubbcluj.map.socialnetwork.observer.Observable;
+import ro.ubbcluj.map.socialnetwork.observer.Observer;
 import ro.ubbcluj.map.socialnetwork.repository.Repository;
 
 import java.sql.SQLException;
@@ -15,12 +17,10 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-public class PrietenieService {
-
-//    private Repository<Long, Utilizator> repoUtilizator;
-//    private Repository<Tuple<Long, Long>, Prietenie> repoPrietenie;
+public class PrietenieService implements Observable {
 
     Repository<Long, Utilizator> repoUtilizator;
+    List<Observer> observers = new ArrayList<>();
 
     Repository<Tuple<Long, Long>, Prietenie> repoPrietenie ;
     public PrietenieService(Repository<Long, Utilizator> repoUtilizator, Repository<Tuple<Long, Long>, Prietenie> repoPrietenie) {
@@ -32,11 +32,33 @@ public class PrietenieService {
 
         //verific sa nu existe deja prietenie intre cei doi useri
         boolean exist = GetAll().stream()
-                .anyMatch(it->Objects.equals(prietenie.getId(), it.getId()));
-        if(exist)
+                .anyMatch(it -> Objects.equals(prietenie.getId(), it.getId()));
+        if (exist)
             throw new ValidationException("Exista deja o prietenie!\n");
 
         repoPrietenie.save(prietenie);
+        notifyAllObservers();
+    }
+
+    public List<Utilizator> getPrieteniById(Long userId) throws SQLException {
+        List<Utilizator> prieteni = new ArrayList<>();
+
+        // Filtrăm prieteniile care implică utilizatorul cu ID-ul dat
+        List<Prietenie> prieteniiUtilizatorului = GetAll().stream()
+                .filter(prietenie -> prietenie.getId().getLeft().equals(userId) || prietenie.getId().getRight().equals(userId))
+                .collect(Collectors.toList());
+
+//        System.out.println(prieteniiUtilizatorului);
+
+        // Adăugăm utilizatorii prieteni în lista de prieteni
+        for (Prietenie prietenie : prieteniiUtilizatorului) {
+            Long prietenId = (prietenie.getId().getLeft().equals(userId) ? prietenie.getId().getRight() : prietenie.getId().getLeft());
+            Utilizator prieten = repoUtilizator.findOne(prietenId).orElseThrow(() -> new RuntimeException("Utilizator negăsit pentru ID: " + prietenId));
+            prieteni.add(prieten);
+        }
+
+        System.out.println(prieteni);
+        return prieteni;
 
     }
 
@@ -172,35 +194,20 @@ public class PrietenieService {
         }
     }
 
+    @Override
+    public void registerObserver(Observer o) {
+        observers.add(o);
+    }
 
-//    public void stergeUserPrieteni(Long userID) throws SQLException {
-//
-//        List<Tuple<Long,Long>> idsToDelete = new ArrayList<>();
-//
-//        Utilizator user1 = repoUtilizator.findOne(userID).get();
-//        repoPrietenie.findAll().forEach(prietenie -> {
-//
-//            if(Objects.equals(prietenie.getId().getLeft(), userID) ||
-//                    Objects.equals(prietenie.getId().getRight(), userID)) {
-//                Long prietenID = prietenie.getId().getLeft().equals(userID) ?
-//                        prietenie.getId().getRight() :
-//                        prietenie.getId().getLeft();
-//
-//
-//                Utilizator user2;
-//                try {
-//                    user2 = repoUtilizator.findOne(prietenID).get();
-//                } catch (SQLException e) {
-//                    throw new RuntimeException(e);
-//                }
-//
-//                user1.getFriends().remove(user2);
-//                user2.getFriends().remove(user1);
-//                idsToDelete.add(prietenie.getId());
-//            }
-//        });
-//
-//        idsToDelete.forEach(repoPrietenie::delete);
-//
-//    }
+    @Override
+    public void removeObserver(Observer o) {
+        observers.remove(o);
+    }
+
+    @Override
+    public void notifyAllObservers() throws SQLException {
+        for (Observer observer : observers) {
+            observer.update();
+        }
+    }
 }

@@ -19,6 +19,7 @@ public class Prietenie extends Entity<Tuple<Long,Long>> {
         return date;
     }
 
+
     public void setDate(LocalDateTime date) {
         this.date = date;
     }

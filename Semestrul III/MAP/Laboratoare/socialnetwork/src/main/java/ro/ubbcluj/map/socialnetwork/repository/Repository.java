@@ -32,7 +32,7 @@ public interface Repository<ID, E extends Entity<ID>> {
      * @throws ValidationException      if the entity is not valid
      * @throws IllegalArgumentException if the given entity is null. *
      */
-    Optional<E> save(E entity);
+    Optional<E> save(E entity) throws SQLException;
 
     /**
      * removes the entity with the specified id
@@ -52,5 +52,5 @@ public interface Repository<ID, E extends Entity<ID>> {
      * @throws IllegalArgumentException if the given entity is null.
      * @throws ValidationException      if the entity is not valid.
      */
-    Optional<E> update(E entity);
+    Optional<E> update(E entity) throws SQLException;
 }

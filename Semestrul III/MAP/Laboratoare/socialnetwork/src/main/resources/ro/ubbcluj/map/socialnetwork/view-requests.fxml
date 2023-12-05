@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ubbcluj.map.socialnetwork.RespondFriendController">
+   <children>
+      <SplitPane dividerPositions="0.6073825503355704" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="236.0" prefWidth="597.0">
+               <children>
+                  <TableView fx:id="tableViewUser" layoutX="-1.0" layoutY="-1.0" prefHeight="238.0" prefWidth="600.0">
+                    <columns>
+                      <TableColumn fx:id="tableColumnID" prefWidth="75.0" text="ID" />
+                      <TableColumn fx:id="tableColumnNume" prefWidth="248.6666488647461" text="NUME" />
+                        <TableColumn fx:id="tableColumnPrenume" prefWidth="250.00006103515625" text="PRENUME" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="cancel" layoutX="575.0" layoutY="-1.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="25.0" prefWidth="22.0" text="X" />
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="bttnRefuz" minHeight="0.0" minWidth="0.0" onDragDetected="#handleRefuz" prefHeight="145.0" prefWidth="597.0">
+               <children>
+                  <HBox layoutX="192.0" layoutY="91.0" prefHeight="34.0" prefWidth="213.0" />
+                  <Button layoutX="174.0" layoutY="36.0" mnemonicParsing="false" onAction="#handleAccept" prefHeight="29.0" prefWidth="110.0" text="Accept" />
+                  <Button layoutX="313.0" layoutY="36.0" mnemonicParsing="false" onAction="#handleRefuz" prefHeight="30.0" prefWidth="104.0" text="Refuz" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

@@ -10,9 +10,6 @@ public class Utilizator extends Entity<Long> {
     private String lastName;
     private List<Utilizator> friends;
 
-
-
-
     public Utilizator(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -35,16 +32,16 @@ public class Utilizator extends Entity<Long> {
         this.lastName = lastName;
     }
 
-    public List<Utilizator> getFriends() {
-        return friends;
-    }
+//    public List<Utilizator> getFriends() {
+//        return friends;
+//    }
 
     @Override
     public String toString() {
         return "Utilizator{" +
                 "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", friends=" + this.stringFriends() +
+                ", lastName='" + lastName + //'\'' +
+//                ", friends=" + this.stringFriends() +
                 '}';
     }
 
@@ -62,12 +59,13 @@ public class Utilizator extends Entity<Long> {
         if (!(o instanceof Utilizator)) return false;
         Utilizator that = (Utilizator) o;
         return getFirstName().equals(that.getFirstName()) &&
-                getLastName().equals(that.getLastName()) &&
-                getFriends().equals(that.getFriends());
+                getLastName().equals(that.getLastName());
+//                &&
+//                getFriends().equals(that.getFriends());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getFirstName(), getLastName(), getFriends());
+        return Objects.hash(getFirstName(), getLastName()/*, getFriends()*/);
     }
 }

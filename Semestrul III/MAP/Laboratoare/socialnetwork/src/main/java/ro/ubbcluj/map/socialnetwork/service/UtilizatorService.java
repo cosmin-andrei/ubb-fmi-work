@@ -13,8 +13,6 @@ import java.util.Objects;
 
 public class UtilizatorService implements Observable {
 
-//    private InMemoryRepository<Long, Utilizator> repo;
-
     Repository<Long, Utilizator> repo;
     List<Observer> observers = new ArrayList<>();
 

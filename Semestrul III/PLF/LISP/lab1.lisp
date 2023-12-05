@@ -44,12 +44,10 @@
 ;(print (elimNIL '(1 2 NIL 3 NIL 4 NIL)))
 
 
-
-;listaAtom(l: list)
 (defun listaAtom(l)
 	(cond
-		((atom l) (list l)) ;l atom - return lista cu atom
 		((null l) nil) ;lista vida - return nil
+		((atom l) (list l)) ;l atom - return lista cu atom
 		(t (appendL (listaAtom (car l)) ;concatenez atomii din primul elem
 			(listaAtom (cdr l)))) ;concatenez atomii din restul listei
 	)
@@ -73,21 +71,25 @@
   	)
 )
 
-(print (invertCont '(a b c (d (e f) g h i) j) nil))
+(print "inversare")
+(print (inversC '(a b c (d (e f) g h i) j) nil))
 
 
 ;d) Sa se construiasca o functie care intoarce maximul atomilor numerici dintr-o lista, de la nivelul superficial.
 
-;maxim(l: list)
-(defun maxim(l)
-	(let ((maxN nil)) ;variabila locala maxN
-		(dolist (elem l) ;parcurg elementele listei
-			(if (numberp elem) ;daca este elem numeric
-				(setq maxN (if (or (not maxN) (> elem maxN)) ;compar variabila maxN cu restul elementul
-					elem
-					maxN))))
-	maxN) ;returnez valoare maxima
+;maxim(l: list, m)
+(defun maxim (l m)
+ 	(cond
+   	((null l) m)
+	((listp (car l)) (maxim (cdr l) m))
+   	((and (not m) (numberp (car l))) (maxim (cdr l) (car l)))
+   	((and (> (car l) m) (numberp (car l))) (maxim (cdr l) (car l)))
+   	(t (maxim (cdr l) m))
+	)
 )
 
-(print (maxim '(1 2 (7 8) 5 3 (9 0) 1)))
+
+
+(print "maxim")
+(print (maxim '(1 2 (7 8) 5 3 (9 3) 1) nil))
 						

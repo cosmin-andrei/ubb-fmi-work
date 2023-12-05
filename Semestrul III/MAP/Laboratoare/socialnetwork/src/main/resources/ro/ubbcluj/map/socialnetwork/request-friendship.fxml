@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ubbcluj.map.socialnetwork.RequestFriendController">
+    <children>
+      <SplitPane dividerPositions="0.3889508928571429" prefHeight="400.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="tableViewUser" prefHeight="397.0" prefWidth="229.0">
+                    <columns>
+                      <TableColumn fx:id="tableColumnID" prefWidth="44.333346009254456" text="ID" />
+                      <TableColumn fx:id="tableColumnNume" prefWidth="96.00000762939453" text="Nume" />
+                        <TableColumn fx:id="tableColumnPrenume" prefWidth="92.0" text="Prenume" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="397.0" prefWidth="374.0">
+               <children>
+                  <TextField fx:id="textFieldIDPrieten" layoutX="53.0" layoutY="162.0" prefHeight="25.0" prefWidth="257.0" />
+                  <Label layoutX="53.0" layoutY="136.0" text="ID" />
+                  <Button fx:id="buttonAdd" layoutX="213.0" layoutY="199.0" mnemonicParsing="false" onAction="#handleAdd" text="Adauga prieten" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+    </children>
+</AnchorPane>

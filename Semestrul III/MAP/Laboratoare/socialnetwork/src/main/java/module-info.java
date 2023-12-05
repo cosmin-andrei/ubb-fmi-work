@@ -9,4 +9,6 @@ module ro.ubbcluj.map.socialnetwork {
     opens ro.ubbcluj.map.socialnetwork to javafx.fxml;
     opens ro.ubbcluj.map.socialnetwork.domain;
     exports ro.ubbcluj.map.socialnetwork;
+    exports ro.ubbcluj.map.socialnetwork.controller;
+    opens ro.ubbcluj.map.socialnetwork.controller to javafx.fxml;
 }
