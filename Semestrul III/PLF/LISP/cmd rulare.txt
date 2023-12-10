@@ -1,1 +1,1 @@
-(load "D:/ubb-fmi-work/Semestrul III/PLF/LISP/lab1.lisp")
+(load "D:/ubb-fmi-work/Semestrul III/PLF/LISP/lab2.lisp")

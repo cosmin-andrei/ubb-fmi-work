@@ -225,7 +225,7 @@ public class UserController implements Observer {
         idColumn.setCellValueFactory(new PropertyValueFactory<>("id"));
         firstNameColumn.setCellValueFactory(new PropertyValueFactory<>("firstName"));
         lastNameColumn.setCellValueFactory(new PropertyValueFactory<>("lastName"));
-        viewTableFriends.setItems(model);
+        viewTableFriends.setItems(modelPrietenie);
     }
     public void handlePrieteni(ActionEvent actionEvent) {
         initializePrietenie();
