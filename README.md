@@ -17,7 +17,7 @@
 - [X] [ MAP](https://www.youtube.com/playlist?list=PLauRSyJ86gK32vtZATe508EkPk3aapP-Z)
 - [X] [ SQL DB](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpMGXTKXsBM_ZNpJwowfsP49) 
 
-## Laboratoare
+## Seminarii și Laboratoare
 ### Semestrul I
 - [X] [ FP - Fundamentele programării](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20I/FP%20-%20Fundamentele%20programarii)
 - [x] [ ASC - Arhitectura sistemelor de calcul](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20I/ASC%20-%20Arhitectura%20sistemelor%20de%20calcul)
@@ -28,3 +28,9 @@
 - [X] [ Algoritmica Grafelor](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20II/Algoritmica%20Grafurilor)
 - [X] [ OOP - Programare orientata pe obiect](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20II/OOP%20-%20Programare%20orientata%20pe%20obiect)
 - [X] [ SDA - Structuri de date si algoritmi](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20II/SDA%20-%20Structuri%20de%20date%20si%20algoritmi)
+
+### Semestrul III
+- [X] [ MAP - Metode avansate de programare](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/MAP)
+- [X] [ PLF - Programare logica si functionala](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/PLF)
+- [X] [ PS - Probabilitati si statistica](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/PS)
+- [X] [ Retele de calculatoare](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/retele)
