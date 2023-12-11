@@ -33,4 +33,4 @@
 - [X] [ MAP - Metode avansate de programare](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/MAP)
 - [X] [ PLF - Programare logica si functionala](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/PLF)
 - [X] [ PS - Probabilitati si statistica](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/PS)
-- [X] [ Retele de calculatoare](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/retele)
+- [X] [ Retele de calculatoare](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/RETELE)
