@@ -1,0 +1,15 @@
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\bin\Debug\net7.0\Sem11.exe
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\bin\Debug\net7.0\Sem11.deps.json
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\bin\Debug\net7.0\Sem11.runtimeconfig.json
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\bin\Debug\net7.0\Sem11.dll
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\bin\Debug\net7.0\Sem11.pdb
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\obj\Debug\net7.0\Sem11.csproj.AssemblyReference.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\obj\Debug\net7.0\Sem11.GeneratedMSBuildEditorConfig.editorconfig
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\obj\Debug\net7.0\Sem11.AssemblyInfoInputs.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\obj\Debug\net7.0\Sem11.AssemblyInfo.cs
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\obj\Debug\net7.0\Sem11.csproj.CoreCompileInputs.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\obj\Debug\net7.0\Sem11.dll
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\obj\Debug\net7.0\refint\Sem11.dll
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\obj\Debug\net7.0\Sem11.pdb
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\obj\Debug\net7.0\Sem11.genruntimeconfig.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Seminarii\Sem11\Sem11\obj\Debug\net7.0\ref\Sem11.dll
