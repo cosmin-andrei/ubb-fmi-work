@@ -1,0 +1,60 @@
+/* Add modern styles to TableView */
+#tableViewUsers {
+    -fx-background-color: #f4f4f4;
+}
+
+/* Style for table columns */
+#tableColumnUsername, #tableColumnEmail, #tableColumnFirstName, #tableColumnLastName {
+    -fx-alignment: CENTER;
+}
+
+/* Add styles to VBox */
+VBox {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20;
+}
+
+/* Style for labels */
+Label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Style for text fields */
+TextField {
+    -fx-font-size: 14px;
+    -fx-pref-height: 30px;
+    -fx-pref-width: 200px;
+}
+
+/* Add styles to GridPane */
+GridPane {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+/* Add styles to buttons */
+Button {
+    -fx-font-size: 14px;
+    -fx-pref-height: 30px;
+    -fx-pref-width: 80px;
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: #ffffff;
+}
+
+/* Hover effect for buttons */
+Button:hover {
+    -fx-background-color: #45a049; /* Darker green */
+}
+
+/* Layout adjustments for HBox */
+HBox {
+    -fx-spacing: 20;
+    -fx-alignment: CENTER_RIGHT;
+}
+
+/* Add a border to the AnchorPane */
+AnchorPane {
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1px;
+}

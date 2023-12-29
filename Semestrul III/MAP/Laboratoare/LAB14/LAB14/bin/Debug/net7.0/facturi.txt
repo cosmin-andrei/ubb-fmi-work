@@ -1,0 +1,4 @@
+1,20/12/2023,Utilities
+2,20/12/2023,Groceries
+3,25/12/2023,Fashion
+4,26/10/2023,Utilities
