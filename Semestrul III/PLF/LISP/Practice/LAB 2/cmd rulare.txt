@@ -1,0 +1,1 @@
+(load "D:/ubb-fmi-work/Semestrul III/PLF/LISP/Practice/LAB 2/11.lisp")
