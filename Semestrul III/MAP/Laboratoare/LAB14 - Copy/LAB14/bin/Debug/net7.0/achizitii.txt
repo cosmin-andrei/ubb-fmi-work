@@ -1,0 +1,7 @@
+1,hrana caini,3,100.5,1
+2,hrana pisici,5,50,1
+3,alimente casa,1,150,1
+4,teeeee,10,23,2
+5,Rochie dama,1,167,3
+6,Fusta femei,1,6,3
+7,Abonament netflix,1,60,4

@@ -1,0 +1,30 @@
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\bin\Debug\net7.0\LAB14.exe
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\bin\Debug\net7.0\LAB14.deps.json
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\bin\Debug\net7.0\LAB14.runtimeconfig.json
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\bin\Debug\net7.0\LAB14.dll
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\bin\Debug\net7.0\LAB14.pdb
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\obj\Debug\net7.0\LAB14.csproj.AssemblyReference.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\obj\Debug\net7.0\LAB14.GeneratedMSBuildEditorConfig.editorconfig
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\obj\Debug\net7.0\LAB14.AssemblyInfoInputs.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\obj\Debug\net7.0\LAB14.AssemblyInfo.cs
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\obj\Debug\net7.0\LAB14.csproj.CoreCompileInputs.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\obj\Debug\net7.0\LAB14.dll
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\obj\Debug\net7.0\refint\LAB14.dll
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\obj\Debug\net7.0\LAB14.pdb
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\obj\Debug\net7.0\LAB14.genruntimeconfig.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14\LAB14\obj\Debug\net7.0\ref\LAB14.dll
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\bin\Debug\net7.0\LAB14.exe
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\bin\Debug\net7.0\LAB14.deps.json
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\bin\Debug\net7.0\LAB14.runtimeconfig.json
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\bin\Debug\net7.0\LAB14.dll
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\bin\Debug\net7.0\LAB14.pdb
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\obj\Debug\net7.0\LAB14.csproj.AssemblyReference.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\obj\Debug\net7.0\LAB14.GeneratedMSBuildEditorConfig.editorconfig
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\obj\Debug\net7.0\LAB14.AssemblyInfoInputs.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\obj\Debug\net7.0\LAB14.AssemblyInfo.cs
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\obj\Debug\net7.0\LAB14.csproj.CoreCompileInputs.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\obj\Debug\net7.0\LAB14.dll
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\obj\Debug\net7.0\refint\LAB14.dll
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\obj\Debug\net7.0\LAB14.pdb
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\obj\Debug\net7.0\LAB14.genruntimeconfig.cache
+D:\ubb-fmi-work\Semestrul III\MAP\Laboratoare\LAB14 - Copy\LAB14\obj\Debug\net7.0\ref\LAB14.dll
