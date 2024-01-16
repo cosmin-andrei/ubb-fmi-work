@@ -1,0 +1,5 @@
+;(load "D:/ubb-fmi-work/Semestrul III/PLF/LISP/Colocviu/teste.lisp")
+
+(DEFUN G(L) (LIST ((CAR L) (CAR L))))
+(SETQ Q 'G)
+(SETQ p Q)

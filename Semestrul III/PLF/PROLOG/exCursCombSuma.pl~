@@ -1,0 +1,12 @@
+combSuma([H|_],1,H,[H]).
+combSuma([_|T],K,S,Rez):-
+    combSuma(T,K,S,Rez).
+combSuma([H|T],K,S,[H|Rez]):-
+    K>1,
+    S1 is S-H,
+    S1 > 0,
+    K1 is K-1,
+    combSuma(T,K1,S,Rez).
+
+toateComb(L, K, S, LC):-
+    findall(C, combSuma(L, K, S, C), LC).

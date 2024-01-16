@@ -1,0 +1,3 @@
+insereaza(E, L, [E|L]).
+insereaza(E, [H|T], [H|Rez]):-
+    insereaza(E, T, Rez).
