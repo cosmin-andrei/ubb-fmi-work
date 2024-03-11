@@ -25,7 +25,7 @@ int main()
         for(int j=1; j<=n; j++)
             if(mat[i][j]==1) ok=false;
 
-        if(ok==true) cout<<i<<" ";
+        if(ok) cout << i << " ";
     }
     cout<<endl;
 
