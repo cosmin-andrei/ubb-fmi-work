@@ -1,0 +1,27 @@
+#images {
+  display: flex;
+  background-color: yellow;
+  width: 600px;
+  border: 1px solid;
+}
+
+p {
+  display: flex;
+  margin: 0 50px;
+  align-items: center;
+}
+
+li{
+  display: flex;
+  margin: 10px;
+}
+
+#img1, #img2 {
+  display: flex;
+  width: 200px;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+}

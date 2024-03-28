@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Problema 6</title>
+
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(20, 20px);
+      /*grid-gap: 5px;*/
+      /*width: fit-content;*/
+    }
+
+    input {
+      text-align: center;
+      border: 1px solid black;
+      box-sizing: border-box; /* nu depasim dim totala */
+    }
+  </style>
+
+</head>
+<body>
+
+  <form>
+    Nume: <label class="grid" ><input type="text" name="nume" maxlength="20"></label><br>
+    Prenume: <label class="grid" ><input type="text" name="prenume" maxlength="20"></label><br>
+    CNP: <label class="grid" ><input type="text" name="cnp" maxlength="14"></label>
+  </form>
+</body>
+</html>

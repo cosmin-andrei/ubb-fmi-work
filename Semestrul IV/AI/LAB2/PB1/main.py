@@ -140,7 +140,7 @@ def main():
     val_lipsa(file)
 
 
-main()
+# main()
 
 
 def teste():
@@ -150,7 +150,7 @@ def teste():
     assert nr_angajati_info(file) == 764
 
 
-teste()
+# teste()
 
 '''
 Sa se vizualizeze:
@@ -240,7 +240,7 @@ def main2():
     distributie_outlieri(file)
 
 
-main2()
+# main2()
 
 '''
 normalizarea datelor - procesul de transformare a datelor intr-un format standard, astfel incat sa fie usor de
@@ -251,17 +251,43 @@ normalizare(file) - normalizarea datelor - salariul, bonusul, echipa
 file - fisierul din care se citesc datele
 
  '''
-# def normalizare(file):
-#     data = pd.read_csv(file)
-#
-#     # normalizare salariu si bonus prin clipping
-#     # se determina salariu/bonus per echipa
-#
-#     for team in data['Team'].unique():
-#         team_data = data[data['Team'] == team]
-#         salary = team_data['Salary']
-#         bonus = team_data['Bonus %']
 
-# return data
 
-# print(normalizare("employees.csv"))
+def normalizare(file):
+    data = pd.read_csv(file)
+
+    # normalizare min-max
+
+    # normalizare salariu
+    min_salariu = data['Salary'].min()
+    max_salariu = data['Salary'].max()
+    salariu_normalizat = [(s - min_salariu) / (max_salariu - min_salariu) for s in data['Salary']]
+
+    # normalizare bonus
+    min_bonus = data['Bonus %'].min()
+    max_bonus = data['Bonus %'].max()
+    bonus_normalizat = [(b - min_bonus) / (max_bonus - min_bonus) for b in data['Bonus %']]
+
+    # normalizare pers/echipa
+    pers_echipa = data['Team'].value_counts()  # echipa - nr pers
+    min_pers = pers_echipa.min()
+    max_pers = pers_echipa.max()
+    pers_normalizat = [(pers - min_pers) / (max_pers - min_pers) for pers in pers_echipa]
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 5))
+    ax1.hist(bonus_normalizat, 20)
+    ax1.set_title('bonus normalizat')
+    plt.show()
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 5))
+    ax1.hist(salariu_normalizat, 20)
+    ax1.set_title('salariu normalizat')
+    plt.show()
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 5))
+    ax1.hist(pers_normalizat, 20)
+    ax1.set_title('pers/echipa normalizat')
+    plt.show()
+
+
+normalizare("employees.csv")

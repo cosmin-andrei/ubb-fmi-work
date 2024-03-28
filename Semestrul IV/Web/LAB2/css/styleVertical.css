@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+#header {
+  background-color: red;
+  height: 20%;
+}
+
+#menu {
+  width: 150px;
+  height: auto;
+  background-color: #333;
+  color: white;
+
+}
+
+#container {
+
+  color: black;
+  vertical-align: middle;
+  horiz-align: center;
+  margin-left: 250px;
+}
+
+#menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  background-color: pink;
+  height: 17%;
+}

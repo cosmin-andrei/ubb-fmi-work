@@ -8,6 +8,8 @@ intr-un cadru tabelar.
 
 import os
 import random
+import cv2
+import numpy as np
 
 from matplotlib import image as mpimg, pyplot as plt
 from PIL import Image, ImageFilter
@@ -120,4 +122,19 @@ def main():
     find_edges(os.path.join('data', file))
 
 
-main()
+# main()
+
+
+def normalizare(files):
+    for file in files:
+        cale_imagine = os.path.join('data', file)
+        image = Image.open(cale_imagine)
+        img_array = np.array(image)
+        norm_img = np.log1p(img_array)  # normalizare log scalling
+        norm_img = norm_img.astype(np.uint8)  # le transform in int
+        plt.axis('off')
+        plt.imshow(norm_img)
+        plt.show()
+        
+
+normalizare(os.listdir('data'))

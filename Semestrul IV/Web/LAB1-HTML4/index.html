@@ -1,0 +1,221 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ro">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Onboarding</title>
+    <style type="text/css">
+        th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body bgcolor="pink">
+    <h1 align="center">Bine ai venit!</h1>
+    <b>aici un text fain</b>
+    <i>inca unul fain</i>
+    <div id="generare-contract">
+        <p>Cu ajutorul formularului de mai jos generează-ți contractul de voluntariat necesar începerii activității de
+            voluntariat și verifică <span style="color:blue">adresa de email</span> pentru a-l semna și trimite scanat
+            la
+            hr@ong.ro</p>
+        <center>
+        <form method="GET" action="">
+            <table border="1">
+                <tr>
+                    <th colspan="4">Generează contractul de voluntariat</th>
+                </tr>
+                <tr>
+                    <th colspan="4">Date personale</th>
+                </tr>
+                <tr>
+                    <td>Nume: <label for="nume"></label><input type="text" id="nume" name="nume"></td>
+                    <td>Prenume: <label for="prenume"></label><input type="text" id="prenume" name="prenume"></td>
+                    <td colspan="2">Data nașterii: <label for="data_nasterii"></label><input type="text"
+                                                                                             id="data_nasterii"
+                                                                                             name="data_nasterii"></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Adresa: <label for="adresa"></label><input type="text" id="adresa" name="adresa">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Oraș: <label for="oras"></label><input type="text" id="oras" name="oras"></td>
+                    <td>Județ: <label for="judet"></label><input type="text" id="judet" name="judet"></td>
+                    <td>Cod poștal: <label for="cod_postal"></label><input type="text" id="cod_postal"
+                                                                           name="cod_postal">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">E-mail: <label for="email"></label><input type="text" id="email" name="email"></td>
+                    <td colspan="2">Telefon: <label for="telefon"></label><input type="text" id="telefon"
+                                                                                 name="telefon">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Gen: <label><input type="radio" name="gen" value="M"> M</label>
+                        <label><input type="radio" name="gen" value="F"> F</label>
+                    </td>
+                    <td colspan="2">Ocupație: <label for="ocupatie"></label><input type="text" id="ocupatie"
+                                                                                   name="ocupatie"></td>
+                </tr>
+                <tr>
+                    <th colspan="4">Date contractuale</th>
+                </tr>
+                <tr>
+                    <td>CNP: <label for="cnp"></label><input type="text" id="cnp" name="cnp"></td>
+                    <td>Seria: <label for="serieCI"></label><input type="text" id="serieCI" name="serieCI"></td>
+                    <td>Număr: <label for="numarCI"></label><input type="text" id="numarCI" name="numarCI"></td>
+                    <td>Eliberat de: <label for="eliberat"></label><input type="text" id="eliberat" name="eliberat">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Data începerii: <label for="data_inceperii"></label><input type="text"
+                                                                                               id="data_inceperii"
+                                                                                               name="data_inceperii"
+                    >
+                    </td>
+                    <td colspan="2">Data terminării: <label for="data_terminarii"></label><input type="text"
+                                                                                                 id="data_terminarii"
+                                                                                                 name="data_terminarii">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4"> Departament:
+                        <label for="departament"></label><select id="departament" name="departament" multiple>
+                            <option value="HR">Resurse umane</option>
+                            <option value="Marketing">Marketing și comunicare</option>
+                            <option value="Finante">Finanțe</option>
+                            <option value="Educational">Educațional</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <fieldset>
+                            <legend>Preferințe alimentare:</legend>
+                            <label><input type="checkbox" name="preferinte" value="vegan"> Vegan</label>
+                            <label><input type="checkbox" name="preferinte" value="vegetarian"> Vegetarian</label>
+                            <label><input type="checkbox" name="preferinte" value="fara_restrictii"> Fără
+                                restricții</label>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4">Alte informații</th>
+                </tr>
+                <tr>
+                    <td colspan="4">De unde ne știi?
+                        <label><input type="checkbox" name="find" value="fb"> Facebook</label>
+                        <label><input type="checkbox" name="find" value="insta"> Instagram</label>
+                        <label><input type="checkbox" name="find" value="presa"> Presă</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">Alte informații: <br>
+                        <label for="alte_informatii"></label><textarea id="alte_informatii" name="alte_informatii"
+                                                                       cols="3"
+                                                                       rows="2"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="submit" value="Trimite">
+                        <input type="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </center>
+    </div>
+    <div id="about_onboarding">
+        <h5>Cum funcționează procesul de Onboarding?</h5>
+        <ol type="1">
+            <li>
+                Intri cu ajutorul parolei primite pe e-mail pe platforma noastră
+            </li>
+            <li>
+                Completezi formularul de mai sus
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        Trimitem contractul de voluntariat pe e-mail
+                    </li>
+                    <li>
+                        Îl semnezi și îl trimiți scanat înapoi
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h4>Beneficiile tale</h4>
+        <ol type="A">
+            <li>
+                Ești protejat de legea voluntariatului
+            </li>
+            <li>
+                Ai acces la o serie de tooluri de la parteneri
+                <ol type="I">
+                    <li>reduceri la shopping</li>
+                    <li>reduceri la restaurante</li>
+                    <li>conturi premium gratuite</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+    <div id="contact">
+        <p>Pentru orice nelămurire sau întrebare, nu ezita să ne contactezi la adresa de e-mail</p>
+        <br>
+        <strong>Echipa de HR</strong>
+        <table border="1">
+            <tr>
+                <th>Nume</th>
+                <th>Prenume</th>
+                <th colspan="2">Funcție/Departament</th>
+                <th>Date contact</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Andrei</td>
+                <td>Ștefan</td>
+                <td>Manager</td>
+                <td rowspan="2">Consiliul Director</td>
+                <td>stefan@ong.ro</td>
+            </tr>
+            <tr>
+                <td>Cosmin</td>
+                <td>Manager Executiv</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>cosmin.andrei@stud.ubbcluj.ro</td>
+                        </tr>
+                        <tr>
+                            <td>cosmin_andrei@yahoo.com</td>
+                        </tr>
+                        <tr>
+                            <td>cosmin.andrei@gmail.com</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Țonea</td>
+                <td rowspan="2">Maria</td>
+                <td>Manager</td>
+                <td rowspan="2">Resurse umane</td>
+                <td>raly@ong.ro</td>
+            </tr>
+            <tr>
+                <td>Nicoară</td>
+                <td>Asistent manager</td>
+                <td>nicoara@ong.ro</td>
+            </tr>
+        </table>
+    </div>
+    <div id="ultim">
+        <img width="100" height="100"
+             src="https://www.exavet.ro/wp-content/uploads/2023/01/Am-adoptat-un-pui-de-pisica.webp" alt="pisica">
+        <a href="https://google.com">Google</a>
+        <p>Aici este un link către <a href="https://google.com">Google</a></p>
+    </div>
+</body>
+</html>

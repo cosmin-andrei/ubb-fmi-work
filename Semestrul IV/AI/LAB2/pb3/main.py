@@ -10,10 +10,10 @@ sinonimele celui mai lung cuvant din text
 """
 import string
 
-import spacy
-import unidecode as uni
 import nltk as nl
 import rowordnet as rwn
+import spacy
+import unidecode as uni
 
 '''
 NLTK (Natural Language Toolkit)
@@ -134,6 +134,31 @@ def sinonime(text):
     return synonyms
 
 
+def normalizare_propozitie(propozitie):
+    words = nl.tokenize.word_tokenize(propozitie.lower())
+    frecv_words = nl.FreqDist(words)
+    max_clipping = 2
+    norm_words = {}
+    for word, freq in frecv_words.items():
+        if freq >= max_clipping:
+            norm_words[word] = max_clipping
+        else:
+            norm_words[word] = freq
+
+    prop_normalizata = ' '.join([word for word in norm_words])
+
+    return prop_normalizata
+
+
+def normalizare(text):
+    sentences = nl.tokenize.sent_tokenize(text)
+    print(normalizare_propozitie("Exemplu: Va incurajam sa fiti activi si sa adresati intrebari atunci cand ceva nu "
+                                 "este clar si va obligam sa ne scrieti. va va va"))
+    print("\n")
+    for sentence in sentences:
+        print(normalizare_propozitie(sentence))
+
+
 '''
 main()
 citeste textul din fisier
@@ -146,13 +171,14 @@ def main():
     with open("texts.txt", "r", encoding="utf-8") as file:
         text = file.read()
 
-    print("Numar propozitii text: ", propozitii(text))
-    print("Numar cuvinte text: ", cuvinte(text))
-    print("Numar cuvinte dif text: ", cuvinte_dif(text))
-    print("Cel mai scurt cuvant din text: ", minim(text))
-    print("Cel mai lung cuvant din text: ", maxim(text))
-    print(fara_diacritice(text))
-    print("Sinonimele celui mai lung cuvant din text: ", sinonime(text))
+    # print("Numar propozitii text: ", propozitii(text))
+    # print("Numar cuvinte text: ", cuvinte(text))
+    # print("Numar cuvinte dif text: ", cuvinte_dif(text))
+    # print("Cel mai scurt cuvant din text: ", minim(text))
+    # print("Cel mai lung cuvant din text: ", maxim(text))
+    # print(fara_diacritice(text))
+    # print("Sinonimele celui mai lung cuvant din text: ", sinonime(text))
+    normalizare(text)
 
 
 main()
@@ -186,5 +212,4 @@ def teste():
     assert minim(text) == "o"
     assert maxim(text) == "laboratoarele"
 
-
-teste()
+# teste()
