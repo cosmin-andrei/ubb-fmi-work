@@ -1,0 +1,11 @@
+D:\Facultate\SGBDLAB\SGBDLAB\bin\Debug\SGBDLAB.exe.config
+D:\Facultate\SGBDLAB\SGBDLAB\bin\Debug\SGBDLAB.exe
+D:\Facultate\SGBDLAB\SGBDLAB\bin\Debug\SGBDLAB.pdb
+D:\Facultate\SGBDLAB\SGBDLAB\obj\Debug\SGBDLAB.csproj.AssemblyReference.cache
+D:\Facultate\SGBDLAB\SGBDLAB\obj\Debug\SGBDLAB.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\SGBDLAB\SGBDLAB\obj\Debug\SGBDLAB.Properties.Resources.resources
+D:\Facultate\SGBDLAB\SGBDLAB\obj\Debug\SGBDLAB.csproj.GenerateResource.cache
+D:\Facultate\SGBDLAB\SGBDLAB\obj\Debug\SGBDLAB.csproj.CoreCompileInputs.cache
+D:\Facultate\SGBDLAB\SGBDLAB\obj\Debug\SGBDLAB.exe
+D:\Facultate\SGBDLAB\SGBDLAB\obj\Debug\SGBDLAB.pdb
+D:\Facultate\SGBDLAB\SGBDLAB\obj\Debug\SGBDLAB.ParticipantiForm.resources

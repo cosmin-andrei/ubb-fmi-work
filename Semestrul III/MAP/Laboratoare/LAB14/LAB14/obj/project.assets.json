@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ubb-fmi-work\\Semestrul III\\MAP\\Laboratoare\\LAB14\\LAB14\\LAB14.csproj",
+      "projectUniqueName": "D:\\Facultate\\ubb-fmi-work\\Semestrul III\\MAP\\Laboratoare\\LAB14\\LAB14\\LAB14.csproj",
       "projectName": "LAB14",
-      "projectPath": "D:\\ubb-fmi-work\\Semestrul III\\MAP\\Laboratoare\\LAB14\\LAB14\\LAB14.csproj",
+      "projectPath": "D:\\Facultate\\ubb-fmi-work\\Semestrul III\\MAP\\Laboratoare\\LAB14\\LAB14\\LAB14.csproj",
       "packagesPath": "C:\\Users\\Cosmin\\.nuget\\packages\\",
-      "outputPath": "D:\\ubb-fmi-work\\Semestrul III\\MAP\\Laboratoare\\LAB14\\LAB14\\obj\\",
+      "outputPath": "D:\\Facultate\\ubb-fmi-work\\Semestrul III\\MAP\\Laboratoare\\LAB14\\LAB14\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

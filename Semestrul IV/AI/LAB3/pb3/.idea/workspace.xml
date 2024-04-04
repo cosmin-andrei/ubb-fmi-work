@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18645f80-97b4-4d1a-8f5b-c1a56d44817e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semestrul II/OOP - Programare orientata pe obiect/LABORATOARE/LAB9/.vs/LAB6_7/FileContentIndex/96da3fae-7f45-44ee-92ea-6c06e06347dc.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semestrul II/OOP - Programare orientata pe obiect/LABORATOARE/LAB9/.vs/LAB6_7/FileContentIndex/ae4097f0-1d2c-44e8-b108-6c6fccaea163.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semestrul II/OOP - Programare orientata pe obiect/LABORATOARE/LAB9/.vs/LAB6_7/FileContentIndex/bb36afa9-e8b5-4dd0-aff4-0f43fc44eee7.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semestrul II/OOP - Programare orientata pe obiect/LABORATOARE/LAB9/.vs/LAB6_7/FileContentIndex/d9243e88-688a-4282-af62-84cef2d0ebd0.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semestrul II/OOP - Programare orientata pe obiect/LABORATOARE/LAB9/.vs/LAB6_7/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Semestrul II/OOP - Programare orientata pe obiect/LABORATOARE/LAB9/.vs/LAB6_7/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Semestrul II/OOP - Programare orientata pe obiect/LABORATOARE/LAB9/.vs/LAB6_7/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Semestrul II/OOP - Programare orientata pe obiect/LABORATOARE/LAB9/.vs/LAB6_7/v17/Browse.VC.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2eSzGq82bkMkBqfti0MOjbK5WQ1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18645f80-97b4-4d1a-8f5b-c1a56d44817e" name="Changes" comment="" />
+      <created>1711912675113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711912675113</updated>
+      <workItem from="1711912678583" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
