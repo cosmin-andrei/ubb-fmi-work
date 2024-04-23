@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Problema 2</title>
+
+  <script>
+
+    function checkEmail(email) {
+      let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+      return emailPattern.test(email);
+    }
+
+    function checkAge(age) {
+      return age >= 18 && age <= 80;
+    }
+
+    function checkName(name) {
+      return name.length >= 3 && name.length <= 50;
+    }
+
+    function checkDate(date) {
+      let datePattern = /^\d{4}-\d{2}-\d{2}$/;
+      return datePattern.test(date);
+    }
+
+    function checkForm() {
+
+      let name = document.getElementById('name').value;
+      let date = document.getElementById('date').value;
+      let age = document.getElementById('age').value;
+      let email = document.getElementById('email').value;
+
+      if (!checkName(name)) {
+        alert('Numele trebuie sa aiba intre 3 si 50 de caractere');
+        document.getElementById("name").style.borderColor = "red";
+        return false;
+      }
+
+      if (!checkDate(date)) {
+        alert('Data trebuie sa fie de forma dd-mm-yyyy');
+        document.getElementById("date").style.borderColor = "red";
+        return false;
+      }
+
+      if (!checkAge(age)) {
+        alert('Varsta trebuie sa fie intre 18 si 80');
+        document.getElementById("age").style.borderColor = "red";
+        return false;
+      }
+
+      if (!checkEmail(email)) {
+        alert('Emailul nu este valid');
+        document.getElementById("email").style.borderColor = "red";
+        return false;
+      }
+
+      alert('Formularul a fost completat corect');
+      return true;
+    }
+
+
+  </script>
+
+</head>
+<body>
+
+<form method="get" onsubmit="return checkForm()">
+
+  <label for="name">Nume:<br></label><input type="text" id="name" name="name" required>
+  <br>
+
+  <label for="date"> Data nasterii:<br></label><input type="date" id="date" name="date" required>
+  <br>
+
+  <label for="age">Varsta:<br></label><input type="number" id="age" name="age" required>
+  <br>
+
+  <label for="email">Email:<br></label><input type="email" id="email" name="email" required>
+  <br>
+
+  <input type="submit" value="Send">
+</form>
+
+</body>
+</html>
