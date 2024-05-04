@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Problema 1</title>
+
+
+  <script>
+    function pb1(selectElement, direction) {
+      let target, source;
+
+      if (direction === 'second') {
+        target = document.getElementById('second');
+        source = document.getElementById('first');
+      }
+      else if(direction === 'first') {
+        target = document.getElementById('first');
+        source = document.getElementById('second');
+      }
+      else if(direction === 'fourth') {
+        target = document.getElementById('fourth');
+        source = document.getElementById('third');
+      }
+      else if(direction === 'third') {
+        target = document.getElementById('third');
+        source = document.getElementById('fourth');
+      }
+
+      let selectedIndex = source.selectedIndex;
+      if (selectedIndex >= 0) {
+        let selectedItem = source.options[selectedIndex];
+        let option = new Option(selectedItem.text, selectedItem.value);
+        target.add(option);
+        source.remove(selectedIndex);
+      }
+    }
+
+  </script>
+
+</head>
+<body>
+
+<label for="first">
+  <select name="judete" id="first" size="7" ondblclick="pb1(this, 'second')">
+    <option value="AB">Alba</option>
+    <option value="AR">Arad</option>
+    <option value="AG">Argeș</option>
+    <option value="BC">Bacău</option>
+    <option value="BH">Bihor</option>
+    <option value="BN">Bistrița-Năsăud</option>
+    <option value="BT">Botoșani</option>
+  </select>
+</label>
+
+<label for="second">
+  <select name="selected-judete" id="second" size="7" ondblclick="pb1(this, 'first')">
+    <option value="GL">Galati</option>
+  </select>
+</label>
+
+<br>
+
+<label for="third">
+  <select name="selected-litere" id="third" size="7" ondblclick="pb1(this, 'fourth')">
+    <option value="aqua">Aqua Carpatica</option>
+    <option value="flavours">Aqua Flavours</option>
+    <option value="borsec">Borsec</option>
+    <option value="dorna">Dorna</option>
+    <option value="Vivaldis">Vivaldis</option>
+  </select>
+</label>
+
+<label for="fourth">
+  <select name="selected-litere" id="fourth" size="7" ondblclick="pb1(this, 'third')">
+  </select>
+</label>
+
+</body>
+</html>

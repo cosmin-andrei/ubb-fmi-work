@@ -1,7 +1,12 @@
 var valori = [];
 var tile_ids = [];
 var flipped = 0;
-var variabile = ['1', '1', '2', '2', '3', '3', '4', '4', '5', '5', '6', '6'];
+var variabile = [
+  'img/bufny.jpg', 'img/bufny.jpg', 'img/berinde.jpg', 'img/berinde.jpg',
+  'img/gabi.jpg', 'img/gabi.jpg', 'img/suciu.jpg', 'img/suciu.jpg', 'img/vancea.jpg',
+  'img/vancea.jpg', 'img/pop.jpg', 'img/pop.jpg'
+];
+
 
 Array.prototype.tile_shuffle = function() {
   var i = this.length,
@@ -17,7 +22,7 @@ Array.prototype.tile_shuffle = function() {
 function FlipTile(tile, val) {
   if (tile.innerHTML == "" && valori.length < 2) {
     tile.style.background = '#CCFBFE';
-    tile.innerHTML =  val;
+    tile.innerHTML = '<img src="' + val + '" style="width: 100%; height: 100%;">';
     if (valori.length == 0) {
       valori.push(val);
       tile_ids.push(tile.id);

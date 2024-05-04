@@ -1,34 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="ro">
 <head>
   <meta charset="UTF-8">
   <title>Problema 3</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<!--Sa se implementeze folosind JavaScript urmatoarea problema.
-O matrice cu numar par de elemente, reprezentata vizual sub forma unui tabel,
-contine perechi de numere initial ascunse. Daca utilizatorul da click pe doua celule ale tabelului
-ce contin numere egale acestea vor fi afisate si vor ramane afisate. Daca numerele continute in cele
-doua celule nu sunt egale, vor fi ascunse din nou dupa un numar de 2, 3 secunde. Jocul se termina cand
-toate perechile de numere au fost ghicite. Dupa prima implementare a jocului, se va crea o noua versiune
-in care numerele vor fi inlocuite cu imagini (ce contin fructe spre exemplu, sau “profi” de pe pagina
-facultatii). Problema mai este recunoscuta si sub numele de Memory Game. Nu se vor folosi biblioteci de
-functii, jQuery, pluginuri, etc.-->
-
-<h1>
-  Memory Game
-</h1>
-
-<form onsubmit="">
-  <label for="nr">
-    Generate a table with the number of rows and columns equal to the number you entered above
-    <input type="text" id="nr">
-
-    <input type="submit" value="Send">
-  </label>
-</form>
-
-
+<div class="container">
+  <p class="title">Memory Game</p>
+  <div id="game"></div>
+  <a class="title" style="align-content: center;" href="/pb3/pb3b.html">Catre alt joc fain</a>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
