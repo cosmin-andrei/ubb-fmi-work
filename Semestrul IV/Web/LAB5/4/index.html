@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Problema 4</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body><div class="container">
+<table id="firstTable" style="width: 180px; margin-top: 1em;">
+  <tbody>
+  <tr>
+    <th class="sortable">Fructe</th>
+    <td>Mere</td>
+    <td>Pere</td>
+  </tr>
+  <tr>
+    <th class="sortable">Pret</th>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <th class="sortable">Cantitate</th>
+    <td>8</td>
+    <td>6</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+<br>
+<div class="container">
+<table id="secondTable" style="width: 180px; margin-top: 1em;">
+  <tbody>
+  <tr>
+    <th onclick="sortSecondTable(0,this)">Apa</th>
+    <th onclick="sortSecondTable(1,this)">Cantitate</th>
+    <th onclick="sortSecondTable(2,this)">Tip</th>
+  </tr>
+  <tr>
+    <td>Aqua Carpatica</td>
+    <td>0.5</td>
+    <td>minerala</td>
+  </tr>
+  <tr>
+    <td>Aqua Carpatica</td>
+    <td>2</td>
+    <td>plata</td>
+  </tr>
+  <tr>
+    <td>Dorna</td>
+    <td>0.5</td>
+    <td>minerala</td>
+  </tr>
+  <tr>
+    <td>Borsec</td>
+    <td>1</td>
+    <td>minerala</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>
