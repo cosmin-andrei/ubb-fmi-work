@@ -34,3 +34,9 @@
 - [X] [ PLF - Programare logica si functionala](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/PLF)
 - [X] [ PS - Probabilitati si statistica](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/PS)
 - [X] [ Retele de calculatoare](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20III/RETELE)
+
+### Semestrul IV
+- [X] [ AI - Inteligenta artificiala](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20IV/AI)
+- [X] [ MPP - Metode de Proiectare si Programare](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20IV/MPP)
+- [X] [ SGBD - Sisteme de gestiune a bazelor de date](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20IV/SGBD)
+- [X] [ Programare Web](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20IV/Web)  
