@@ -3,8 +3,8 @@ $(document).ready(function() {
         event.preventDefault();
 
         if (checkForm()) {
-            alert('Formularul a fost completat corect și a fost trimis.'); // Afișăm un mesaj de succes
-            $('#myForm')[0].reset(); // Resetează formularul
+            alert('Formularul a fost completat corect și a fost trimis.');
+            $('#myForm')[0].reset();
         }
     });
 
@@ -36,7 +36,7 @@ $(document).ready(function() {
         $('#name, #date, #age, #email').css('border-color', '');
 
         if (!checkName(name)) {
-            alert('Numele trebuie să aibă între 3a și 50 de caractere');
+            alert('Numele trebuie să aibă între 3 și 50 de caractere');
             $('#name').css('border-color', 'red');
             errors = true;
         }
@@ -59,10 +59,6 @@ $(document).ready(function() {
             errors = true;
         }
 
-        if (!errors) {
-            return true;
-        } else {
-            return false;
-        }
+        return !errors;
     }
 });

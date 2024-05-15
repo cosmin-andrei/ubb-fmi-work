@@ -1,7 +1,6 @@
-var empty, dim = 3;
+var emptyRow, emptyColumn, dim = 3;
 
 $(document).ready(function(){
-  generateTable();
   $(document).keydown(checkKey);
 });
 
@@ -12,7 +11,7 @@ function generateTable() {
   for (let i = 0; i < dim; i++) {
     output += '<tr>';
     for (let j = 0; j < dim; j++) {
-      output += `<td id='${i * dim + j}' ></td>`;
+      output += `<td id='cell_${i}_${j}' ></td>`;
     }
     output += '</tr>';
   }
@@ -23,41 +22,51 @@ function generateTable() {
     if (elem != dim * dim) {
       $(this).text(elem);
     } else {
-      empty = $(this).attr('id');
+      emptyRow = $(this).parent().index();
+      emptyColumn = $(this).index();
     }
   });
 }
 
-function swap(id1, id2) {
-  let aux = $("#" + id1).text();
-  $("#" + id1).text($("#" + id2).text());
-  $("#" + id2).text(aux);
-  empty = id2; // Actualizăm poziția casuței goale
+function swap(row1, col1, row2, col2) {
+  let cell1 = $(`#cell_${row1}_${col1}`);
+  let cell2 = $(`#cell_${row2}_${col2}`);
+  let aux = cell1.text();
+  cell1.text(cell2.text());
+  cell2.text(aux);
 }
 
 function checkKey(e) {
   e = e || window.event;
 
   if (e.keyCode == '38') {
-    if (empty - dim >= 0)
-      swap(empty, empty - dim);
-    else
-      alert('Nu in sus');
+    if (emptyRow > 0) {
+      swap(emptyRow, emptyColumn, emptyRow - 1, emptyColumn);
+      emptyRow--;
+    } else {
+      alert('Nu sus');
+    }
   } else if (e.keyCode == '40') {
-    if (empty + dim < dim * dim)
-      swap(empty, empty + dim);
-    else
-      alert('Nu in jos');
+    if (emptyRow < dim - 1) {
+      swap(emptyRow, emptyColumn, emptyRow + 1, emptyColumn);
+      emptyRow++;
+    } else {
+      alert('Nu jos');
+    }
   } else if (e.keyCode == '37') {
-    if (empty % dim != 0)
-      swap(empty, empty - 1);
-    else
-      alert('Nu in stanga');
+    if (emptyColumn > 0) {
+      swap(emptyRow, emptyColumn, emptyRow, emptyColumn - 1);
+      emptyColumn--;
+    } else {
+      alert('Nu stanga');
+    }
   } else if (e.keyCode == '39') {
-    if (empty % dim != dim - 1)
-      swap(empty, empty + 1);
-    else
-      alert('Nu in dreapta');
+    if (emptyColumn < dim - 1) {
+      swap(emptyRow, emptyColumn, emptyRow, emptyColumn + 1);
+      emptyColumn++;
+    } else {
+      alert('Nu dreapta');
+    }
   }
 }
 
