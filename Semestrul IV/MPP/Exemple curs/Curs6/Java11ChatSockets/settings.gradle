@@ -1,0 +1,10 @@
+rootProject.name = 'Java11ChatSockets'
+include 'ChatClientFX'
+include 'ChatClient'
+include 'ChatModel'
+include 'ChatNetworking'
+include 'ChatPersistence'
+include 'ChatPersistence'
+include 'ChatServer'
+include 'ChatServices'
+

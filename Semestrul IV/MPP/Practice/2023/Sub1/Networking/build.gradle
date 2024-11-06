@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group = 'ro.mpp2024'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation project(':Model')
+    implementation project (':Services')
+    implementation project (':Persistence')
+
+    implementation('com.google.code.gson:gson:2.8.8')
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+    implementation 'ch.qos.logback:logback-classic:1.2.6'
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mpp2024.controller.MainController">
+   <children>
+      <Button layoutX="316.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleLogout" text="Logout" />
+      <Label fx:id="lblPlayers" layoutX="36.0" layoutY="30.0" text="Jucatori conectati:" />
+      <Button layoutX="239.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleStart" text="Start joc" />
+      <Label fx:id="lblPropuneri" layoutX="36.0" layoutY="52.0" text="Caractere propuse:" />
+      <TextField fx:id="txtModel" layoutX="370.0" layoutY="53.0" />
+      <Label layoutX="370.0" layoutY="30.0" text="Propune un model" />
+      <Label fx:id="lblScore" layoutX="36.0" layoutY="78.0" text="Punctaj:" />
+      <TableView fx:id="tblClasament" layoutX="35.0" layoutY="183.0" prefHeight="115.0" prefWidth="225.0">
+        <columns>
+          <TableColumn fx:id="colPlayer" prefWidth="153.3333282470703" text="Jucator" />
+          <TableColumn fx:id="colScore" prefWidth="71.33334350585938" text="Punctaj" />
+        </columns>
+      </TableView>
+      <Label layoutX="36.0" layoutY="105.0" text="Runda:" />
+      <TextField fx:id="txtPlayer1" layoutX="370.0" layoutY="157.0" />
+      <TextField fx:id="txtPlayer2" layoutX="370.0" layoutY="216.0" />
+      <Label fx:id="lblPlayer1" layoutX="370.0" layoutY="134.0" />
+      <Label fx:id="lblPlayer2" layoutX="370.0" layoutY="195.0" />
+      <Button fx:id="bttnSend" layoutX="370.0" layoutY="255.0" mnemonicParsing="false" onAction="#handleSend" text="Trimite propunere" />
+      <Button fx:id="bttnTrimite" layoutX="370.0" layoutY="83.0" mnemonicParsing="false" onAction="#handleTrimite" text="Trimite" />
+   </children>
+</AnchorPane>

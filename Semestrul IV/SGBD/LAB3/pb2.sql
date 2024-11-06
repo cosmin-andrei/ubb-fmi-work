@@ -1,3 +1,7 @@
+USE Organizatie
+go
+
+
 CREATE OR ALTER FUNCTION dbo.validareNume (@nume varchar(30)) RETURNS INT AS
 BEGIN
 	declare @return INT
@@ -197,18 +201,146 @@ AS BEGIN
 	PRINT 'Tranzactie adaugata'
 
 END
+go 
+
+----VARIANTA CORECTA
+
+CREATE OR ALTER PROCEDURE AddTranzactie3
+	@nume_donator varchar(30), @email varchar(30), @telefon varchar(30),
+	@suma int, @data_donatie varchar(30)
+
+AS BEGIN
+
+	DECLARE @donatorStatus INT
+	DECLARE @donatieStatus INT
+	SET @donatorStatus=1
+	SET @donatieStatus = 1
+
+BEGIN TRY
+BEGIN TRAN
+
+	if dbo.validareNume(@nume_donator) <> 1
+		begin
+			print 'Nume donator'
+			raiserror('Nume donator invalid', 14, 1)
+		end
+
+	if dbo.validareEmail(@email) <> 1
+		begin
+			print 'Email donator'
+			raiserror('Email invalid', 14, 1)
+		end
+
+	if dbo.validareTelefon(@telefon) <> 1
+		begin
+			print 'Telefon donator'
+			raiserror('Telefon donator invalid', 14, 1)
+		end
+
+
+	INSERT INTO Donator(nume_donator, email_donator, telefon_donator) VALUES
+	(@nume_donator, @email, @telefon)
+
+	print 'Donator adaugat'
+
+	COMMIT TRAN
+	SELECT 'Transaction committed'
+
+END TRY
+
+BEGIN CATCH
+	ROLLBACK TRAN
+	print ERROR_MESSAGE();
+	SELECT 'Transaction rollbacked'
+	SET @donatorStatus = 0
+END CATCH
+
+BEGIN TRY
+BEGIN TRAN
+
+	if dbo.validareSuma(@suma) <> 1
+		begin
+			print 'Suma donatie'
+			raiserror('Suma donatie invalida', 14, 1)
+		end
+
+	if dbo.validareData(@data_donatie) <> 1
+		begin
+			print 'Data donatie'
+			raiserror('Data donatie invalida', 14, 1)
+		end
+
+	INSERT INTO Donatie(idONG, id_eveniment, suma_donatie, data_donatie) VALUES
+	(1, 1, @suma, @data_donatie)
+
+	print 'Donatie adaugata'
+
+	COMMIT TRAN
+	SELECT 'Transaction committed'
+
+END TRY
+
+BEGIN CATCH
+	ROLLBACK TRAN
+	print ERROR_MESSAGE();
+	SELECT 'Transaction rollbacked'
+	SET @donatieStatus = 0
+END CATCH
+
+BEGIN TRY
+BEGIN TRAN
+	if @donatorStatus <> 1
+		BEGIN
+			PRINT 'Donator not added'
+			return 0
+		END
+
+	if @donatieStatus <> 1
+		BEGIN
+			PRINT 'Donatie not added'
+			RETURN 0
+		END
+
+    declare @id_donator int;
+	declare @id_donatie int;
+
+	SELECT TOP 1 @id_donator = D.id_donator
+	FROM dbo.Donator as D
+	WHERE D.nume_donator = @nume_donator;
+
+	SELECT TOP 1 @id_donatie = D.id_donatie
+	FROM dbo.Donatie as D
+	WHERE D.suma_donatie = @suma and D.data_donatie = @data_donatie;
+
+	INSERT INTO Tranzactie VALUES (@id_donator, @id_donatie);
+
+	PRINT 'Tranzactie adaugata'
+	COMMIT TRAN
+	SELECT 'Transaction committed'
+
+END TRY
+BEGIN CATCH
+	ROLLBACK TRAN
+	print ERROR_MESSAGE();
+	SELECT 'Transaction rollbacked'
+	RETURN 0
+END CATCH
+
+END
+GO
+
 
 SELECT * FROM Tranzactie;
 SELECT * FROM Donator;
 SELECT * FROM Donatie;
 
-EXEC AddTranzactie2 '', 'aaaaa', 'orpe', '-5', '20 aaa';
+EXEC AddTranzactie3 '', 'aaaaa', 'orpe', '-5', '20 aaa';
 
 SELECT * FROM Tranzactie;
 SELECT * FROM Donator;
 SELECT * FROM Donatie;
 
-EXEC AddTranzactie2 'Andrei1122222111', 'andrei@onedu.ro','0773704567', '1001111110', '2024-12-20';
+EXEC AddTranzactie3 'Andrei1122222111', 'andrei@onedu.ro','0773704567', '1001111110', '2027-12-20';
 
 SELECT * FROM Tranzactie;
 SELECT * FROM Donator;

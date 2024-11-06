@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+    id 'application'
+}
+
+group 'Java11ChatSockets'
+version '1.0'
+
+
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version="17"
+    modules = [ 'javafx.controls', 'javafx.fxml'  ]
+}
+
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    implementation project (':ChatModel')
+    implementation project (':ChatServices')
+    implementation project (':ChatNetworking')
+
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.23.1'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.23.1'
+
+}
+
+application{
+    //mainClass='chat.client.StartRpcClientFX'
+    mainClass='chat.client.StartJsonClientFX'
+}
+

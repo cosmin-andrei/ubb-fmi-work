@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Facultate\\ubb-fmi-work\\Semestrul V\\Securitate soft\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68512B78-D647-4C02-961C-7BBEE49C70FA}|server\\server2.vcxproj|D:\\Facultate\\ubb-fmi-work\\Semestrul V\\Securitate soft\\server\\server.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68512B78-D647-4C02-961C-7BBEE49C70FA}|server\\server2.vcxproj|solutionrelative:server\\server.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0E467E-3F63-4C9B-9E5D-E0C437C62AAA}|client\\client2.vcxproj|D:\\Facultate\\ubb-fmi-work\\Semestrul V\\Securitate soft\\client\\client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C0E467E-3F63-4C9B-9E5D-E0C437C62AAA}|client\\client2.vcxproj|solutionrelative:client\\client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "server.c",
+              "DocumentMoniker": "D:\\Facultate\\ubb-fmi-work\\Semestrul V\\Securitate soft\\server\\server.c",
+              "RelativeDocumentMoniker": "server\\server.c",
+              "ToolTip": "D:\\Facultate\\ubb-fmi-work\\Semestrul V\\Securitate soft\\server\\server.c",
+              "RelativeToolTip": "server\\server.c",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-10T10:17:40.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "client.c",
+              "DocumentMoniker": "D:\\Facultate\\ubb-fmi-work\\Semestrul V\\Securitate soft\\client\\client.c",
+              "RelativeDocumentMoniker": "client\\client.c",
+              "ToolTip": "D:\\Facultate\\ubb-fmi-work\\Semestrul V\\Securitate soft\\client\\client.c",
+              "RelativeToolTip": "client\\client.c",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-10T10:14:36.38Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

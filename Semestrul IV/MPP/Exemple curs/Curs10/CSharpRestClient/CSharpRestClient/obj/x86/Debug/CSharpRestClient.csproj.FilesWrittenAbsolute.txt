@@ -1,0 +1,16 @@
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/bin/Debug/CSharpRestClient.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/bin/Debug/CSharpRestClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/bin/Debug/Newtonsoft.Json.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/bin/Debug/System.Net.Http.Formatting.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs9/CSharpRestClient/CSharpRestClient/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs9/CSharpRestClient/CSharpRestClient/bin/Debug/CSharpRestClient.exe.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs9/CSharpRestClient/CSharpRestClient/bin/Debug/CSharpRestClient.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs9/CSharpRestClient/CSharpRestClient/bin/Debug/CSharpRestClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs9/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs9/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.exe.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs9/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs9/CSharpRestClient/CSharpRestClient/bin/Debug/Newtonsoft.Json.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs9/CSharpRestClient/CSharpRestClient/bin/Debug/System.Net.Http.Formatting.dll

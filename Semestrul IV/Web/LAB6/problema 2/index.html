@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <title>Pb2</title>
+    <script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+    <script>
+        let noPage = 0;
+        let number = 3;
+
+        function checkNext(pageNumber) {
+            $.ajax({
+                type: "GET",
+                url: "noPersons.php",
+                data: {page: pageNumber},
+                success: function (data) {
+                    console.log("No rows: " + data);
+                    if (parseInt(data) > 0) {
+                        $('#next').prop('disabled', false);
+                    } else {
+                        $('#next').prop('disabled', true);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error occurred while checking next page:", error);
+                    $('#next').prop('disabled', true);
+                }
+            });
+        }
+
+        function showContent(pgNo) {
+            $.ajax({
+                type: "GET",
+                url: "showPersons.php",
+                data: {page: pgNo},
+                success: function (data) {
+                    $("#myTbl").html(data);
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error occurred while showing content:", error);
+                }
+            });
+        }
+
+        function setButtons(noPage) {
+            if (noPage - number < 0) {
+                $('#prev').prop('disabled', true);
+            } else {
+                $('#prev').prop('disabled', false);
+            }
+            checkNext(noPage + number);
+        }
+
+        $(document).ready(function () {
+            showContent(0);
+            $('#prev').prop('disabled', true);
+            checkNext(noPage + number);
+
+            $('#prev').click(function () {
+                noPage -= number;
+                showContent(noPage);
+                setButtons(noPage);
+            });
+
+            $('#next').click(function () {
+                noPage += number;
+                showContent(noPage);
+                setButtons(noPage);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<table id="myTbl">
+</table>
+<br>
+<button id="prev">Previous</button>
+<button id="next">Next</button>
+</body>
+</html>

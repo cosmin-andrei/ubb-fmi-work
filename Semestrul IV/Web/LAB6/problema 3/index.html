@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+    <script>
+        let idPerson = null;
+        let allSaved = true;
+
+        function getId() {
+            $.ajax({
+                type: "GET",
+                url: "idPerson.php",
+                success: function (data) {
+                    $("#lst").html(data);
+                }
+            });
+        }
+
+        function showPerson(id_person) {
+            idPerson = id_person;
+            $.ajax({
+                type: "GET",
+                url: "person.php",
+                data: {id: id_person},
+                success: function (data) {
+                    $("#frm").html(data);
+                    $("input").on("input", function () {
+                        allSaved = false;
+                        $("#bttn").removeAttr("disabled");
+                    });
+                }
+            });
+        }
+
+        function saveData(callback) {
+            let data = $("#frm").serializeArray();
+            data.push({name: "id", value: idPerson});
+            $.ajax({
+                type: "POST",
+                url: $("#frm").attr('action'),
+                data: $.param(data),
+                success: function (data) {
+                    alert(data);
+                    allSaved = true;
+                    $("#bttn").attr("disabled", "disabled");
+                    if (callback) callback();
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            getId();
+            $("#lst").on("change", function () {
+                let newIdPerson = $(this).val();
+                if (allSaved === false) {
+                    if (confirm("You have unsaved changes. Do you want to save them?")) {
+                        saveData(function() {
+                            showPerson(newIdPerson);
+                        });
+                    } else {
+                        showPerson(newIdPerson);
+                    }
+                } else {
+                    showPerson(newIdPerson);
+                }
+            });
+
+            $('#frm').on('submit', function (e) {
+                e.preventDefault();
+                saveData();
+            });
+
+        });
+    </script>
+    <title></title>
+</head>
+<body>
+
+<select id="lst">
+</select>
+<form action="updatePerson.php" method="post" id="frm">
+    <button type="submit" id="bttn" disabled>Save</button>
+</form>
+
+</body>
+</html>

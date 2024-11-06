@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="LAB1_C" targetName="LAB1_C" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b64e9f97-3ee1-4537-91cb-4c9c2afc81bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/dolphins/classLabeldolphins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/dolphins/dolphins.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/dolphins/real.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/football/classLabelfootball.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/football/football.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/football/real.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/karate/classLabelkarate.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/karate/karate.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/karate/real.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/krebs/classLabelkrebs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/krebs/krebs.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/krebs/real.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/communityDetection/data/net.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/dolphins.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/load_network.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs10/ComputerShop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/JavaChatSockets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs10/JavaChatSockets/NewReact-chat-client/NewReact-chat-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs10/JavaChatSockets/RestServices/.idea/modules/RestServices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs10/JavaChatSockets/chat-rest-client/chat-rest-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/8.4/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/StartObjectClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/StartRpcClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/gui/ChatClientCtrl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/gui/ChatWindow$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/gui/ChatWindow$ButListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/gui/ChatWindow$SendAllListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/gui/ChatWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/gui/FriendsListModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/gui/LoginWindow$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/gui/LoginWindow$ButListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/gui/LoginWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/classes/chat/client/gui/MessagesListModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/out/production/resources/chatclient.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/src/main/java/chat/client/StartObjectClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/src/main/java/chat/client/StartRpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/src/main/java/chat/client/gui/ChatClientCtrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/src/main/java/chat/client/gui/ChatWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/src/main/java/chat/client/gui/FriendsListModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/src/main/java/chat/client/gui/LoginWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/src/main/java/chat/client/gui/MessagesListModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClient/src/main/resources/chatclient.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/out/production/classes/chat/client/StartRpcClientFX.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/out/production/classes/chat/client/gui/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/out/production/classes/chat/client/gui/LoginController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/out/production/classes/chat/client/gui/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/out/production/classes/chat/client/gui/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/out/production/resources/ChatW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/out/production/resources/LoginW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/out/production/resources/chatclient.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/out/production/resources/log4j2-test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/src/main/java/chat/client/StartJsonClientFX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/src/main/java/chat/client/StartRpcClientFX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/src/main/java/chat/client/gui/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/src/main/java/chat/client/gui/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/src/main/java/chat/client/gui/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/src/main/resources/ChatW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/src/main/resources/LoginW.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/src/main/resources/chatclient.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatClientFX/src/main/resources/log4j2-test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatMPP2017.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatMPP2019.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatModel/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatModel/out/production/classes/chat/model/Identifiable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatModel/out/production/classes/chat/model/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatModel/out/production/classes/chat/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatModel/src/main/java/chat/model/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatModel/src/main/java/chat/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatModel/src/main/java/chat/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/dto/DTOUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/dto/MessageDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/ChatClientObjectWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/ChatServicesObjectProxy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/ChatServicesObjectProxy$ReaderThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/ChatServicesObjectProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/ErrorResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/FriendLoggedInResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/FriendLoggedOutResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/GetLoggedFriendsRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/GetLoggedFriendsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/LoginRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/LogoutRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/NewMessageResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/OkResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/SendMessageRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/objectprotocol/UpdateResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/ChatClientRpcReflectionWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/ChatClientRpcWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/ChatServicesRpcProxy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/ChatServicesRpcProxy$ReaderThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/ChatServicesRpcProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/Request$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/Request$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/RequestType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/Response$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/Response$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/rpcprotocol/ResponseType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/utils/AbsConcurrentServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/utils/AbstractServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/utils/ChatObjectConcurrentServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/utils/ChatRpcConcurrentServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/out/production/classes/chat/network/utils/ServerException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/dto/DTOUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/dto/MessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/jsonprotocol/ChatClientJsonWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/jsonprotocol/ChatServicesJsonProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/jsonprotocol/JsonProtocolUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/jsonprotocol/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/jsonprotocol/RequestType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/jsonprotocol/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/jsonprotocol/ResponseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/ChatClientObjectWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/ChatServicesObjectProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/FriendLoggedInResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/FriendLoggedOutResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/GetLoggedFriendsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/GetLoggedFriendsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/LogoutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/NewMessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/OkResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/SendMessageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/objectprotocol/UpdateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/rpcprotocol/ChatClientRpcReflectionWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/rpcprotocol/ChatClientRpcWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/rpcprotocol/ChatServicesRpcProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/rpcprotocol/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/rpcprotocol/RequestType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/rpcprotocol/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/rpcprotocol/ResponseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/utils/AbsConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/utils/AbstractServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/utils/ChatJsonConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/utils/ChatObjectConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/utils/ChatRpcConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatNetworking/src/main/java/chat/network/utils/ServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/out/production/classes/chat/persistence/ICrudRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/out/production/classes/chat/persistence/MessageRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/out/production/classes/chat/persistence/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/out/production/classes/chat/persistence/repository/jdbc/JdbcUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/out/production/classes/chat/persistence/repository/jdbc/MessageRepositoryJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/out/production/classes/chat/persistence/repository/jdbc/UserRepositoryJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/out/production/classes/chat/persistence/repository/mock/UserRepositoryMock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/src/main/java/chat/persistence/ICrudRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/src/main/java/chat/persistence/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/src/main/java/chat/persistence/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/src/main/java/chat/persistence/repository/jdbc/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/src/main/java/chat/persistence/repository/jdbc/MessageRepositoryJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/src/main/java/chat/persistence/repository/jdbc/UserRepositoryJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatPersistence/src/main/java/chat/persistence/repository/mock/UserRepositoryMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServer/ChatMPP2019.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServer/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServer/out/production/classes/StartObjectServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServer/out/production/classes/StartRpcServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServer/out/production/classes/chat/server/ChatServicesImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServer/out/production/resources/chatserver.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServer/src/main/java/StartJsonServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServer/src/main/java/StartObjectServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServer/src/main/java/StartRpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServer/src/main/java/chat/server/ChatServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServer/src/main/resources/chatserver.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServices/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServices/out/production/classes/chat/services/ChatException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServices/out/production/classes/chat/services/IChatObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServices/out/production/classes/chat/services/IChatServices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServices/src/main/java/chat/services/ChatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServices/src/main/java/chat/services/IChatObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/ChatServices/src/main/java/chat/services/IChatServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/Java11ChatSockets/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Client/src/main/java/StartJsonClientFX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Client/src/main/java/ro/mpp2024/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Client/src/main/java/ro/mpp2024/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Client/src/main/java/ro/mpp2024/controller/MessageAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Client/src/main/resources/client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Client/src/main/resources/login-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Client/src/main/resources/main-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Model/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Model/src/main/java/ro/mpp2024/model/Configuratie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Model/src/main/java/ro/mpp2024/model/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Model/src/main/java/ro/mpp2024/model/Jucator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/ClientJsonWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/JsonProtocolUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/RequestType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/ResponseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/ServicesJsonProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/src/main/java/ro/mpp2024/networking/utils/AbsConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/src/main/java/ro/mpp2024/networking/utils/AbstractServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/src/main/java/ro/mpp2024/networking/utils/JsonConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Networking/src/main/java/ro/mpp2024/networking/utils/ServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Persistence/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Persistence/src/main/java/ro/mpp2024/repository/ConfiguratieRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Persistence/src/main/java/ro/mpp2024/repository/HibernateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Persistence/src/main/java/ro/mpp2024/repository/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Persistence/src/main/java/ro/mpp2024/repository/JucatorRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Persistence/src/main/java/ro/mpp2024/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Persistence/src/main/java/ro/mpp2024/repository/interfaces/ConfiguratieRepoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Persistence/src/main/java/ro/mpp2024/repository/interfaces/JucatorRepoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Persistence/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/RestServices/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/RestServices/src/main/java/ro/mpp2024/StartRestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/RestServices/src/main/java/ro/mpp2024/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Server/src/main/java/ro/mpp2024/StartJsonServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Server/src/main/java/ro/mpp2024/server/ServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Server/src/main/resources/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Services/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Services/src/main/java/ro/mpp2024/service/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Services/src/main/java/ro/mpp2024/service/IServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/Services/src/main/java/ro/mpp2024/service/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/examen.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2022/7iul-ghicestecuvantul/src/main/java/ro/mpp2024/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Client/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Client/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Client/src/main/java/StartJsonClientFX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Client/src/main/java/ro/mpp2024/client/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Client/src/main/java/ro/mpp2024/client/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Client/src/main/java/ro/mpp2024/client/MessageAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Client/src/main/resources/client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Client/src/main/resources/login-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Client/src/main/resources/main-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Model/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Model/src/main/java/ro/mpp2024/Configuratie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Model/src/main/java/ro/mpp2024/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Model/src/main/java/ro/mpp2024/Jucator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Model/src/main/java/ro/mpp2024/Runda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Model/src/main/java/ro/mpp2024/RundaCurenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/src/main/java/ro/mpp2024/jsonprotocol/ClientJsonWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/src/main/java/ro/mpp2024/jsonprotocol/JsonProtocolUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/src/main/java/ro/mpp2024/jsonprotocol/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/src/main/java/ro/mpp2024/jsonprotocol/RequestType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/src/main/java/ro/mpp2024/jsonprotocol/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/src/main/java/ro/mpp2024/jsonprotocol/ResponseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/src/main/java/ro/mpp2024/jsonprotocol/ServicesJsonProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/src/main/java/ro/mpp2024/utils/AbsConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/src/main/java/ro/mpp2024/utils/AbstractServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/src/main/java/ro/mpp2024/utils/JsonConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Networking/src/main/java/ro/mpp2024/utils/ServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/java/ro/mpp2024/ConfiguratieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/java/ro/mpp2024/IRepositories/IConfiguratieRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/java/ro/mpp2024/IRepositories/IJucatorRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/java/ro/mpp2024/IRepositories/IRundaCurentaRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/java/ro/mpp2024/IRepositories/IRundaRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/java/ro/mpp2024/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/java/ro/mpp2024/JucatorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/java/ro/mpp2024/RundaCurentaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/java/ro/mpp2024/RundaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/java/ro/mpp2024/utils/HibernateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/java/ro/mpp2024/utils/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Persistence/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Server/src/main/java/ro/mpp2024/StartJsonServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Server/src/main/java/ro/mpp2024/server/ServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Server/src/main/resources/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Services/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Services/src/main/java/ro/mpp2024/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Services/src/main/java/ro/mpp2024/IServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/Services/src/main/java/ro/mpp2024/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/joc.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub1/src/main/java/ro/mpp2024/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Client/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Client/target/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Model/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Model/src/main/java/ro/mpp2024/model/Configuratie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Model/src/main/java/ro/mpp2024/model/Cuvant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Model/src/main/java/ro/mpp2024/model/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Model/src/main/java/ro/mpp2024/model/Jucator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Model/src/main/java/ro/mpp2024/model/Runda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/ClientJsonWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/JsonProtocolUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/RequestType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/ResponseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/ServicesJsonProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/java/ro/mpp2024/networking/utils/AbsConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/java/ro/mpp2024/networking/utils/AbstractServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/java/ro/mpp2024/networking/utils/JsonConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/java/ro/mpp2024/networking/utils/ServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Networking/target/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Persistence/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Persistence/src/main/java/ro/mpp2024/repository/CuvantRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Persistence/src/main/java/ro/mpp2024/repository/HibernateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Persistence/src/main/java/ro/mpp2024/repository/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Persistence/src/main/java/ro/mpp2024/repository/JucatorRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Persistence/src/main/java/ro/mpp2024/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Persistence/src/main/java/ro/mpp2024/repository/RundaRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Persistence/src/main/java/ro/mpp2024/repository/interfaces/CuvantRepoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Persistence/src/main/java/ro/mpp2024/repository/interfaces/JucatorRepoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Persistence/src/main/java/ro/mpp2024/repository/interfaces/RundaRepoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Persistence/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/RestServices/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/RestServices/src/main/java/ro/mpp2024/StartRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/RestServices/src/main/java/ro/mpp2024/StartRestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/RestServices/src/main/java/ro/mpp2024/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/RestServices/src/main/java/ro/mpp2024/model/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/RestServices/src/main/java/ro/mpp2024/model/Runda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/RestServices/src/main/java/ro/mpp2024/repository/HibernateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/RestServices/src/main/java/ro/mpp2024/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/RestServices/src/main/java/ro/mpp2024/repository/RundaRepoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/RestServices/src/main/java/ro/mpp2024/repository/RundaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/RestServices/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Server/src/main/java/ro/mpp2024/StartJsonServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Server/src/main/java/ro/mpp2024/server/ServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Server/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Server/src/main/resources/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Server/target/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Services/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Services/src/main/java/ro/mpp2024/service/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Services/src/main/java/ro/mpp2024/service/IServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub3/Services/src/main/java/ro/mpp2024/service/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Client/src/main/java/StartJsonClientFX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Client/src/main/java/ro/mpp2024/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Client/src/main/java/ro/mpp2024/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Client/src/main/java/ro/mpp2024/controller/MessageAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Client/src/main/resources/client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Client/src/main/resources/login-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Client/src/main/resources/main-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Model/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Model/src/main/java/ro/mpp2024/model/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Model/src/main/java/ro/mpp2024/model/Jucator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/ClientJsonWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/JsonProtocolUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/RequestType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/ResponseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/src/main/java/ro/mpp2024/networking/jsonprotocol/ServicesJsonProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/src/main/java/ro/mpp2024/networking/utils/AbsConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/src/main/java/ro/mpp2024/networking/utils/AbstractServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/src/main/java/ro/mpp2024/networking/utils/JsonConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Networking/src/main/java/ro/mpp2024/networking/utils/ServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Persistence/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Persistence/src/main/java/ro/mpp2024/repository/HibernateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Persistence/src/main/java/ro/mpp2024/repository/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Persistence/src/main/java/ro/mpp2024/repository/JucatorRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Persistence/src/main/java/ro/mpp2024/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Persistence/src/main/java/ro/mpp2024/repository/interfaces/JucatorRepoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Persistence/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/RestServices/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/RestServices/src/main/java/ro/mpp2024/StartRestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/RestServices/src/main/java/ro/mpp2024/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Server/src/main/java/ro/mpp2024/StartJsonServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Server/src/main/java/ro/mpp2024/server/ServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Server/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Server/src/main/resources/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Server/target/Jurnalizare.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Services/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Services/src/main/java/ro/mpp2024/service/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Services/src/main/java/ro/mpp2024/service/IServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/Services/src/main/java/ro/mpp2024/service/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/examen.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Practice/2023/Sub4/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/.idea/.idea.Deadlock/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/.idea/.idea.Deadlock/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/.idea/.idea.Deadlock/.idea/copilot/chatSessions/blobs/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/.idea/.idea.Deadlock/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/Deadlock.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/Deadlock.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/Deadlock.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/Deadlock.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/Deadlock.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Deadlock.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Deadlock.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Deadlock.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/ref/Deadlock.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/refint/Deadlock.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/Deadlock/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB4/Deadlock .NET/creare_proceduri.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.idea/.idea.Cofetarie/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.idea/.idea.Cofetarie/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.idea/.idea.Cofetarie/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.idea/.idea.Cofetarie/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/FileContentIndex/23b787cc-a6af-4c87-8795-e95863933bbb.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/FileContentIndex/cf5804b7-bc7e-4618-be47-105244bad3f0.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/FileContentIndex/read.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/v17/.futdcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/ProjectEvaluation/cofetarie.metadata.v7.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/ProjectEvaluation/cofetarie.projects.v7.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/Form1.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/Cofetarie.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/Cofetarie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/Cofetarie.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/Cofetarie.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/Cofetarie.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Cofetarie.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Cofetarie.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Cofetarie.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.Form1.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.designer.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.designer.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/ref/Cofetarie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/refint/Cofetarie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Cofetarie - pb1/DB.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/copilot/chatSessions/blobs/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/.vs/Biscuiti/FileContentIndex/0cfffa1d-cd3f-4b42-bf8a-84e1db4c8b3c.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/.vs/Biscuiti/FileContentIndex/336894be-2ff7-48be-9bce-620ae1ae403e.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/.vs/Biscuiti/FileContentIndex/read.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/.vs/Biscuiti/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/BiscuitiForm.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/Biscuiti.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/Biscuiti.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/Biscuiti.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/Biscuiti.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/Biscuiti.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Biscuiti.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Biscuiti.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Biscuiti.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.BiscuitiForm.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.designer.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.designer.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/ref/Biscuiti.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/refint/Biscuiti.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/Biscuiti/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Fabrica-pb3/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/.idea/.idea.Playlist/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/.idea/.idea.Playlist/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/.vs/Playlist/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/.vs/Playlist/FileContentIndex/75563327-468f-474e-8bb1-cf6d8ac44605.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/.vs/Playlist/FileContentIndex/a5226e2f-b20b-4864-ad63-47d3f941f8db.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/Playlist.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/Playlist.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/Playlist.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/Playlist.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/Playlist.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.Form1.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/ref/Playlist.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/refint/Playlist.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/.idea/LAB6-BUN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/composer.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 1/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 1/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 1/jquery-2.0.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 1/showArrivals.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 1/showDepartures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 2/noPersons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 2/showPersons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 3/idPerson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 3/person.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 3/updatePerson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 4/game.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 4/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 5/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 5/treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/problema 6/produse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB6/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/.idea/LAB7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb2/showProduse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/confirm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/registerForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/composer/installed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/composer/platform_check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/COMMITMENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/get_oauth_token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-af.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-as.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-bn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-hy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-mn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-si.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr_latn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-tl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/DSNConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/OAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/OAuthTokenProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/PHPMailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/POP3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/SMTP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb5/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb5/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb5/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb5/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb5/profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb5/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb5/uploads/319238273_880184436661611_592064114877492578_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb6/addComm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb6/approve.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb6/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb6/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb6/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb6/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb6/showComments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB7/pb6/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/L3/.idea/L3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/L3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/L3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/L3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/.idea/Tema 1-P2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/FIP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/TS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/extract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/lexical.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema 1-P2/program.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LTFC/Tema1-part3/.idea/Tema1-part3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InClass2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InClass2/.idea/InClass2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InClass2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InClass2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InClass2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InClass2/main_vectori.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InClass2/work.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LAB1-C.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5ec68a4844679c0a9c7c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-LAB1_C-Debug-de1692ce66b1a8d83116.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LAB1_C.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/LAB1_C.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/LAB1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/data/data1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/data/data2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/data/data3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/data/data4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/data/date.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/data/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/parallel/Col_Conv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/parallel/ConvThreads/ConvColThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/parallel/ConvThreads/ConvLineThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/parallel/Line_Conv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/sequential/Convolutie_Secventiala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/.idea/LAB10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/.idea/LAB10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/football.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/dolphins/classLabeldolphins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/dolphins/dolphins.gml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/dolphins/real.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/football/classLabelfootball.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/football/football.gml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/football/real.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/karate/classLabelkarate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/karate/karate.gml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/karate/real.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/krebs/classLabelkrebs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/krebs/krebs.gml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB10/real/krebs/real.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB8/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestrul IV/AI/LAB8/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/MPP/Exemple curs/Curs6/JavaChatSockets.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB1/SGBDLAB/ParticipantiForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB1/SGBDLAB/ParticipantiForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB3/pb1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB3/pb1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB3/pb2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestrul IV/SGBD/LAB3/pb2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB5/3b/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB5/3b/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB5/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB5/4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB5/4/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Semestrul IV/Web/LAB5/4/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2npVpM546qv3E2x1BuYziZ3oDqA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;CMake Application.LAB1_C.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Facultate/ubb-fmi-work/Semestrul V/PPD/LAB1-C&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="LAB1_C" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LAB1_C" TARGET_NAME="LAB1_C" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LAB1_C" RUN_TARGET_NAME="LAB1_C">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b64e9f97-3ee1-4537-91cb-4c9c2afc81bd" name="Changes" comment="" />
+      <created>1729670185243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729670185243</updated>
+      <workItem from="1729670186873" duration="4676000" />
+      <workItem from="1729677832203" duration="59000" />
+      <workItem from="1729677904011" duration="7000" />
+      <workItem from="1729677988046" duration="3517000" />
+      <workItem from="1729688475181" duration="4685000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
+  </component>
+</project>

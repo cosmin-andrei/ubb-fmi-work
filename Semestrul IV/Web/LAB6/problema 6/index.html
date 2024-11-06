@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Problema 6</title>
+    <script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+    <script>
+        function colectData() {
+            return [$("#producator").find('option:selected').text(),
+                $("#procesor").find('option:selected').text(),
+                $("#memorie").find('option:selected').text(),
+                $("#capacitatehdd").find('option:selected').text(),
+                $("#placaVideo").find('option:selected').text(),
+            ]
+        }
+
+        function showContent() {
+            $.ajax({
+                type: "GET",
+                url: "produse.php",
+                data: {items: colectData()},
+                success: function (data, status) {
+                    $("#myTable").html(data);
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            showContent();
+
+            $('select').change(function () {
+                $(this).val();
+                showContent();
+            });
+        });
+    </script>
+</head>
+<body>
+<table id="myTable"></table>
+<br><br>
+<div id="filters">
+    <label>
+        Producator:
+        <select id="producator">
+            <option value="none"></option>
+            <option value="Asus">Asus</option>
+            <option value="Dell">Dell</option>
+            <option value="HP">HP</option>
+            <option value="Acer">Acer</option>
+            <option value="Lenovo">Lenovo</option>
+        </select>
+    </label>
+    <br>
+    <label>
+        Procesor:
+        <select id="procesor">
+            <option value="none"></option>
+            <option value="Intel Core i3">Intel Core i3</option>
+            <option value="Intel Core i5">Intel Core i5</option>
+            <option value="Intel Core i7">Intel Core i7</option>
+            <option value="AMD Ryzen 5">AMD Ryzen 5</option>
+            <option value="AMD Ryzen 7">AMD Ryzen 7</option>
+        </select>
+    </label>
+    <br>
+    <label>
+        Memorie(GB):
+        <select id="memorie">
+            <option value="none"></option>
+            <option value="4">4</option>
+            <option value="8">8</option>
+            <option value="16">16</option>
+            <option value="32">32</option>
+            <option value="64">64</option>
+        </select>
+    </label>
+    <br>
+    <label>
+        HDD (GB):
+        <select id="capacitateHdd">
+            <option value="none"></option>
+            <option value="128">128</option>
+            <option value="256">256</option>
+            <option value="512">512</option>
+            <option value="1024">1024</option>
+        </select>
+    </label>
+    <br>
+    <label>
+        Placa Video:
+        <select id="placaVideo">
+            <option value="none"></option>
+            <option value="NVIDIA GeForce GTX 1050">NVIDIA GeForce GTX 1050</option>
+            <option value="AMD Radeon RX 560">AMD Radeon RX 560</option>
+            <option value="NVIDIA GeForce RTX 2060">NVIDIA GeForce RTX 2060</option>
+            <option value="Intel UHD Graphics 620">Intel UHD Graphics 620</option>
+            <option value="NVIDIA GeForce GTX 1660 Ti">NVIDIA GeForce GTX 1660 Ti</option>
+        </select>
+    </label>
+</div>
+</body>
+</html>

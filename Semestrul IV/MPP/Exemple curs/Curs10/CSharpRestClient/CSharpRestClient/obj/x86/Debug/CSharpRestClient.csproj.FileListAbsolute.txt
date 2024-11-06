@@ -1,0 +1,9 @@
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/bin/Debug/CSharpRestClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/bin/Debug/CSharpRestClient.exe.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/bin/Debug/Newtonsoft.Json.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/bin/Debug/System.Net.Http.Formatting.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/bin/Debug/Newtonsoft.Json.xml
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/bin/Debug/System.Net.Http.Formatting.xml
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.csprojResolveAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs10/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.exe.mdb

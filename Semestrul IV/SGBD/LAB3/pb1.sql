@@ -1,3 +1,6 @@
+USE Organizatie
+go
+
 CREATE OR ALTER FUNCTION dbo.validareNume (@nume varchar(30)) RETURNS INT AS
 BEGIN
 	declare @return INT

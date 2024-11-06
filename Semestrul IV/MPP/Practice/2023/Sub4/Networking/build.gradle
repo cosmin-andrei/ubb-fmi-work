@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'ro.mpp2024'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project (':Model')
+    implementation project (':Services')
+
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.rabbitmq:amqp-client:5.15.0'
+}

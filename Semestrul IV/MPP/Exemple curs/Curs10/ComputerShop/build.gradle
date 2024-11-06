@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+
+}
+
+group 'ComputerShop'
+version '1.0'
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    //compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+
+    //compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.1'
+
+    //compile 'org.springframework:spring-context:5.1.5.RELEASE'
+
+
+    //runtime group: 'org.xerial', name: 'sqlite-jdbc', version: '3.34.0'
+
+
+}
+
+

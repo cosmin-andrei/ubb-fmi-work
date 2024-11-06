@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="582.0" prefWidth="436.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mpp2024.client.MainController">
+   <children>
+      <Label fx:id="lbl11" alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="21.0" onMouseClicked="#handle11" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl12" alignment="CENTER" contentDisplay="CENTER" layoutX="123.0" layoutY="21.0" onMouseClicked="#handle12" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl13" alignment="CENTER" contentDisplay="CENTER" layoutX="225.0" layoutY="21.0" onMouseClicked="#handle13" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl14" alignment="CENTER" contentDisplay="CENTER" layoutX="328.0" layoutY="21.0" onMouseClicked="#handle14" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl21" alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="84.0" onMouseClicked="#handle21" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl31" alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="148.0" onMouseClicked="#handle31" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl22" alignment="CENTER" contentDisplay="CENTER" layoutX="123.0" layoutY="84.0" onMouseClicked="#handle22" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl32" alignment="CENTER" contentDisplay="CENTER" layoutX="123.0" layoutY="148.0" onMouseClicked="#handle32" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl23" alignment="CENTER" contentDisplay="CENTER" layoutX="225.0" layoutY="84.0" onMouseClicked="#handle23" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl24" alignment="CENTER" contentDisplay="CENTER" layoutX="328.0" layoutY="84.0" onMouseClicked="#handle24" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl33" alignment="CENTER" contentDisplay="CENTER" layoutX="225.0" layoutY="148.0" onMouseClicked="#handle33" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl34" alignment="CENTER" contentDisplay="CENTER" layoutX="328.0" layoutY="148.0" onMouseClicked="#handle34" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl41" alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="212.0" onMouseClicked="#handle41" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl42" alignment="CENTER" contentDisplay="CENTER" layoutX="123.0" layoutY="212.0" onMouseClicked="#handle42" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl43" alignment="CENTER" contentDisplay="CENTER" layoutX="225.0" layoutY="212.0" onMouseClicked="#handle43" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="lbl44" alignment="CENTER" contentDisplay="CENTER" layoutX="328.0" layoutY="212.0" onMouseClicked="#handle44" prefHeight="59.0" prefWidth="91.0" style="-fx-border-color: black;" text="Indiciu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="22.0" layoutY="288.0" text="Nr. incercari" />
+      <TextField fx:id="lblNrIncercari" layoutX="22.0" layoutY="305.0" prefHeight="25.0" prefWidth="64.0" />
+      <Label layoutX="109.0" layoutY="288.0" text="Indiciu" />
+      <TextField fx:id="lblIndiciu" layoutX="109.0" layoutY="305.0" prefHeight="25.0" prefWidth="131.0" />
+      <TextField fx:id="lblDistanta" layoutX="254.0" layoutY="305.0" prefHeight="25.0" prefWidth="56.0" />
+      <Label layoutX="254.0" layoutY="288.0" text="Distanta" />
+      <TableView fx:id="tblRunde" layoutX="4.0" layoutY="346.0" prefHeight="194.0" prefWidth="427.0">
+        <columns>
+          <TableColumn fx:id="colJucator" prefWidth="105.33331298828125" text="Jucator" />
+          <TableColumn fx:id="colScor" prefWidth="72.00003051757812" text="Scor" />
+            <TableColumn fx:id="colIndiciu" prefWidth="146.66668701171875" text="Indiciu" />
+            <TableColumn fx:id="colData" prefWidth="103.66668701171875" text="Data" />
+        </columns>
+      </TableView>
+      <Button layoutX="189.0" layoutY="543.0" mnemonicParsing="false" onAction="#handleLogout" text="Logout" />
+   </children>
+</AnchorPane>

@@ -1,7 +1,7 @@
-var valori = [];
-var tile_ids = [];
-var flipped = 0;
-var variabile = [
+let valori = [];
+let tile_ids = [];
+let flipped = 0;
+const variabile = [
     'img/bufny.jpg', 'img/bufny.jpg', 'img/berinde.jpg', 'img/berinde.jpg',
     'img/gabi.jpg', 'img/gabi.jpg', 'img/suciu.jpg', 'img/suciu.jpg', 'img/vancea.jpg',
     'img/vancea.jpg', 'img/pop.jpg', 'img/pop.jpg'
@@ -19,20 +19,20 @@ Array.prototype.tile_shuffle = function() {
 }
 
 function FlipTile(tile, val) {
-    if ($(tile).html() == "" && valori.length < 2) {
+    if ($(tile).html() === "" && valori.length < 2) {
         $(tile).css("background", "#CCFBFE");
-        $(tile).html('<img src="' + val + '" style="width: 100%; height: 100%;">');
-        if (valori.length == 0) {
+        $(tile).html('<img src="' + val + '" style="width: 100%; height: 100%;" alt="imagee">');
+        if (valori.length === 0) {
             valori.push(val);
             tile_ids.push(tile.id);
-        } else if (valori.length == 1) {
+        } else if (valori.length === 1) {
             valori.push(val);
             tile_ids.push(tile.id);
-            if (valori[0] == valori[1]) {
+            if (valori[0] === valori[1]) {
                 flipped += 2;
                 valori = [];
                 tile_ids = [];
-                if (flipped == variabile.length) {
+                if (flipped === variabile.length) {
                     alert("Game over!");
                     $("#game").empty();
                     newPatrat();

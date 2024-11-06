@@ -1,0 +1,8 @@
+rootProject.name = 'Sub1'
+include 'Model'
+include 'Persistence'
+include 'Services'
+include 'Server'
+include 'Networking'
+include 'Client'
+

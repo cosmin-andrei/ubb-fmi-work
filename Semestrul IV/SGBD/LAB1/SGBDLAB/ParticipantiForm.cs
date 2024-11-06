@@ -53,6 +53,7 @@ namespace SGBDLAB
                     _bsChild.DataSource = _bsParent;
                     _bsChild.DataMember = "FK_Evenimente_Angajati";
                     dataGridViewChild.DataSource = _bsChild;
+                 
                 }
             }
             catch (Exception ex)

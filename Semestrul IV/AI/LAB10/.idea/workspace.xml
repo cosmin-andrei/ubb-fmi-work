@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fbccbbb-f5f6-49e1-9e8d-c0f0212e6ba5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/dolphins/classLabeldolphins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/dolphins/dolphins.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/dolphins/real.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/football/classLabelfootball.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/football/football.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/football/real.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/karate/classLabelkarate.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/karate/karate.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/karate/real.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/krebs/classLabelkrebs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/krebs/krebs.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/krebs/real.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communityDetection/data/net.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dolphins.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_network.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/ComputerShop/.idea/ComputerShop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/ComputerShop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/ComputerShop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatClient/JavaChatSockets.ChatClient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatClient/JavaChatSockets.ChatClient.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatClient/JavaChatSockets.ChatClient.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatModel/JavaChatSockets.ChatModel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatModel/JavaChatSockets.ChatModel.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatModel/JavaChatSockets.ChatModel.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatNetworking/JavaChatSockets.ChatNetworking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatNetworking/JavaChatSockets.ChatNetworking.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatNetworking/JavaChatSockets.ChatNetworking.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatPersistence/JavaChatSockets.ChatPersistence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatPersistence/JavaChatSockets.ChatPersistence.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatPersistence/JavaChatSockets.ChatPersistence.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatServer/JavaChatSockets.ChatServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatServer/JavaChatSockets.ChatServer.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatServer/JavaChatSockets.ChatServer.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatServices/JavaChatSockets.ChatServices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatServices/JavaChatSockets.ChatServices.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/ChatServices/JavaChatSockets.ChatServices.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/JavaChatSockets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/JavaChatSockets.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/JavaChatSockets.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/RestServices/JavaChatSockets.RestServices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/RestServices/JavaChatSockets.RestServices.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/.idea/modules/RestServices/JavaChatSockets.RestServices.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/NewReact-chat-client/NewReact-chat-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/RestServices/.idea/modules/RestServices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPP/Exemple curs/Curs10/JavaChatSockets/chat-rest-client/chat-rest-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/.idea/.idea.Deadlock/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/.idea/.idea.Deadlock/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/.idea/.idea.Deadlock/.idea/copilot/chatSessions/blobs/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/.idea/.idea.Deadlock/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/Deadlock.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/Deadlock.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/Deadlock.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/Deadlock.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/Deadlock.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Deadlock.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Deadlock.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Deadlock.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/Deadlock.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/ref/Deadlock.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/Debug/net7.0/refint/Deadlock.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/Deadlock/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/LAB4/Deadlock .NET/creare_proceduri.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.idea/.idea.Cofetarie/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.idea/.idea.Cofetarie/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.idea/.idea.Cofetarie/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.idea/.idea.Cofetarie/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/FileContentIndex/23b787cc-a6af-4c87-8795-e95863933bbb.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/FileContentIndex/cf5804b7-bc7e-4618-be47-105244bad3f0.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/FileContentIndex/read.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/v17/.futdcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/Cofetarie/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/ProjectEvaluation/cofetarie.metadata.v7.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/.vs/ProjectEvaluation/cofetarie.projects.v7.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/Form1.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/Cofetarie.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/Cofetarie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/Cofetarie.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/Cofetarie.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/Cofetarie.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/bin/Debug/net7.0-windows/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Cofetarie.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Cofetarie.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Cofetarie.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.Form1.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.designer.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.designer.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/Cofetarie.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/ref/Cofetarie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/Debug/net7.0-windows/refint/Cofetarie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/Cofetarie/Cofetarie/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Cofetarie - pb1/DB.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/copilot/chatSessions/blobs/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/.idea/.idea.Biscuiti/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/.vs/Biscuiti/FileContentIndex/0cfffa1d-cd3f-4b42-bf8a-84e1db4c8b3c.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/.vs/Biscuiti/FileContentIndex/336894be-2ff7-48be-9bce-620ae1ae403e.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/.vs/Biscuiti/FileContentIndex/read.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/.vs/Biscuiti/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/BiscuitiForm.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/Biscuiti.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/Biscuiti.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/Biscuiti.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/Biscuiti.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/Biscuiti.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/bin/Debug/net7.0-windows/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Biscuiti.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Biscuiti.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Biscuiti.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.BiscuitiForm.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.designer.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.designer.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/Biscuiti.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/ref/Biscuiti.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/Debug/net7.0-windows/refint/Biscuiti.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/Biscuiti/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Fabrica-pb3/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/.idea/.idea.Playlist/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/.idea/.idea.Playlist/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/.vs/Playlist/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/.vs/Playlist/FileContentIndex/75563327-468f-474e-8bb1-cf6d8ac44605.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/.vs/Playlist/FileContentIndex/a5226e2f-b20b-4864-ad63-47d3f941f8db.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/Playlist.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/Playlist.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/Playlist.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/Playlist.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/Playlist.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/bin/Debug/net7.0-windows/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.Form1.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/Playlist.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/ref/Playlist.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SGBD/Practice/Playlist - pb2/Playlist/Playlist/obj/Debug/net7.0-windows/refint/Playlist.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/.idea/LAB6-BUN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/composer.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 1/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 1/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 1/jquery-2.0.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 1/showArrivals.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 1/showDepartures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 2/noPersons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 2/showPersons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 3/idPerson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 3/person.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 3/updatePerson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 4/game.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 4/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 5/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 5/treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/problema 6/produse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB6/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/.idea/LAB7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb2/showProduse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/confirm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/registerForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/composer/installed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/composer/platform_check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/COMMITMENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/get_oauth_token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-af.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-as.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-bn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-hy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-mn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-si.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr_latn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-tl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/DSNConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/OAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/OAuthTokenProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/PHPMailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/POP3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb4/vendor/phpmailer/phpmailer/src/SMTP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb5/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb5/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb5/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb5/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb5/profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb5/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb5/uploads/319238273_880184436661611_592064114877492578_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb6/addComm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb6/approve.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb6/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb6/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb6/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb6/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb6/showComments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/LAB7/pb6/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LAB10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LAB10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/football.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/dolphins/classLabeldolphins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/dolphins/dolphins.gml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/dolphins/real.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/football/classLabelfootball.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/football/football.gml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/football/real.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/karate/classLabelkarate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/karate/karate.gml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/karate/real.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/krebs/classLabelkrebs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/krebs/krebs.gml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real/krebs/real.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SGBD/LAB1/SGBDLAB/ParticipantiForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGBD/LAB1/SGBDLAB/ParticipantiForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SGBD/LAB3/pb1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGBD/LAB3/pb1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SGBD/LAB3/pb2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGBD/LAB3/pb2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/LAB5/3b/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/LAB5/3b/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/LAB5/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/LAB5/4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/LAB5/4/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/LAB5/4/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gaC5ATCrxEFIOZtPFstB8EmcIh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fbccbbb-f5f6-49e1-9e8d-c0f0212e6ba5" name="Changes" comment="" />
+      <created>1715926116105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715926116105</updated>
+      <workItem from="1715926117501" duration="2790000" />
+      <workItem from="1716189018325" duration="18000" />
+      <workItem from="1716712416837" duration="2000" />
+      <workItem from="1716757060645" duration="1000" />
+      <workItem from="1716967188105" duration="9000" />
+      <workItem from="1717218781138" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

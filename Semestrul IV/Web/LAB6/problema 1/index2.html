@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <script>
+        function getDepartures() {
+            var xmlhttp = GetXmlHttpObject();
+            var url = "showDepartures.php";
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+                    document.getElementById("departures").innerHTML = xmlhttp.responseText;
+                }
+            };
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send(null);
+        }
+
+        function getArrivals(elem) {
+            var xmlhttp = GetXmlHttpObject();
+            console.log("Intra " + elem.value);
+            var url = "showArrivals.php?name=" + elem.value;
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+                    document.getElementById("arrivals").innerHTML = xmlhttp.responseText;
+                }
+            };
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send(null);
+        }
+
+        function GetXmlHttpObject() {
+            if (window.XMLHttpRequest) {
+                return new XMLHttpRequest();
+            }
+            if (window.ActiveXObject) {
+                return new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            return null;
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            getDepartures();
+            document.getElementById("departures").addEventListener("change", function() {
+                var selectedOption = this.options[this.selectedIndex];
+                getArrivals(selectedOption);
+            });
+        });
+    </script>
+    <title>Transport</title>
+</head>
+<body>
+
+<span>
+    <label>
+        Statii plecare:
+        <select id="departures" multiple size="6">
+        </select>
+    </label>
+</span>
+<span>
+    <label>
+        Statii sosire:
+        <select id="arrivals" multiple size="6">
+            <option>(none)</option>
+        </select>
+    </label>
+</span>
+
+</body>
+</html>

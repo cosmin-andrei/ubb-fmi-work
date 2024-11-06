@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="443.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mpp2024.controller.MainController">
+   <children>
+      <Button layoutX="180.0" layoutY="405.0" mnemonicParsing="false" onAction="#handleLogout" text="Logout" />
+      <Label fx:id="poz1" alignment="CENTER" layoutX="44.0" layoutY="39.0" onMouseClicked="#handle1" prefHeight="57.0" prefWidth="66.0" style="-fx-border-color: black;" text="1">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="poz2" alignment="CENTER" layoutX="110.0" layoutY="39.0" onMouseClicked="#handle2" prefHeight="57.0" prefWidth="66.0" style="-fx-border-color: black;" text="2">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="poz3" alignment="CENTER" layoutX="176.0" layoutY="39.0" onMouseClicked="#handle3" prefHeight="57.0" prefWidth="66.0" style="-fx-border-color: black;" text="3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="poz4" alignment="CENTER" layoutX="240.0" layoutY="39.0" onMouseClicked="#handle4" prefHeight="57.0" prefWidth="66.0" style="-fx-border-color: black;" text="4">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="poz5" alignment="CENTER" layoutX="306.0" layoutY="39.0" onMouseClicked="#handle5" prefHeight="57.0" prefWidth="66.0" style="-fx-border-color: black;" text="5">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="poz6" alignment="CENTER" layoutX="44.0" layoutY="96.0" onMouseClicked="#handle6" prefHeight="57.0" prefWidth="66.0" style="-fx-border-color: black;" text="6">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="poz7" alignment="CENTER" layoutX="110.0" layoutY="96.0" onMouseClicked="#handle7" prefHeight="57.0" prefWidth="66.0" style="-fx-border-color: black;" text="7">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="poz8" alignment="CENTER" layoutX="176.0" layoutY="96.0" onMouseClicked="#handle8" prefHeight="57.0" prefWidth="66.0" style="-fx-border-color: black;" text="8">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="poz9" alignment="CENTER" layoutX="240.0" layoutY="96.0" onMouseClicked="#handle9" prefHeight="57.0" prefWidth="66.0" style="-fx-border-color: black;" text="9">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="poz10" alignment="CENTER" layoutX="306.0" layoutY="96.0" onMouseClicked="#handle10" prefHeight="57.0" prefWidth="66.0" style="-fx-border-color: black;" text="10">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPoints" layoutX="195.0" layoutY="168.0" />
+      <TableView fx:id="tblClasament" layoutX="44.0" layoutY="191.0" prefHeight="200.0" prefWidth="325.0">
+        <columns>
+          <TableColumn fx:id="colJucator" prefWidth="152.3333396911621" text="Jucator" />
+          <TableColumn fx:id="colScor" prefWidth="86.99998474121094" text="Scor" />
+            <TableColumn fx:id="colDurata" prefWidth="83.33331298828125" text="Durata" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

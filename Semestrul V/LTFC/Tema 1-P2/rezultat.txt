@@ -1,0 +1,60 @@
+Eroare lexicala: token invalid '#include' la linia 1
+Eroare lexicala: token invalid '<iostream>' la linia 1
+Eroare lexicala: token invalid ';' la linia 2
+Eroare lexicala: token invalid 'main()' la linia 4
+Eroare lexicala: token invalid '{' la linia 4
+Eroare lexicala: token invalid ';' la linia 5
+Eroare lexicala: token invalid ';' la linia 6
+Eroare lexicala: token invalid '>>' la linia 7
+Eroare lexicala: token invalid ';' la linia 7
+Eroare lexicala: token invalid '>>' la linia 8
+Eroare lexicala: token invalid ';' la linia 8
+Eroare lexicala: token invalid '(' la linia 9
+Eroare lexicala: token invalid '!=' la linia 9
+Eroare lexicala: token invalid ')' la linia 9
+Eroare lexicala: token invalid '{' la linia 9
+Eroare lexicala: token invalid '(' la linia 10
+Eroare lexicala: token invalid '>' la linia 10
+Eroare lexicala: token invalid ')' la linia 10
+Eroare lexicala: token invalid '{' la linia 10
+Eroare lexicala: token invalid '=' la linia 11
+Eroare lexicala: token invalid '-' la linia 11
+Eroare lexicala: token invalid ';' la linia 11
+Eroare lexicala: token invalid '}' la linia 11
+Eroare lexicala: token invalid '{' la linia 12
+Eroare lexicala: token invalid '=' la linia 13
+Eroare lexicala: token invalid '-' la linia 13
+Eroare lexicala: token invalid ';' la linia 13
+Eroare lexicala: token invalid '}' la linia 13
+Eroare lexicala: token invalid '}' la linia 14
+Eroare lexicala: token invalid '<<' la linia 15
+Eroare lexicala: token invalid ';' la linia 15
+Eroare lexicala: token invalid '}' la linia 16
+FIP:
+using - linia 2
+namespace - linia 2
+std - linia 2
+int - linia 4
+int - linia 5
+a - linia 5
+int - linia 6
+b - linia 6
+cin - linia 7
+a - linia 7
+cin - linia 8
+b - linia 8
+while - linia 9
+a - linia 9
+b - linia 9
+if - linia 10
+a - linia 10
+b - linia 10
+a - linia 11
+a - linia 11
+b - linia 11
+else - linia 12
+b - linia 13
+b - linia 13
+a - linia 13
+cout - linia 15
+a - linia 15
