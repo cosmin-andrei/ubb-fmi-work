@@ -1,0 +1,21 @@
+cattimp (d)
+    cout<<d;
+sfcattimp
+
+int main () {
+	int a;
+	int b;
+	int c;
+	c = 0;
+	pi = 3.14;
+	aa = 3.453232;
+	cin >> a;
+	cin >> b;
+	while ( a != b ) {
+		if ( a > b ) {
+			a = a - b; }
+		else {
+			b = b - a ; }
+	}
+	cout << a ;
+}

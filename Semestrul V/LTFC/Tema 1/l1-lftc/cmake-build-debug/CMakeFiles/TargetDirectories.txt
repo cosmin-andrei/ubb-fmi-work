@@ -1,0 +1,3 @@
+C:/Users/Cosmin/Desktop/l1-lftc/cmake-build-debug/CMakeFiles/l1_lftc.dir
+C:/Users/Cosmin/Desktop/l1-lftc/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Cosmin/Desktop/l1-lftc/cmake-build-debug/CMakeFiles/rebuild_cache.dir

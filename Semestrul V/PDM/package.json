@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@capacitor/network": "^6.0.2"
+  }
+}

@@ -1,0 +1,65 @@
+int main(){
+	
+	float r;
+	float pi;
+	pi <- 3.14;
+	citeste r;
+	
+	float p;
+	p <- 2*pi*r;
+	float a;
+	a <- pi*r*r;
+	
+	afiseaza p;
+	afiseaza " ";
+	afiseaza a;
+}
+
+int main(){
+
+	int a;
+	int b;
+	citeste a;
+	citeste b;
+	
+	cat timp (a != b){
+		daca (a>b)
+			a <- a-b;
+		sau
+			b <- b-a;
+	}
+	
+	afiseaza a;
+		
+}
+
+int main(){
+	int n;
+	citeste n;
+	
+	int k;
+	k<-0;
+	
+	int s;
+	s<-0;
+	
+	cat timp (k<=nr){
+		int nr;
+		citeste nr;
+		
+		s <- s+nr;
+		k<-k+1;
+	}
+	
+	afiseaza s;
+}
+
+
+clase si directive #include
+operatori incrementare si decrementare
+= in loc de ==
+<- in loc de =
+operatori >>, <<
+lipsa tipuri de date struct, bool
+instructiuni for, do...while
+înlocuirea tipurilor de date cu emoticoane

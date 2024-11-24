@@ -1,0 +1,3 @@
+D:/Facultate/ubb-fmi-work/Semestrul V/LTFC/Tema 4/cmake-build-debug/CMakeFiles/Tema3.dir
+D:/Facultate/ubb-fmi-work/Semestrul V/LTFC/Tema 4/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Facultate/ubb-fmi-work/Semestrul V/LTFC/Tema 4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

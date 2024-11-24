@@ -1,0 +1,32 @@
+Descrieti o modalitate de reprezentare pentru AF
+(ganditi cateva modalitati)
+
+ex:
+- AF care are ca alfabet multimea caracterelor reprezentabile in calculator (alfabet fixat)
+- structura de date care are in vedere ca operatia cea mai frecventa cu AF
+este verificare acceptare secventa
+
+StateMachine
+ description: String /** A description of the state machine */
+ startState :State
+ states: Set<State> /** Can be List, Map, … */
+ /** What about redundancy? */
+
+State
+ description: String /** The name of the state */
+ isAcceptState: Boolean
+ transitions: MultiMap<Symbol, State> /** Can be List, Map … ? */
+
+
+-----------
+
+StateMachine
+ description: String
+ states: Set<State>
+ alphabet: Set<Symbol>
+ transitions: Dict<State, Dict<Symbol,Set<State>>>
+ start: State
+ finals: Set<State> 
+
+State : String
+Symbol : String

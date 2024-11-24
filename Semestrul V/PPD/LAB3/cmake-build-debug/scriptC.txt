@@ -1,0 +1,54 @@
+# Input: Number of MPI processes (e.g., 4)
+param(
+    [int]$numProcesses
+)
+
+# Program to execute
+$mpiProgram = "mpi1.exe"
+# Command template
+$mpiCommandTemplate = "mpiexec -np {0} {1}"
+
+# Number of iterations
+$numIterations = 10
+
+# File to save results
+$outputFile = "results.csv"
+
+# Array to store execution times
+$executionTimes = @()
+
+Write-Host "Running $mpiProgram $numIterations times with $numProcesses processes..."
+
+# Execute the program $numIterations times
+for ($i = 1; $i -le $numIterations; $i++) {
+    Write-Host "Iteration $i..."
+    $start = Get-Date
+    Start-Process -FilePath "mpiexec" -ArgumentList "-np $numProcesses $mpiProgram" -Wait -NoNewWindow
+    $end = Get-Date
+    $executionTime = ($end - $start).TotalMilliseconds
+    $executionTimes += $executionTime
+}
+
+# Calculate the average time
+$averageTime = ($executionTimes | Measure-Object -Average).Average
+
+# Prepare data for CSV
+$data = @()
+for ($i = 0; $i -lt $executionTimes.Count; $i++) {
+    $data += [PSCustomObject]@{
+        Iteration = $i + 1
+        ExecutionTimeMs = $executionTimes[$i]
+    }
+}
+
+# Add the average time to the data
+$data += [PSCustomObject]@{
+    Iteration = "Average"
+    ExecutionTimeMs = $averageTime
+}
+
+# Export to CSV
+Write-Host "Saving results to $outputFile..."
+$data | Export-Csv -Path $outputFile -NoTypeInformation
+
+Write-Host "Execution times saved to $outputFile"
