@@ -1,8 +1,3 @@
-## Materiale, cursuri și seminarii
-- [X] [ Anul I](https://drive.google.com/drive/folders/119ZjA1g7XAsVYVDj6u7pF2EJ_nM24u8F?usp=share_link)
-- [X] [ Anul II](https://drive.google.com/drive/folders/1G2OTWmZy5gSnMyPnvExOkesMWT4bV-ip?usp=sharing) 
-
-
 ## Useful stuff on YouTube
 ### Anul I
 - [X] [ Alegbra](https://www.youtube.com/watch?v=98jeVK4VwWY&list=PL3wzJNq9bJEMToB8mNzxzy8P8bXPQeQ4n) + alte clipuri de pe canal
