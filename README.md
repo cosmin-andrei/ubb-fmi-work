@@ -34,4 +34,10 @@
 - [X] [ AI - Inteligenta artificiala](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20IV/AI)
 - [X] [ MPP - Metode de Proiectare si Programare](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20IV/MPP)
 - [X] [ SGBD - Sisteme de gestiune a bazelor de date](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20IV/SGBD)
-- [X] [ Programare Web](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20IV/Web)  
+- [X] [ Programare Web](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20IV/Web)
+
+### Semestrul V
+- [X] [ LFTC - Limbaje formate si tehnici de compilare]([https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/Semestrul%20IV/AI](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/SemestrulV/LTFC))
+- [X] [ PDM - Programare Dispozitive Mobile](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/SemestrulV/PDM)
+- [X] [ PPD - Programare Paralela si Distribuita](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/SemestrulV/PPD)
+- [X] [ SS - Securitate Soft (proiect)](https://github.com/cosmin-andrei/ubb-fmi-work/tree/main/SemestrulV/SS/)  
