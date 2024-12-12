@@ -108,7 +108,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Custom command for lex.yy.c
 
-build lex.yy.c | ${cmake_ninja_workdir}lex.yy.c: CUSTOM_COMMAND D$:/Facultate/ubb-fmi-work/SemestrulV/LTFC/Tema$ 4/main.l
+build lex.yy.c | ${cmake_ninja_workdir}lex.yy.c: CUSTOM_COMMAND main.l
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\Facultate\ubb-fmi-work\SemestrulV\LTFC\Tema 4" && C:\GnuWin32\bin\flex.exe "-oD:/Facultate/ubb-fmi-work/SemestrulV/LTFC/Tema 4/cmake-build-debug/lex.yy.c" main.l"
   DESC = [FLEX][FlexScanner] Building scanner with flex 2.5.4
   restat = 1

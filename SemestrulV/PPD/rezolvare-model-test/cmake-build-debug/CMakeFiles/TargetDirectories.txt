@@ -1,0 +1,3 @@
+D:/Facultate/ubb-fmi-work/SemestrulV/PPD/rezolvare-model-test/cmake-build-debug/CMakeFiles/mpi1.dir
+D:/Facultate/ubb-fmi-work/SemestrulV/PPD/rezolvare-model-test/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Facultate/ubb-fmi-work/SemestrulV/PPD/rezolvare-model-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir

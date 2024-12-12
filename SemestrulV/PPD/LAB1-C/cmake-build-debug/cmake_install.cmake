@@ -1,4 +1,4 @@
-# Install script for directory: D:/Facultate/ubb-fmi-work/Semestrul V/PPD/LAB1-C
+# Install script for directory: D:/Facultate/ubb-fmi-work/SemestrulV/PPD/LAB1-C
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Facultate/ubb-fmi-work/Semestrul V/PPD/LAB1-C/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Facultate/ubb-fmi-work/SemestrulV/PPD/LAB1-C/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
