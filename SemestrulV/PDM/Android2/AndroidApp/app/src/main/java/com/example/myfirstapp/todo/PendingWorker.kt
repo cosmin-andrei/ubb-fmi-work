@@ -65,9 +65,6 @@ class PendingWorker(ctx:Context, params:WorkerParameters) : CoroutineWorker(ctx,
 
 fun makeStatusNotification(message: String, context: Context) {
 
-    // Make a channel if necessary
-    // Create the NotificationChannel, but only on API 26+ because
-    // the NotificationChannel class is new and not in the support library
     val name = VERBOSE_NOTIFICATION_CHANNEL_NAME
     val description = VERBOSE_NOTIFICATION_CHANNEL_DESCRIPTION
     val importance = NotificationManager.IMPORTANCE_HIGH

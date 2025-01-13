@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\LAB2_C.dir\\main.cpp.obj",
+            "outputs": [
+                "D:\\Facultate\\ubb-fmi-work\\SemestrulV\\PPD\\Teme LAB\\LAB2-C\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\LAB2_C.dir\\main.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

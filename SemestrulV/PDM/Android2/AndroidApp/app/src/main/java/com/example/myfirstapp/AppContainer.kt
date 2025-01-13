@@ -32,6 +32,7 @@ class AppContainer(val context: Context) {
     val database = Room
         .databaseBuilder(context, ItemDatabase::class.java, "items-db")
         .allowMainThreadQueries()
+        .fallbackToDestructiveMigration()
         .build()
 
 

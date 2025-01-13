@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Translator",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "assemble_asm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assemble_asm-Debug-86cc9005f2ab4784c72e.json",
+					"name" : "assemble_asm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "translator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-translator-Debug-119e93cb7b7b971e3368.json",
+					"name" : "translator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Facultate/ubb-fmi-work/SemestrulV/LTFC/Tema 6/cmake-build-debug",
+		"source" : "D:/Facultate/ubb-fmi-work/SemestrulV/LTFC/Tema 6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

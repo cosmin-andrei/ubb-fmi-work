@@ -1,0 +1,10 @@
+# ninja log v6
+61	511	7584043215840270	lex.yy.c	576712b3d100a4f9
+61	511	7584043215840270	analizator.tab.c	576712b3d100a4f9
+61	511	7584043215840270	D:/Facultate/ubb-fmi-work/SemestrulV/LTFC/Tema 6/cmake-build-debug/lex.yy.c	576712b3d100a4f9
+61	511	7584043215840270	analizator.tab.h	576712b3d100a4f9
+61	511	7584043215840270	D:/Facultate/ubb-fmi-work/SemestrulV/LTFC/Tema 6/cmake-build-debug/analizator.tab.c	576712b3d100a4f9
+61	511	7584043215840270	D:/Facultate/ubb-fmi-work/SemestrulV/LTFC/Tema 6/cmake-build-debug/analizator.tab.h	576712b3d100a4f9
+511	885	7584043215897143	CMakeFiles/translator.dir/lex.yy.c.obj	dc05728ec851aa64
+518	904	7584043215970909	CMakeFiles/translator.dir/analizator.tab.c.obj	7f771933dc429b5f
+904	1126	7584043219825691	translator.exe	fb4790fc701e33d6

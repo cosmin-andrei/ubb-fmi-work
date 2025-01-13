@@ -1,0 +1,4 @@
+D:/Facultate/ubb-fmi-work/SemestrulV/LTFC/Tema 6/cmake-build-debug/CMakeFiles/translator.dir
+D:/Facultate/ubb-fmi-work/SemestrulV/LTFC/Tema 6/cmake-build-debug/CMakeFiles/assemble_asm.dir
+D:/Facultate/ubb-fmi-work/SemestrulV/LTFC/Tema 6/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Facultate/ubb-fmi-work/SemestrulV/LTFC/Tema 6/cmake-build-debug/CMakeFiles/rebuild_cache.dir

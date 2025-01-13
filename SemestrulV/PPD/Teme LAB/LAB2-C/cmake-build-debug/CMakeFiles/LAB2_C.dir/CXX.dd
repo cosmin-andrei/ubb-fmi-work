@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\LAB2_C.dir\main.cpp.obj: dyndep
+

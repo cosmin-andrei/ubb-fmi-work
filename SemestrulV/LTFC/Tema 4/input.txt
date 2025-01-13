@@ -1,1 +1,6 @@
-15:51
+int main() {
+int a;
+a = 5;
+cin >> a;
+cout << a + 10;
+}

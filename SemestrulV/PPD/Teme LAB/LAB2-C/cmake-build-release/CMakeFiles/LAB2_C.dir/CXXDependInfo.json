@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "D:/Facultate/ubb-fmi-work/SemestrulV/PPD/Teme LAB/LAB2-C/cmake-build-release",
+	"dir-cur-src" : "D:/Facultate/ubb-fmi-work/SemestrulV/PPD/Teme LAB/LAB2-C",
+	"dir-top-bld" : "D:/Facultate/ubb-fmi-work/SemestrulV/PPD/Teme LAB/LAB2-C/cmake-build-release",
+	"dir-top-src" : "D:/Facultate/ubb-fmi-work/SemestrulV/PPD/Teme LAB/LAB2-C",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "D:/Facultate/ubb-fmi-work/SemestrulV/PPD/Teme LAB/LAB2-C/cmake-build-release/CMakeFiles/LAB2_C.dir"
+}

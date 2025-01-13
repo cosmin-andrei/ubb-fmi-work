@@ -1,0 +1,28 @@
+S' -> PROGRAM
+
+PROGRAM -> HEADER MAIN_FUNC
+
+HEADER -> INCLUDE USING
+INCLUDE -> #include iostream
+USING -> using namespace std ;
+
+MAIN_FUNC -> int main ( ) { STMT_LIST }
+
+STMT_LIST -> STMT_LIST STMT
+STMT_LIST -> STMT
+
+
+STMT -> DECLARATION
+STMT -> ASSIGNMENT
+
+DECLARATION -> int IDLIST ;
+
+IDLIST -> IDLIST , ID
+IDLIST -> ID
+
+ASSIGNMENT -> ID = NUM ;
+
+ID -> x
+ID -> y
+
+NUM -> 123
