@@ -22,10 +22,8 @@ export default class LoginScene extends Phaser.Scene {
             fontFamily: 'Arial'
         }).setOrigin(0.5);
 
-
         this.user1Field = this.createInputField(512, 200, 'Jucător stânga', 'user1');
         this.user2Field = this.createInputField(512, 270, 'Jucător dreapta', 'user2');
-
 
         const startButton = this.add.text(512, 370, 'Start Game', {
             fontSize: '28px',
@@ -41,12 +39,13 @@ export default class LoginScene extends Phaser.Scene {
                 return;
             }
 
-            this.scene.start('GameScene', {
-                user1: this.usernames.user1,
-                user2: this.usernames.user2
-            });
+            // în loc să pornim o scenă Phaser, trecem la Three.js
+            if (typeof window.start3DGame === 'function') {
+                window.start3DGame(this.usernames.user1, this.usernames.user2);
+            } else {
+                console.error('start3DGame nu este definit!');
+            }
         });
-
 
         this.input.keyboard.on('keydown', (event) => {
             if (!this.activeField) return;
