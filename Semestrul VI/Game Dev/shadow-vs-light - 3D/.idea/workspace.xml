@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bf07a69-2433-4f34-9d73-14a95658cf71" name="Changes" comment="update project game dev 3d">
+      <change beforePath="$PROJECT_DIR$/../../Calcul Numeric/L6/lagrange1.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calcul Numeric/L6/lagrange1.m" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cosmin-andrei&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cosmin-andrei/ubb-fmi-work.git&quot;,
+    &quot;accountId&quot;: &quot;67c43df5-1059-4bc2-acec-0b0717d223fa&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2vjuqgIm3xXnI11ky3sbHY8QLuQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.GameScene.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.20.8&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.19.86&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Facultate/ubb-fmi-work/Semestrul VI/Game Dev/shadow-vs-light - 3D&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/Cosmin/AppData/Roaming/JetBrains/WebStorm2024.3/node/versions/22.16.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Cosmin\Desktop\shadow-vs-light\sprites" />
+      <recent name="C:\Users\Cosmin\Desktop\shadow-vs-light\public\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Facultate\ubb-fmi-work\Semestrul VI\Game Dev\shadow-vs-light - 3D" />
+      <recent name="C:\Users\Cosmin\Desktop\shadow-vs-light\public" />
+      <recent name="C:\Users\Cosmin\Desktop\shadow-vs-light\public\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$/public">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.main.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bf07a69-2433-4f34-9d73-14a95658cf71" name="Changes" comment="" />
+      <created>1744670996835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744670996835</updated>
+      <workItem from="1744670997941" duration="6421000" />
+      <workItem from="1744701926764" duration="333000" />
+      <workItem from="1744708247739" duration="5886000" />
+      <workItem from="1744722610023" duration="181000" />
+      <workItem from="1745081599807" duration="9000" />
+      <workItem from="1745857420384" duration="162000" />
+      <workItem from="1746273539581" duration="58000" />
+      <workItem from="1746273689882" duration="1668000" />
+      <workItem from="1746284030445" duration="587000" />
+      <workItem from="1746289220700" duration="2450000" />
+      <workItem from="1746307355622" duration="16637000" />
+      <workItem from="1746716042171" duration="5000" />
+      <workItem from="1747944900879" duration="611000" />
+      <workItem from="1747945548952" duration="5478000" />
+      <workItem from="1747951719450" duration="4161000" />
+      <workItem from="1748012325369" duration="226000" />
+      <workItem from="1749124386818" duration="35000" />
+    </task>
+    <task id="LOCAL-00001" summary="update project game dev 3d">
+      <option name="closed" value="true" />
+      <created>1747956623331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747956623331</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update project game dev 3d" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project game dev 3d" />
+  </component>
+</project>
